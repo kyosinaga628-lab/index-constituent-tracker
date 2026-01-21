@@ -1,0 +1,242 @@
+{
+    "constituents": [
+        {
+            "ticker": "AAPL",
+            "name": "Apple Inc.",
+            "sector": "Information Technology",
+            "weight": 4.82,
+            "country": "US",
+            "region": "North America"
+        },
+        {
+            "ticker": "MSFT",
+            "name": "Microsoft Corporation",
+            "sector": "Information Technology",
+            "weight": 4.21,
+            "country": "US",
+            "region": "North America"
+        },
+        {
+            "ticker": "NVDA",
+            "name": "NVIDIA Corporation",
+            "sector": "Information Technology",
+            "weight": 3.95,
+            "country": "US",
+            "region": "North America"
+        },
+        {
+            "ticker": "AMZN",
+            "name": "Amazon.com Inc.",
+            "sector": "Consumer Discretionary",
+            "weight": 2.45,
+            "country": "US",
+            "region": "North America"
+        },
+        {
+            "ticker": "GOOGL",
+            "name": "Alphabet Inc.",
+            "sector": "Communication Services",
+            "weight": 1.85,
+            "country": "US",
+            "region": "North America"
+        },
+        {
+            "ticker": "META",
+            "name": "Meta Platforms Inc.",
+            "sector": "Communication Services",
+            "weight": 1.62,
+            "country": "US",
+            "region": "North America"
+        },
+        {
+            "ticker": "TSLA",
+            "name": "Tesla Inc.",
+            "sector": "Consumer Discretionary",
+            "weight": 1.15,
+            "country": "US",
+            "region": "North America"
+        },
+        {
+            "ticker": "TSM",
+            "name": "Taiwan Semiconductor",
+            "sector": "Information Technology",
+            "weight": 1.42,
+            "country": "TW",
+            "region": "Emerging Markets - Asia"
+        },
+        {
+            "ticker": "ASML",
+            "name": "ASML Holding NV",
+            "sector": "Information Technology",
+            "weight": 0.85,
+            "country": "NL",
+            "region": "Europe"
+        },
+        {
+            "ticker": "7203.T",
+            "name": "Toyota Motor Corporation",
+            "sector": "Consumer Discretionary",
+            "weight": 0.62,
+            "country": "JP",
+            "region": "Pacific"
+        },
+        {
+            "ticker": "NOVO-B.CO",
+            "name": "Novo Nordisk A/S",
+            "sector": "Health Care",
+            "weight": 0.78,
+            "country": "DK",
+            "region": "Europe"
+        },
+        {
+            "ticker": "V",
+            "name": "Visa Inc.",
+            "sector": "Financials",
+            "weight": 0.72,
+            "country": "US",
+            "region": "North America"
+        },
+        {
+            "ticker": "JPM",
+            "name": "JPMorgan Chase & Co.",
+            "sector": "Financials",
+            "weight": 0.68,
+            "country": "US",
+            "region": "North America"
+        },
+        {
+            "ticker": "LLY",
+            "name": "Eli Lilly and Company",
+            "sector": "Health Care",
+            "weight": 0.92,
+            "country": "US",
+            "region": "North America"
+        },
+        {
+            "ticker": "UNH",
+            "name": "UnitedHealth Group Inc.",
+            "sector": "Health Care",
+            "weight": 0.65,
+            "country": "US",
+            "region": "North America"
+        },
+        {
+            "ticker": "NVS",
+            "name": "Novartis AG",
+            "sector": "Health Care",
+            "weight": 0.42,
+            "country": "CH",
+            "region": "Europe"
+        },
+        {
+            "ticker": "NESN.SW",
+            "name": "Nestlé S.A.",
+            "sector": "Consumer Staples",
+            "weight": 0.48,
+            "country": "CH",
+            "region": "Europe"
+        },
+        {
+            "ticker": "SAP",
+            "name": "SAP SE",
+            "sector": "Information Technology",
+            "weight": 0.45,
+            "country": "DE",
+            "region": "Europe"
+        },
+        {
+            "ticker": "005930.KS",
+            "name": "Samsung Electronics",
+            "sector": "Information Technology",
+            "weight": 0.58,
+            "country": "KR",
+            "region": "Pacific"
+        },
+        {
+            "ticker": "BABA",
+            "name": "Alibaba Group Holding",
+            "sector": "Consumer Discretionary",
+            "weight": 0.38,
+            "country": "CN",
+            "region": "Emerging Markets - Asia"
+        },
+        {
+            "ticker": "TCEHY",
+            "name": "Tencent Holdings",
+            "sector": "Communication Services",
+            "weight": 0.52,
+            "country": "CN",
+            "region": "Emerging Markets - Asia"
+        },
+        {
+            "ticker": "700.HK",
+            "name": "Tencent Holdings Ltd.",
+            "sector": "Communication Services",
+            "weight": 0.55,
+            "country": "HK",
+            "region": "Emerging Markets - Asia"
+        },
+        {
+            "ticker": "RY.TO",
+            "name": "Royal Bank of Canada",
+            "sector": "Financials",
+            "weight": 0.28,
+            "country": "CA",
+            "region": "North America"
+        },
+        {
+            "ticker": "BHP.AX",
+            "name": "BHP Group Limited",
+            "sector": "Materials",
+            "weight": 0.32,
+            "country": "AU",
+            "region": "Pacific"
+        },
+        {
+            "ticker": "RELIANCE.NS",
+            "name": "Reliance Industries",
+            "sector": "Energy",
+            "weight": 0.25,
+            "country": "IN",
+            "region": "Emerging Markets - Asia"
+        }
+    ],
+    "regions": {
+        "North America": 62.5,
+        "Europe": 15.8,
+        "Pacific": 11.2,
+        "Emerging Markets - Asia": 8.5,
+        "Emerging Markets - Other": 2.0
+    },
+    "countries": {
+        "United States": 61.2,
+        "Japan": 5.2,
+        "United Kingdom": 3.5,
+        "France": 2.8,
+        "Canada": 2.5,
+        "Switzerland": 2.4,
+        "Germany": 2.1,
+        "China": 2.8,
+        "Taiwan": 1.8,
+        "India": 1.8,
+        "Australia": 1.6,
+        "South Korea": 1.5,
+        "Netherlands": 1.2,
+        "Others": 9.6
+    },
+    "sectors": {
+        "Information Technology": 24.5,
+        "Financials": 15.8,
+        "Health Care": 11.2,
+        "Consumer Discretionary": 10.8,
+        "Industrials": 10.5,
+        "Communication Services": 7.5,
+        "Consumer Staples": 6.8,
+        "Energy": 4.2,
+        "Materials": 4.0,
+        "Utilities": 2.5,
+        "Real Estate": 2.2
+    },
+    "lastUpdated": "2026-01-15",
+    "totalConstituents": 2897
+}

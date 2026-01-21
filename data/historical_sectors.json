@@ -1,0 +1,502 @@
+{
+    "sp500": {
+        "1976": {
+            "date": "1976-01-01",
+            "sectors": {
+                "Energy": 28.5,
+                "Industrials": 18.2,
+                "Financials": 12.5,
+                "Consumer Staples": 11.8,
+                "Materials": 10.2,
+                "Utilities": 8.5,
+                "Consumer Discretionary": 5.8,
+                "Health Care": 3.2,
+                "Information Technology": 1.3
+            },
+            "topHoldings": [
+                "XOM",
+                "IBM",
+                "GM",
+                "T",
+                "GE",
+                "S",
+                "MOB",
+                "TX",
+                "DD",
+                "E"
+            ]
+        },
+        "1986": {
+            "date": "1986-01-01",
+            "sectors": {
+                "Energy": 18.5,
+                "Industrials": 15.2,
+                "Financials": 14.8,
+                "Consumer Staples": 12.5,
+                "Consumer Discretionary": 10.2,
+                "Health Care": 8.5,
+                "Materials": 7.8,
+                "Utilities": 6.5,
+                "Information Technology": 6.0
+            },
+            "topHoldings": [
+                "IBM",
+                "XOM",
+                "GE",
+                "GM",
+                "T",
+                "E",
+                "MO",
+                "DD",
+                "MMM",
+                "DIS"
+            ]
+        },
+        "1996": {
+            "date": "1996-01-01",
+            "sectors": {
+                "Financials": 16.5,
+                "Information Technology": 12.8,
+                "Health Care": 11.5,
+                "Consumer Discretionary": 11.2,
+                "Consumer Staples": 10.8,
+                "Industrials": 10.5,
+                "Energy": 9.2,
+                "Utilities": 5.8,
+                "Materials": 4.5,
+                "Telecommunication Services": 7.2
+            },
+            "topHoldings": [
+                "GE",
+                "XOM",
+                "KO",
+                "MSFT",
+                "MRK",
+                "PG",
+                "IBM",
+                "JNJ",
+                "PFE",
+                "INTC"
+            ]
+        },
+        "2006": {
+            "date": "2006-01-01",
+            "sectors": {
+                "Financials": 21.5,
+                "Information Technology": 15.2,
+                "Health Care": 12.5,
+                "Industrials": 11.2,
+                "Consumer Discretionary": 10.8,
+                "Energy": 10.5,
+                "Consumer Staples": 8.5,
+                "Utilities": 3.5,
+                "Materials": 3.2,
+                "Telecommunication Services": 3.1
+            },
+            "topHoldings": [
+                "XOM",
+                "GE",
+                "MSFT",
+                "C",
+                "BAC",
+                "PFE",
+                "JNJ",
+                "AIG",
+                "JPM",
+                "INTC"
+            ]
+        },
+        "2011": {
+            "date": "2011-01-01",
+            "sectors": {
+                "Information Technology": 18.5,
+                "Financials": 15.2,
+                "Energy": 12.4,
+                "Health Care": 11.8,
+                "Consumer Discretionary": 10.5,
+                "Industrials": 10.8,
+                "Consumer Staples": 10.2,
+                "Materials": 3.8,
+                "Utilities": 3.5,
+                "Telecommunication Services": 3.1,
+                "Real Estate": 0.2
+            },
+            "topHoldings": [
+                "XOM",
+                "AAPL",
+                "CVX",
+                "GE",
+                "IBM",
+                "MSFT",
+                "JPM",
+                "PG",
+                "JNJ",
+                "T"
+            ]
+        },
+        "2016": {
+            "date": "2016-01-01",
+            "sectors": {
+                "Information Technology": 20.8,
+                "Financials": 16.1,
+                "Health Care": 14.5,
+                "Consumer Discretionary": 12.8,
+                "Industrials": 9.8,
+                "Consumer Staples": 9.5,
+                "Energy": 6.5,
+                "Materials": 2.8,
+                "Utilities": 3.2,
+                "Telecommunication Services": 2.5,
+                "Real Estate": 2.5
+            },
+            "topHoldings": [
+                "AAPL",
+                "MSFT",
+                "XOM",
+                "JNJ",
+                "GE",
+                "FB",
+                "AMZN",
+                "BRK.B",
+                "JPM",
+                "GOOGL"
+            ]
+        },
+        "2021": {
+            "date": "2021-01-01",
+            "sectors": {
+                "Information Technology": 27.6,
+                "Health Care": 13.5,
+                "Consumer Discretionary": 12.7,
+                "Financials": 10.4,
+                "Communication Services": 10.8,
+                "Industrials": 8.4,
+                "Consumer Staples": 6.5,
+                "Energy": 2.3,
+                "Utilities": 2.8,
+                "Materials": 2.6,
+                "Real Estate": 2.4
+            },
+            "topHoldings": [
+                "AAPL",
+                "MSFT",
+                "AMZN",
+                "GOOGL",
+                "FB",
+                "TSLA",
+                "BRK.B",
+                "JPM",
+                "JNJ",
+                "V"
+            ]
+        },
+        "2026": {
+            "date": "2026-01-01",
+            "sectors": {
+                "Information Technology": 31.5,
+                "Health Care": 12.8,
+                "Financials": 13.2,
+                "Consumer Discretionary": 10.4,
+                "Communication Services": 8.9,
+                "Industrials": 8.1,
+                "Consumer Staples": 6.2,
+                "Energy": 3.8,
+                "Utilities": 2.4,
+                "Materials": 2.5,
+                "Real Estate": 2.2
+            },
+            "topHoldings": [
+                "AAPL",
+                "MSFT",
+                "NVDA",
+                "AMZN",
+                "GOOGL",
+                "META",
+                "BRK.B",
+                "TSLA",
+                "LLY",
+                "AVGO"
+            ]
+        }
+    },
+    "acwi": {
+        "1988": {
+            "date": "1988-01-01",
+            "sectors": {
+                "Financials": 22.5,
+                "Industrials": 15.8,
+                "Energy": 12.5,
+                "Materials": 10.2,
+                "Consumer Staples": 9.8,
+                "Consumer Discretionary": 8.5,
+                "Utilities": 7.5,
+                "Health Care": 6.2,
+                "Information Technology": 7.0
+            },
+            "regions": {
+                "North America": 32.5,
+                "Europe": 28.5,
+                "Pacific": 35.8,
+                "Emerging Markets": 3.2
+            },
+            "countries": {
+                "Japan": 42.5,
+                "United States": 28.5,
+                "United Kingdom": 9.8,
+                "Germany": 4.2,
+                "France": 3.8,
+                "Canada": 2.8,
+                "Australia": 2.2,
+                "Switzerland": 2.1,
+                "Netherlands": 1.8,
+                "Italy": 1.5
+            },
+            "note": "日本バブル期 - 日本が世界最大のウェイト"
+        },
+        "1996": {
+            "date": "1996-01-01",
+            "sectors": {
+                "Financials": 20.5,
+                "Industrials": 14.2,
+                "Consumer Discretionary": 12.8,
+                "Information Technology": 10.5,
+                "Energy": 9.8,
+                "Health Care": 9.2,
+                "Consumer Staples": 8.5,
+                "Materials": 6.8,
+                "Utilities": 5.2,
+                "Telecommunication Services": 2.5
+            },
+            "regions": {
+                "North America": 42.5,
+                "Europe": 28.2,
+                "Pacific": 22.5,
+                "Emerging Markets": 6.8
+            },
+            "countries": {
+                "United States": 38.5,
+                "Japan": 18.2,
+                "United Kingdom": 10.5,
+                "Germany": 5.2,
+                "France": 4.8,
+                "Switzerland": 3.2,
+                "Canada": 2.8,
+                "Netherlands": 2.5,
+                "Australia": 2.2,
+                "Hong Kong": 2.0
+            },
+            "note": "ITバブル前 - 米国ウェイト上昇"
+        },
+        "2006": {
+            "date": "2006-01-01",
+            "sectors": {
+                "Financials": 24.5,
+                "Energy": 11.2,
+                "Industrials": 10.8,
+                "Information Technology": 10.5,
+                "Consumer Discretionary": 9.8,
+                "Health Care": 9.2,
+                "Materials": 8.5,
+                "Consumer Staples": 7.2,
+                "Utilities": 4.5,
+                "Telecommunication Services": 3.8
+            },
+            "regions": {
+                "North America": 48.5,
+                "Europe": 28.2,
+                "Pacific": 13.5,
+                "Emerging Markets": 9.8
+            },
+            "countries": {
+                "United States": 44.2,
+                "Japan": 10.8,
+                "United Kingdom": 10.2,
+                "France": 4.5,
+                "Germany": 3.8,
+                "Switzerland": 3.2,
+                "Canada": 3.8,
+                "Australia": 2.8,
+                "China": 2.2,
+                "South Korea": 1.8
+            },
+            "note": "金融危機前 - 金融セクター最大"
+        },
+        "2011": {
+            "date": "2011-01-01",
+            "sectors": {
+                "Financials": 21.5,
+                "Information Technology": 12.2,
+                "Energy": 11.8,
+                "Industrials": 10.5,
+                "Materials": 8.2,
+                "Consumer Discretionary": 9.5,
+                "Health Care": 8.8,
+                "Consumer Staples": 9.2,
+                "Utilities": 4.1,
+                "Telecommunication Services": 4.2
+            },
+            "regions": {
+                "North America": 48.5,
+                "Europe": 25.8,
+                "Pacific": 13.5,
+                "Emerging Markets": 12.2
+            },
+            "countries": {
+                "United States": 44.5,
+                "Japan": 9.2,
+                "United Kingdom": 8.5,
+                "China": 4.8,
+                "France": 4.2,
+                "Canada": 4.5,
+                "Germany": 3.5,
+                "Switzerland": 3.2,
+                "Australia": 3.2,
+                "South Korea": 2.2
+            },
+            "note": "金融危機後の回復期"
+        },
+        "2016": {
+            "date": "2016-01-01",
+            "sectors": {
+                "Financials": 18.5,
+                "Information Technology": 15.2,
+                "Health Care": 12.5,
+                "Consumer Discretionary": 11.8,
+                "Industrials": 10.2,
+                "Consumer Staples": 10.5,
+                "Energy": 6.8,
+                "Materials": 4.5,
+                "Utilities": 3.2,
+                "Telecommunication Services": 3.8,
+                "Real Estate": 3.0
+            },
+            "regions": {
+                "North America": 54.2,
+                "Europe": 20.5,
+                "Pacific": 12.8,
+                "Emerging Markets": 12.5
+            },
+            "countries": {
+                "United States": 52.5,
+                "Japan": 8.2,
+                "United Kingdom": 6.5,
+                "China": 4.2,
+                "France": 3.5,
+                "Switzerland": 3.2,
+                "Germany": 3.2,
+                "Canada": 3.5,
+                "Australia": 2.5,
+                "South Korea": 1.8
+            },
+            "note": "米国優位が鮮明化"
+        },
+        "2021": {
+            "date": "2021-01-01",
+            "sectors": {
+                "Information Technology": 21.5,
+                "Financials": 14.2,
+                "Consumer Discretionary": 13.5,
+                "Health Care": 12.2,
+                "Communication Services": 9.5,
+                "Industrials": 9.8,
+                "Consumer Staples": 7.5,
+                "Materials": 4.8,
+                "Energy": 3.2,
+                "Utilities": 2.8,
+                "Real Estate": 3.0
+            },
+            "regions": {
+                "North America": 58.5,
+                "Europe": 16.2,
+                "Pacific": 12.5,
+                "Emerging Markets": 12.8
+            },
+            "countries": {
+                "United States": 56.8,
+                "Japan": 7.2,
+                "China": 5.2,
+                "United Kingdom": 4.2,
+                "France": 3.2,
+                "Switzerland": 2.8,
+                "Germany": 2.8,
+                "Canada": 2.8,
+                "Taiwan": 2.2,
+                "Australia": 2.0
+            },
+            "note": "IT・中国の存在感拡大"
+        },
+        "2026": {
+            "date": "2026-01-01",
+            "sectors": {
+                "Information Technology": 24.5,
+                "Financials": 15.8,
+                "Health Care": 11.2,
+                "Consumer Discretionary": 10.8,
+                "Industrials": 10.5,
+                "Communication Services": 7.5,
+                "Consumer Staples": 6.8,
+                "Energy": 4.2,
+                "Materials": 4.0,
+                "Utilities": 2.5,
+                "Real Estate": 2.2
+            },
+            "regions": {
+                "North America": 62.5,
+                "Europe": 15.8,
+                "Pacific": 11.2,
+                "Emerging Markets - Asia": 8.5,
+                "Emerging Markets - Other": 2.0
+            },
+            "countries": {
+                "United States": 61.5,
+                "Japan": 5.8,
+                "United Kingdom": 3.8,
+                "China": 3.2,
+                "France": 2.8,
+                "Canada": 2.8,
+                "India": 2.5,
+                "Switzerland": 2.2,
+                "Taiwan": 2.2,
+                "Germany": 2.0
+            },
+            "note": "米国支配・インド台頭"
+        }
+    },
+    "prime150": {
+        "2023": {
+            "date": "2023-07-03",
+            "sectors": {
+                "電気機器": 22.5,
+                "情報・通信": 11.8,
+                "医薬品": 7.5,
+                "自動車・輸送機": 8.2,
+                "銀行": 7.2,
+                "卸売": 5.2,
+                "機械": 4.8,
+                "化学": 5.2,
+                "小売": 3.8,
+                "保険": 3.5,
+                "その他": 20.3
+            },
+            "note": "指数開始時点"
+        },
+        "2026": {
+            "date": "2026-01-01",
+            "sectors": {
+                "電気機器": 25.8,
+                "情報・通信": 12.5,
+                "医薬品": 8.2,
+                "自動車・輸送機": 7.8,
+                "銀行": 6.5,
+                "卸売": 5.8,
+                "機械": 5.2,
+                "化学": 4.8,
+                "小売": 4.2,
+                "保険": 3.8,
+                "その他": 15.4
+            },
+            "note": "現在"
+        }
+    },
+    "lastUpdated": "2026-01-21"
+}

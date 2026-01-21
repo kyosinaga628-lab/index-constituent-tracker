@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>インデックス構成銘柄トラッカー</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=3">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">
+                    <span class="logo-icon">📊</span>
+                    インデックス構成銘柄トラッカー
+                </h1>
+                <div class="header-info">
+                    <span class="last-updated" id="lastUpdated">最終更新: --</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Index Tabs -->
+        <nav class="index-tabs">
+            <button class="tab-btn active" data-index="sp500">
+                <span class="tab-icon">🇺🇸</span>
+                S&P 500
+            </button>
+            <button class="tab-btn" data-index="acwi">
+                <span class="tab-icon">🌍</span>
+                MSCI ACWI
+            </button>
+            <button class="tab-btn" data-index="prime150">
+                <span class="tab-icon">🇯🇵</span>
+                JPX Prime 150
+            </button>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Stats Cards -->
+            <section class="stats-cards">
+                <div class="stat-card">
+                    <div class="stat-icon">📈</div>
+                    <div class="stat-info">
+                        <span class="stat-label">会社の数 (銘柄数)</span>
+                        <span class="stat-value" id="totalConstituents">--</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📅</div>
+                    <div class="stat-info">
+                        <span class="stat-label">最後に変わった日</span>
+                        <span class="stat-value" id="lastChangeDate">--</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">💹</div>
+                    <div class="stat-info">
+                        <span class="stat-label">今年の成績</span>
+                        <span class="stat-value positive" id="ytdReturn">--</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📊</div>
+                    <div class="stat-info">
+                        <span class="stat-label">1年間の成績</span>
+                        <span class="stat-value positive" id="oneYearReturn">--</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Charts Section -->
+            <section class="charts-section">
+                <!-- Sector Chart -->
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h2>🍰 どんな業種が多い？ (セクター)</h2>
+                        <div class="chart-subtitle">会社の大きさの割合</div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="sectorChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Price Chart -->
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <h2>📈 株価の動き</h2>
+                        <div class="chart-period-btns">
+                            <button class="period-btn" data-period="1y">1年</button>
+                            <button class="period-btn" data-period="5y">5年</button>
+                            <button class="period-btn" data-period="10y">10年</button>
+                            <button class="period-btn" data-period="15y">15年</button>
+                            <button class="period-btn active" data-period="all">全期間</button>
+                        </div>
+                    </div>
+                    <div class="chart-container chart-container-lg">
+                        <canvas id="priceChart"></canvas>
+                    </div>
+                    <div class="returns-summary" id="returnsSummary"></div>
+                </div>
+            </section>
+
+            <!-- Historical Sector Comparison -->
+            <section class="historical-section">
+                <div class="chart-card full-width">
+                    <div class="chart-header">
+                        <h2>📊 昔と今のくらべっこ</h2>
+                        <div class="chart-subtitle">5年/10年/15年前と現在の比較</div>
+                    </div>
+                    <div class="historical-comparison" id="historicalComparison">
+                        <!-- Historical sector charts will be inserted here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Region Chart (for ACWI only) -->
+            <section class="region-section" id="regionSection" style="display: none;">
+                <div class="chart-card full-width">
+                    <div class="chart-header">
+                        <h2>🗺️ 世界のどこに投資？</h2>
+                        <div class="chart-subtitle">地域ごとの割合</div>
+                    </div>
+                    <div class="region-charts">
+                        <div class="region-chart-container">
+                            <h3>地域別構成</h3>
+                            <canvas id="regionChart"></canvas>
+                        </div>
+                        <div class="region-chart-container">
+                            <h3>国別構成（上位10ヶ国）</h3>
+                            <canvas id="countryChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Country Composition History (for ACWI only) -->
+            <section class="country-history-section" id="countryHistorySection" style="display: none;">
+                <div class="chart-card full-width">
+                    <div class="chart-header">
+                        <h2>🌍 国別構成の変遷</h2>
+                        <div class="chart-subtitle">1988年〜現在の国別ウェイト推移</div>
+                    </div>
+                    <div class="country-history-comparison" id="countryHistoryComparison">
+                        <!-- Country history charts will be inserted here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Changes Timeline -->
+            <section class="timeline-section">
+                <div class="section-header">
+                    <h2>銘柄変更履歴</h2>
+                    <div class="filter-controls">
+                        <select id="changeTypeFilter" class="filter-select">
+                            <option value="all">すべて</option>
+                            <option value="add">追加のみ</option>
+                            <option value="remove">除外のみ</option>
+                        </select>
+                        <select id="yearFilter" class="filter-select">
+                            <option value="all">全期間</option>
+                            <option value="2026">2026年</option>
+                            <option value="2025">2025年</option>
+                            <option value="2024">2024年</option>
+                            <option value="2023">2023年</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="timeline-container" id="timelineContainer">
+                    <!-- Timeline items will be inserted here -->
+                </div>
+            </section>
+
+            <!-- Constituents Table -->
+            <section class="table-section">
+                <div class="section-header">
+                    <h2>構成銘柄一覧</h2>
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="銘柄名・ティッカーで検索..." class="search-input">
+                    </div>
+                </div>
+                <div class="table-container">
+                    <table class="constituents-table" id="constituentsTable">
+                        <thead>
+                            <tr>
+                                <th class="sortable" data-sort="ticker">ティッカー</th>
+                                <th class="sortable" data-sort="name">銘柄名</th>
+                                <th class="sortable" data-sort="sector">セクター</th>
+                                <th class="sortable" data-sort="weight">比率</th>
+                                <th class="sortable" data-sort="dateAdded">追加日</th>
+                            </tr>
+                        </thead>
+                        <tbody id="constituentsBody">
+                            <!-- Table rows will be inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>データソース: Wikipedia, JPX, MSCI公式ファクトシート</p>
+            <p>※ 本ツールは参考情報であり、投資判断の根拠としてはご利用いただけません。</p>
+        </footer>
+    </div>
+
+    <script src="app.js?v=3"></script>
+</body>
+
+</html>
