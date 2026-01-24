@@ -726,36 +726,76 @@ function updateTimeline() {
         return;
     }
 
-    container.innerHTML = filteredChanges.map(change => {
-        const typeClass = change.type;
-        const typeLabel = getTypeLabel(change.type);
+    // Group by Date
+    const grouped = {};
+    filteredChanges.forEach(change => {
+        if (!grouped[change.date]) grouped[change.date] = [];
+        grouped[change.date].push(change);
+    });
 
-        // Handle ACWI rebalance format
-        if (change.type === 'rebalance') {
-            return `
-                <div class="timeline-item ${typeClass}">
-                    <div class="timeline-date">${formatDate(change.date)}</div>
-                    <div class="timeline-type">
-                        <span class="timeline-badge ${typeClass}">${typeLabel}</span>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="timeline-name">${change.description}</div>
-                        <div class="timeline-reason">追加: ${change.addedCount}銘柄 / 除外: ${change.removedCount}銘柄 - ${change.notes}</div>
-                    </div>
-                </div>
-            `;
+    // Render
+    const sortedDates = Object.keys(grouped).sort((a, b) => new Date(b) - new Date(a)); // Descending
+
+    container.innerHTML = sortedDates.map(date => {
+        const changesOnDate = grouped[date];
+        const dateLabel = formatDate(date);
+
+        let contentHtml = '';
+
+        // Split into adds and removes
+        const adds = changesOnDate.filter(c => c.type === 'add');
+        const removes = changesOnDate.filter(c => c.type === 'remove');
+        const others = changesOnDate.filter(c => c.type !== 'add' && c.type !== 'remove');
+
+        if (adds.length > 0 || removes.length > 0) {
+            contentHtml += `<div class="timeline-group-row">`;
+
+            if (adds.length > 0) {
+                contentHtml += `<div class="timeline-subgroup">`;
+                adds.forEach(c => {
+                    contentHtml += `
+                        <div class="timeline-change-item">
+                            <span class="badge add">IN</span>
+                            <span class="ticker">${c.ticker}</span>
+                            <span class="name">${c.name}</span>
+                        </div>
+                    `;
+                });
+                contentHtml += `</div>`;
+            }
+
+            if (removes.length > 0) {
+                contentHtml += `<div class="timeline-subgroup">`;
+                removes.forEach(c => {
+                    contentHtml += `
+                        <div class="timeline-change-item">
+                            <span class="badge remove">OUT</span>
+                            <span class="ticker">${c.ticker}</span>
+                            <span class="name">${c.name}</span>
+                        </div>
+                    `;
+                });
+                contentHtml += `</div>`;
+            }
+            contentHtml += `</div>`;
         }
 
-        return `
-            <div class="timeline-item ${typeClass}">
-                <div class="timeline-date">${formatDate(change.date)}</div>
-                <div class="timeline-type">
-                    <span class="timeline-badge ${typeClass}">${typeLabel}</span>
+        // Render others (like rebalance)
+        others.forEach(c => {
+            contentHtml += `
+                <div class="timeline-change-item">
+                    <span class="badge ${c.type}">${getTypeLabel(c.type)}</span>
+                    <span class="name">${c.description || c.name}</span>
+                    <span class="name" style="font-size: 0.8rem; color: #64748b;">${c.notes || ''}</span>
                 </div>
-                <div class="timeline-content">
-                    <div class="timeline-ticker">${change.ticker}</div>
-                    <div class="timeline-name">${change.name}</div>
-                    <div class="timeline-reason">${change.reason}</div>
+            `;
+        });
+
+        return `
+            <div class="timeline-date-group">
+                <div class="timeline-date-header">${dateLabel}</div>
+                <div class="timeline-date-content">
+                    ${contentHtml}
                 </div>
             </div>
         `;
@@ -1012,10 +1052,19 @@ function updateSimulation() {
 
     // Add "Others"
     const otherInvestment = Math.round(amount * ((100 - top5Weight) / 100));
+
+    // Calculate correct "Others" count
+    // Use metadata total if available, otherwise array length
+    let totalCount = constituents.length;
+    if (state.data[state.currentIndex].constituents.totalConstituents) {
+        totalCount = state.data[state.currentIndex].constituents.totalConstituents;
+    }
+    const othersCount = Math.max(0, totalCount - 5);
+
     html += `
         <div class="simulation-item" style="opacity: 0.8">
             <div class="sim-company-info">
-                <span class="sim-company-name">その他 ${constituents.length - 5}社</span>
+                <span class="sim-company-name">その他 ${othersCount}銘柄</span>
                 <span class="sim-product-name">いろんな会社に少しずつ分散</span>
             </div>
             <div class="sim-amount">¥${otherInvestment.toLocaleString()}</div>

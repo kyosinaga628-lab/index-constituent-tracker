@@ -30,23 +30,33 @@
         </header>
 
         <!-- Index Tabs -->
-        <nav class="index-tabs">
-            <button class="tab-btn active" data-index="sp500">
-                <span class="tab-icon">🇺🇸</span>
-                S&P 500
-            </button>
-            <button class="tab-btn" data-index="nasdaq100">
-                <span class="tab-icon">💻</span>
-                NASDAQ 100
-            </button>
-            <button class="tab-btn" data-index="acwi">
-                <span class="tab-icon">🌍</span>
-                MSCI ACWI
-            </button>
-            <button class="tab-btn" data-index="prime150">
-                <span class="tab-icon">🇯🇵</span>
-                JPX Prime 150
-            </button>
+        <nav class="tabs-container">
+            <!-- Global -->
+            <div class="tab-group">
+                <span class="tab-group-label">世界 🌍</span>
+                <button class="tab-btn" data-index="acwi">
+                    MSCI ACWI
+                </button>
+            </div>
+
+            <!-- US -->
+            <div class="tab-group">
+                <span class="tab-group-label">米国 🇺🇸</span>
+                <button class="tab-btn active" data-index="sp500">
+                    S&P 500
+                </button>
+                <button class="tab-btn" data-index="nasdaq100">
+                    NASDAQ 100
+                </button>
+            </div>
+
+            <!-- Japan -->
+            <div class="tab-group">
+                <span class="tab-group-label">日本 🇯🇵</span>
+                <button class="tab-btn" data-index="prime150">
+                    JPX Prime 150
+                </button>
+            </div>
         </nav>
 
         <!-- Main Content -->
