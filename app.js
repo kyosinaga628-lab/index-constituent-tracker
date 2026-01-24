@@ -872,9 +872,38 @@ function updateConstituentsTable() {
 }
 
 // =======================
+// Tutorial (Driver.js)
+// =======================
+function startTutorial() {
+    const driver = window.driver.js.driver;
+
+    const driverObj = driver({
+        showProgress: true,
+        nextBtnText: '次へ',
+        prevBtnText: '戻る',
+        doneBtnText: '完了',
+        steps: [
+            { element: '#step1-select', popover: { title: '1. 市場を選ぼう', description: 'まずは興味のある国や指数を選択してください。<br>「世界」「米国」「日本」から選べます。' } },
+            { element: '#step2-overview', popover: { title: '2. 概要を知る', description: 'その指数の特徴や、どんな投資信託で買えるかがわかります。' } },
+            { element: '#step3-charts', popover: { title: '3. 中身を見る', description: 'どんな業種（セクター）が多いのか、株価はどう動いているのかをチェックしましょう。' } },
+            { element: '#step4-simulation', popover: { title: '4. 投資シミュレーション', description: '「もし1万円投資したら？」<br>あなたの1万円がどの会社にいくら使われるか、具体的にイメージできます。' } },
+            { element: '#step5-history', popover: { title: '5. 歴史を学ぶ', description: '過去の銘柄入れ替えや経済イベント（リーマンショックなど）を通して、市場の変化を学びます。' } }
+        ]
+    });
+
+    driverObj.drive();
+}
+
+// =======================
 // Event Handlers
 // =======================
 function setupEventListeners() {
+    // Tutorial
+    const tutorialBtn = document.getElementById('tutorialBtn');
+    if (tutorialBtn) {
+        tutorialBtn.addEventListener('click', startTutorial);
+    }
+
     // Tab switching
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.addEventListener('click', () => {
