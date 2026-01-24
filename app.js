@@ -131,11 +131,15 @@ function getRegionColor(regionName) {
 async function loadData() {
     try {
         // Load all data files
-        const [sp500Const, sp500Changes, nasdaq100Const, nasdaq100Changes, acwiConst, acwiChanges, prime150Const, prime150Changes, prices, historicalSectors, indexMetadata, companyProducts] = await Promise.all([
+        const [sp500Const, sp500Changes, nasdaq100Const, nasdaq100Changes, nikkei225Const, nikkei225Changes, topixConst, topixChanges, acwiConst, acwiChanges, prime150Const, prime150Changes, prices, historicalSectors, indexMetadata, companyProducts, historicalEvents] = await Promise.all([
             fetch('data/sp500/constituents.json').then(r => r.json()),
             fetch('data/sp500/changes.json').then(r => r.json()),
             fetch('data/nasdaq100/constituents.json').then(r => r.json()),
             fetch('data/nasdaq100/changes.json').then(r => r.json()),
+            fetch('data/nikkei225/constituents.json').then(r => r.json()),
+            fetch('data/nikkei225/changes.json').then(r => r.json()),
+            fetch('data/topix/constituents.json').then(r => r.json()),
+            fetch('data/topix/changes.json').then(r => r.json()),
             fetch('data/acwi/constituents.json').then(r => r.json()),
             fetch('data/acwi/changes.json').then(r => r.json()),
             fetch('data/prime150/constituents.json').then(r => r.json()),
@@ -143,17 +147,21 @@ async function loadData() {
             fetch('data/prices.json').then(r => r.json()),
             fetch('data/historical_sectors.json').then(r => r.json()),
             fetch('data/index_metadata.json').then(r => r.json()),
-            fetch('data/company_products.json').then(r => r.json())
+            fetch('data/company_products.json').then(r => r.json()),
+            fetch('data/events.json').then(r => r.json())
         ]);
 
         state.data.sp500 = { constituents: sp500Const, changes: sp500Changes };
         state.data.nasdaq100 = { constituents: nasdaq100Const, changes: nasdaq100Changes };
+        state.data.nikkei225 = { constituents: nikkei225Const, changes: nikkei225Changes };
+        state.data.topix = { constituents: topixConst, changes: topixChanges };
         state.data.acwi = { constituents: acwiConst, changes: acwiChanges };
         state.data.prime150 = { constituents: prime150Const, changes: prime150Changes };
         state.data.prices = prices;
         state.data.historicalSectors = historicalSectors;
         state.data.metadata = indexMetadata;
         state.data.products = companyProducts;
+        state.data.events = historicalEvents;
 
         console.log('Data loaded successfully');
         return true;
@@ -224,7 +232,7 @@ function updateSectorChart() {
     state.charts.sector = new Chart(ctx, {
         type: 'doughnut',
         data: {
-            labels: labels,
+            labels: labels.map(l => getSectorTranslation(l)),
             datasets: [{
                 data: data,
                 backgroundColor: labels.map(label => getSectorColor(label)),
@@ -726,12 +734,32 @@ function updateTimeline() {
         return;
     }
 
-    // Group by Date
+    // Group by Date (Changes + Events)
     const grouped = {};
+
+    // 1. Add Changes
     filteredChanges.forEach(change => {
-        if (!grouped[change.date]) grouped[change.date] = [];
-        grouped[change.date].push(change);
+        if (!grouped[change.date]) grouped[change.date] = { changes: [], events: [] };
+        grouped[change.date].changes.push(change);
     });
+
+    // 2. Add Historical Events (if matches current index)
+    if (state.data.events) {
+        state.data.events.forEach(event => {
+            if (event.indices.includes(state.currentIndex)) {
+                const dateKey = `${event.year}-01-01`;
+                if (yearFilter !== 'all' && event.year !== yearFilter) return;
+                if (!grouped[dateKey]) grouped[dateKey] = { changes: [], events: [] };
+                grouped[dateKey].events.push(event);
+            }
+        });
+    }
+
+    // Check if empty
+    if (Object.keys(grouped).length === 0) {
+        container.innerHTML = '<div class="timeline-empty">該当する変更履歴はありません</div>';
+        return;
+    }
 
     // Render
     const sortedDates = Object.keys(grouped).sort((a, b) => new Date(b) - new Date(a)); // Descending
@@ -836,7 +864,7 @@ function updateConstituentsTable() {
         <tr>
             <td class="ticker-cell">${c.ticker}</td>
             <td>${c.name}</td>
-            <td><span class="sector-badge">${c.sector}</span></td>
+            <td><span class="sector-badge">${getSectorTranslation(c.sector)}</span></td>
             <td class="weight-cell">${c.weight.toFixed(2)}%</td>
             <td>${formatDate(c.dateAdded)}</td>
         </tr>
@@ -909,6 +937,26 @@ function setupEventListeners() {
 // =======================
 // Helper Functions
 // =======================
+const SECTOR_TRANSLATIONS = {
+    "Information Technology": "情報・ハイテク (IT)",
+    "Health Care": "ヘルスケア (医療)",
+    "Financials": "金融",
+    "Consumer Discretionary": "一般消費財 (Amazon, Teslaなど)",
+    "Communication Services": "通信・サービス (Google, Metaなど)",
+    "Industrials": "資本財 (工場・機械)",
+    "Consumer Staples": "生活必需品 (コーラ, P&G)",
+    "Energy": "エネルギー (石油)",
+    "Utilities": "公益事業 (電力・ガス)",
+    "Materials": "素材 (化学・金属)",
+    "Real Estate": "不動産",
+    "Technology": "テクノロジー",
+    "Unknown": "その他"
+};
+
+function getSectorTranslation(englishSector) {
+    return SECTOR_TRANSLATIONS[englishSector] || englishSector;
+}
+
 function formatDate(dateStr) {
     if (!dateStr) return '--';
     const date = new Date(dateStr);
@@ -933,6 +981,8 @@ function getIndexDisplayName(index) {
     const names = {
         sp500: 'S&P 500',
         nasdaq100: 'NASDAQ 100',
+        nikkei225: '日経平均',
+        topix: 'TOPIX',
         acwi: 'MSCI ACWI',
         prime150: 'JPX Prime 150'
     };

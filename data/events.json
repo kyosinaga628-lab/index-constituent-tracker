@@ -1,0 +1,73 @@
+[
+    {
+        "year": "1987",
+        "description": "NTT上場: 日本株ブームの象徴",
+        "details": "NTTが上場し、時価総額世界一を記録。日本企業が世界の上位を独占。",
+        "type": "bubble",
+        "indices": [
+            "nikkei225",
+            "topix"
+        ]
+    },
+    {
+        "year": "2000",
+        "description": "ITバブル崩壊",
+        "details": "ドットコムバブル崩壊。Yahoo! Japanなどが注目される一方、伝統的企業の株価が低迷。",
+        "type": "crash",
+        "indices": [
+            "nasdaq100",
+            "sp500",
+            "nikkei225"
+        ]
+    },
+    {
+        "year": "2008",
+        "description": "リーマンショック (金融危機)",
+        "details": "世界的な金融危機。AIGやGM（自動車大手）が経営危機に陥り、S&P 500から除外されるなど産業構造が激変。",
+        "type": "crash",
+        "indices": [
+            "sp500",
+            "acwi",
+            "nikkei225"
+        ]
+    },
+    {
+        "year": "2013",
+        "description": "Facebook (現Meta) のS&P500採用",
+        "details": "SNSの普及に伴いFacebookが採用。GAFA時代の幕開け。",
+        "type": "innovation",
+        "indices": [
+            "sp500",
+            "nasdaq100"
+        ]
+    },
+    {
+        "year": "2019",
+        "description": "任天堂の日経225採用",
+        "details": "長らく未採用だった任天堂がついに採用。ハイテク・エンタメ株の存在感が増大。",
+        "type": "innovation",
+        "indices": [
+            "nikkei225"
+        ]
+    },
+    {
+        "year": "2020",
+        "description": "TeslaのS&P500採用",
+        "details": "EV（電気自動車）最大手テスラが採用。時価総額がいきなり上位に食い込む。",
+        "type": "innovation",
+        "indices": [
+            "sp500",
+            "nasdaq100"
+        ]
+    },
+    {
+        "year": "2024",
+        "description": "NVIDIAの急成長 (AIブーム)",
+        "details": "生成AIブームによりNVIDIAの株価が急騰し、AppleやMicrosoftに並ぶ巨大企業へ。",
+        "type": "innovation",
+        "indices": [
+            "sp500",
+            "nasdaq100"
+        ]
+    }
+]
