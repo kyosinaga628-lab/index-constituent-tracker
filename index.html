@@ -35,6 +35,10 @@
                 <span class="tab-icon">🇺🇸</span>
                 S&P 500
             </button>
+            <button class="tab-btn" data-index="nasdaq100">
+                <span class="tab-icon">💻</span>
+                NASDAQ 100
+            </button>
             <button class="tab-btn" data-index="acwi">
                 <span class="tab-icon">🌍</span>
                 MSCI ACWI
@@ -47,6 +51,11 @@
 
         <!-- Main Content -->
         <main class="main-content">
+            <!-- Index Overview Card -->
+            <section class="index-overview" id="indexOverview">
+                <!-- Javascript will populate this -->
+            </section>
+
             <!-- Stats Cards -->
             <section class="stats-cards">
                 <div class="stat-card">
@@ -108,6 +117,33 @@
                         <canvas id="priceChart"></canvas>
                     </div>
                     <div class="returns-summary" id="returnsSummary"></div>
+                </div>
+            </section>
+
+            <!-- Investment Simulation Section -->
+            <section class="simulation-section">
+                <div class="chart-card full-width simulation-card">
+                    <div class="chart-header">
+                        <h2>💰 もし1万円投資したら？</h2>
+                        <div class="chart-subtitle">あなたの1万円がどの会社にいくら使われるか見てみよう！</div>
+                    </div>
+
+                    <div class="simulation-controls">
+                        <label for="investmentAmount">投資金額:</label>
+                        <div class="input-wrapper">
+                            <span class="currency-symbol">¥</span>
+                            <input type="number" id="investmentAmount" value="10000" step="1000" min="1000">
+                        </div>
+                    </div>
+
+                    <div class="simulation-content">
+                        <div class="simulation-breakdown" id="simulationBreakdown">
+                            <!-- JS will populate top companies here -->
+                        </div>
+                        <div class="simulation-visual" id="simulationVisual">
+                            <!-- Visual representation -->
+                        </div>
+                    </div>
                 </div>
             </section>
 

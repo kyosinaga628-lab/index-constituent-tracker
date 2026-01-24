@@ -131,22 +131,29 @@ function getRegionColor(regionName) {
 async function loadData() {
     try {
         // Load all data files
-        const [sp500Const, sp500Changes, acwiConst, acwiChanges, prime150Const, prime150Changes, prices, historicalSectors] = await Promise.all([
+        const [sp500Const, sp500Changes, nasdaq100Const, nasdaq100Changes, acwiConst, acwiChanges, prime150Const, prime150Changes, prices, historicalSectors, indexMetadata, companyProducts] = await Promise.all([
             fetch('data/sp500/constituents.json').then(r => r.json()),
             fetch('data/sp500/changes.json').then(r => r.json()),
+            fetch('data/nasdaq100/constituents.json').then(r => r.json()),
+            fetch('data/nasdaq100/changes.json').then(r => r.json()),
             fetch('data/acwi/constituents.json').then(r => r.json()),
             fetch('data/acwi/changes.json').then(r => r.json()),
             fetch('data/prime150/constituents.json').then(r => r.json()),
             fetch('data/prime150/changes.json').then(r => r.json()),
             fetch('data/prices.json').then(r => r.json()),
-            fetch('data/historical_sectors.json').then(r => r.json())
+            fetch('data/historical_sectors.json').then(r => r.json()),
+            fetch('data/index_metadata.json').then(r => r.json()),
+            fetch('data/company_products.json').then(r => r.json())
         ]);
 
         state.data.sp500 = { constituents: sp500Const, changes: sp500Changes };
+        state.data.nasdaq100 = { constituents: nasdaq100Const, changes: nasdaq100Changes };
         state.data.acwi = { constituents: acwiConst, changes: acwiChanges };
         state.data.prime150 = { constituents: prime150Const, changes: prime150Changes };
         state.data.prices = prices;
         state.data.historicalSectors = historicalSectors;
+        state.data.metadata = indexMetadata;
+        state.data.products = companyProducts;
 
         console.log('Data loaded successfully');
         return true;
@@ -849,6 +856,14 @@ function setupEventListeners() {
             updatePriceChart();
         });
     });
+
+    // Investment Simulation Input
+    const investmentInput = document.getElementById('investmentAmount');
+    if (investmentInput) {
+        investmentInput.addEventListener('input', debounce(() => {
+            updateSimulation();
+        }, 300));
+    }
 }
 
 // =======================
@@ -877,6 +892,7 @@ function getTypeLabel(type) {
 function getIndexDisplayName(index) {
     const names = {
         sp500: 'S&P 500',
+        nasdaq100: 'NASDAQ 100',
         acwi: 'MSCI ACWI',
         prime150: 'JPX Prime 150'
     };
@@ -897,6 +913,8 @@ function debounce(func, wait) {
 
 function updateAllViews() {
     updateStats();
+    updateIndexOverview(); // New
+    updateSimulation();    // New
     updateSectorChart();
     updatePriceChart();
     updateHistoricalComparison();
@@ -904,6 +922,130 @@ function updateAllViews() {
     updateCountryHistoryComparison();
     updateTimeline();
     updateConstituentsTable();
+}
+
+function updateIndexOverview() {
+    const container = document.getElementById('indexOverview');
+    if (!container || !state.data.metadata) return;
+
+    const meta = state.data.metadata[state.currentIndex];
+    if (!meta) {
+        container.innerHTML = '';
+        return;
+    }
+
+    const trustsHtml = meta.trusts.map(t => `<span class="trust-tag">💰 ${t}</span>`).join('');
+
+    container.innerHTML = `
+        <div class="overview-card">
+            <div class="overview-title">
+                <span>🔰 この指数について</span>
+            </div>
+            <div class="overview-description">
+                ${meta.description}
+            </div>
+            <div class="overview-metadata">
+                <div class="meta-item">
+                    <span class="meta-label">どんな商品で買える？</span>
+                    <div class="meta-value">${trustsHtml}</div>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">中身の入れ替え時期</span>
+                    <span class="meta-value">📅 ${meta.rebalance}</span>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+function updateSimulation() {
+    const amountInput = document.getElementById('investmentAmount');
+    if (!amountInput) return;
+
+    const amount = parseInt(amountInput.value) || 0;
+    // Check if data is loaded
+    if (!state.data[state.currentIndex] || !state.data[state.currentIndex].constituents) return;
+
+    const constituents = state.data[state.currentIndex].constituents.constituents;
+    const products = state.data.products || {};
+
+    const container = document.getElementById('simulationBreakdown');
+    const visualContainer = document.getElementById('simulationVisual');
+
+    if (!container || !constituents) return;
+
+    // Sort by weight
+    const sortedDetails = constituents
+        .map(c => ({
+            ...c,
+            weightVal: typeof c.weight === 'number' ? c.weight : (parseFloat(c.weight) || 0)
+        }))
+        .sort((a, b) => b.weightVal - a.weightVal);
+
+    // Take top 5
+    const top5 = sortedDetails.slice(0, 5);
+    const top5Weight = top5.reduce((sum, c) => sum + c.weightVal, 0);
+
+    // Simulation Items
+    let html = '';
+    top5.forEach(c => {
+        // Calculate amount based on weight percentage
+        // Assumption: weights in file are percentages (e.g., 7.1)
+        const investment = Math.round(amount * (c.weightVal / 100));
+
+        let productInfo = '';
+        // Try to match ticker or name
+        if (products[c.ticker]) productInfo = products[c.ticker];
+        else if (products[c.ticker.replace(' US', '')]) productInfo = products[c.ticker.replace(' US', '')];
+        else if (products[c.name]) productInfo = products[c.name];
+
+        html += `
+            <div class="simulation-item">
+                <div class="sim-company-info">
+                    <span class="sim-company-name">${c.name}</span>
+                    <span class="sim-product-name">${productInfo ? '💡 ' + productInfo : ''}</span>
+                </div>
+                <div class="sim-amount">¥${investment.toLocaleString()}</div>
+            </div>
+        `;
+    });
+
+    // Add "Others"
+    const otherInvestment = Math.round(amount * ((100 - top5Weight) / 100));
+    html += `
+        <div class="simulation-item" style="opacity: 0.8">
+            <div class="sim-company-info">
+                <span class="sim-company-name">その他 ${constituents.length - 5}社</span>
+                <span class="sim-product-name">いろんな会社に少しずつ分散</span>
+            </div>
+            <div class="sim-amount">¥${otherInvestment.toLocaleString()}</div>
+        </div>
+    `;
+
+    container.innerHTML = html;
+
+    // Visual Bar
+    const colors = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6'];
+    let visualHtml = '<div class="visual-bar-container">';
+
+    top5.forEach((c, idx) => {
+        visualHtml += `
+            <div class="visual-segment" 
+                 style="width: ${c.weightVal}%; background-color: ${colors[idx % colors.length]}"
+                 title="${c.name}: ${c.weightVal.toFixed(2)}%">
+            </div>
+        `;
+    });
+    // Others
+    visualHtml += `
+        <div class="visual-segment" 
+             style="width: ${100 - top5Weight}%; background-color: #cbd5e1"
+             title="その他">
+        </div>
+    `;
+    visualHtml += '</div><div style="text-align:center; font-size:0.8rem; margin-top:5px; color:#64748b; margin-bottom: 5px;">グラフの長さ＝投資される割合</div>';
+
+    visualContainer.innerHTML = visualHtml;
 }
 
 // =======================

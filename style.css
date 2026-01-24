@@ -887,3 +887,239 @@ body {
         transform: rotate(360deg);
     }
 }
+
+/* =====================================================
+   Index Overview Card
+   ===================================================== */
+.index-overview {
+    margin-bottom: 24px;
+}
+
+.overview-card {
+    background: var(--bg-card);
+    border-radius: var(--border-radius);
+    padding: 30px;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+}
+
+.overview-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--accent-primary);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.overview-description {
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+    line-height: 1.8;
+}
+
+.overview-metadata {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+    border-top: 2px dashed var(--border-color);
+}
+
+.meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.meta-label {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-weight: 700;
+}
+
+.meta-value {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.trust-tag {
+    display: inline-block;
+    background: var(--bg-hover);
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    margin-right: 6px;
+    margin-bottom: 4px;
+    color: var(--accent-secondary);
+    border: 1px solid var(--border-color);
+}
+
+/* =====================================================
+   Investment Simulation
+   ===================================================== */
+.simulation-section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.simulation-card {
+    background: linear-gradient(to bottom right, #ffffff, #f0f9ff);
+    border: 2px solid var(--accent-primary);
+}
+
+.simulation-controls {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    border-radius: var(--border-radius-sm);
+    justify-content: center;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.currency-symbol {
+    position: absolute;
+    left: 12px;
+    font-weight: 700;
+    color: var(--text-secondary);
+}
+
+#investmentAmount {
+    padding: 10px 10px 10px 30px;
+    font-size: 1.2rem;
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    width: 150px;
+    font-family: inherit;
+    font-weight: 700;
+    color: var(--text-primary);
+    transition: var(--transition-fast);
+}
+
+#investmentAmount:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.2);
+}
+
+.simulation-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.simulation-breakdown {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.simulation-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s;
+}
+
+.simulation-item:hover {
+    transform: translateX(5px);
+}
+
+.sim-company-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.sim-company-name {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.sim-product-name {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.sim-amount {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--accent-primary);
+}
+
+.visual-bar-container {
+    height: 50px;
+    background: var(--bg-hover);
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.visual-segment {
+    height: 100%;
+    transition: width 0.5s ease;
+    position: relative;
+    cursor: help;
+}
+
+.visual-segment:hover::after {
+    content: attr(title);
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--bg-secondary);
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    box-shadow: var(--shadow-md);
+    z-index: 10;
+    pointer-events: none;
+    border: 1px solid var(--border-color);
+}
+
+/* =====================================================
+   Tooltips
+   ===================================================== */
+.glossary-term {
+    border-bottom: 2px dashed var(--accent-primary);
+    cursor: help;
+    position: relative;
+    display: inline-block;
+}
+
+.glossary-term:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    padding: 12px;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    border-radius: 12px;
+    font-size: 0.9rem;
+    box-shadow: var(--shadow-lg);
+    z-index: 100;
+    text-align: left;
+    margin-bottom: 10px;
+    border: 1px solid var(--border-color);
+    line-height: 1.5;
+}

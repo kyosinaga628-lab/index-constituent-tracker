@@ -1,0 +1,84 @@
+{
+    "lastUpdated": "2026-01-24",
+    "totalConstituents": 100,
+    "constituents": [
+        {
+            "ticker": "AAPL",
+            "name": "Apple Inc.",
+            "sector": "Technology",
+            "weight": 8.5,
+            "price": 230.0
+        },
+        {
+            "ticker": "MSFT",
+            "name": "Microsoft Corp",
+            "sector": "Technology",
+            "weight": 7.9,
+            "price": 450.0
+        },
+        {
+            "ticker": "NVDA",
+            "name": "NVIDIA Corp",
+            "sector": "Technology",
+            "weight": 6.2,
+            "price": 140.0
+        },
+        {
+            "ticker": "AVGO",
+            "name": "Broadcom Inc",
+            "sector": "Technology",
+            "weight": 4.5,
+            "price": 1600.0
+        },
+        {
+            "ticker": "AMZN",
+            "name": "Amazon.com Inc",
+            "sector": "Consumer Discretionary",
+            "weight": 4.2,
+            "price": 200.0
+        },
+        {
+            "ticker": "META",
+            "name": "Meta Platforms Inc",
+            "sector": "Communication Services",
+            "weight": 3.8,
+            "price": 550.0
+        },
+        {
+            "ticker": "TSLA",
+            "name": "Tesla Inc",
+            "sector": "Consumer Discretionary",
+            "weight": 2.5,
+            "price": 240.0
+        },
+        {
+            "ticker": "GOOGL",
+            "name": "Alphabet Inc (Class A)",
+            "sector": "Communication Services",
+            "weight": 2.4,
+            "price": 180.0
+        },
+        {
+            "ticker": "GOOG",
+            "name": "Alphabet Inc (Class C)",
+            "sector": "Communication Services",
+            "weight": 2.3,
+            "price": 181.0
+        },
+        {
+            "ticker": "COST",
+            "name": "Costco Wholesale",
+            "sector": "Consumer Staples",
+            "weight": 1.8,
+            "price": 850.0
+        }
+    ],
+    "sectors": {
+        "Technology": 55.0,
+        "Communication Services": 20.0,
+        "Consumer Discretionary": 15.0,
+        "Consumer Staples": 5.0,
+        "Health Care": 3.0,
+        "Industrials": 2.0
+    }
+}
