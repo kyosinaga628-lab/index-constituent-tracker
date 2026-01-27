@@ -246,6 +246,10 @@ function updateIndexOverview() {
             <div class="overview-description">${meta.description}</div>
             <div class="overview-metadata">
                 <div class="meta-item">
+                    <span class="meta-label">🎂 設定日</span>
+                    <span class="meta-value">${meta.inceptionDate}</span>
+                </div>
+                <div class="meta-item">
                     <span class="meta-label">どんな商品で買える？</span>
                     <div class="meta-value">${trustsHtml}</div>
                 </div>
