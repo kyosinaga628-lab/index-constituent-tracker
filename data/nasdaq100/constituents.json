@@ -5,70 +5,70 @@
         {
             "ticker": "NVDA",
             "name": "Nvidia",
-            "sector": "Unknown",
+            "sector": "Information Technology",
             "weight": 11.8811,
             "price": 187.6699981689453
         },
         {
             "ticker": "GOOGL",
             "name": "Alphabet Inc. (Class A)",
-            "sector": "Unknown",
+            "sector": "Communication Services",
             "weight": 10.3281,
             "price": 327.92999267578125
         },
         {
             "ticker": "GOOG",
             "name": "Alphabet Inc. (Class C)",
-            "sector": "Unknown",
+            "sector": "Communication Services",
             "weight": 10.3094,
             "price": 328.42999267578125
         },
         {
             "ticker": "AAPL",
             "name": "Apple Inc.",
-            "sector": "Unknown",
+            "sector": "Information Technology",
             "weight": 9.5303,
             "price": 248.0399932861328
         },
         {
             "ticker": "MSFT",
             "name": "Microsoft",
-            "sector": "Unknown",
+            "sector": "Information Technology",
             "weight": 9.006,
             "price": 465.95001220703125
         },
         {
             "ticker": "AMZN",
             "name": "Amazon",
-            "sector": "Unknown",
+            "sector": "Consumer Discretionary",
             "weight": 6.648,
             "price": 239.16000366210938
         },
         {
             "ticker": "META",
             "name": "Meta Platforms",
-            "sector": "Unknown",
+            "sector": "Communication Services",
             "weight": 4.3175,
             "price": 658.760009765625
         },
         {
             "ticker": "AVGO",
             "name": "Broadcom",
-            "sector": "Unknown",
+            "sector": "Information Technology",
             "weight": 3.9458,
             "price": 320.04998779296875
         },
         {
             "ticker": "TSLA",
             "name": "Tesla, Inc.",
-            "sector": "Unknown",
+            "sector": "Consumer Discretionary",
             "weight": 3.8835,
             "price": 449.05999755859375
         },
         {
             "ticker": "WMT",
             "name": "Walmart",
-            "sector": "Unknown",
+            "sector": "Consumer Staples",
             "weight": 2.4407,
             "price": 117.7300033569336
         },
@@ -89,7 +89,7 @@
         {
             "ticker": "COST",
             "name": "Costco",
-            "sector": "Unknown",
+            "sector": "Consumer Staples",
             "weight": 1.1351,
             "price": 983.25
         },
@@ -145,7 +145,7 @@
         {
             "ticker": "LIN",
             "name": "Linde plc",
-            "sector": "Unknown",
+            "sector": "Materials",
             "weight": 0.5506,
             "price": 451.57000732421875
         },
@@ -166,7 +166,7 @@
         {
             "ticker": "PEP",
             "name": "PepsiCo",
-            "sector": "Unknown",
+            "sector": "Consumer Staples",
             "weight": 0.5147,
             "price": 144.5800018310547
         },
@@ -180,7 +180,7 @@
         {
             "ticker": "AMGN",
             "name": "Amgen",
-            "sector": "Unknown",
+            "sector": "Health Care",
             "weight": 0.4827,
             "price": 344.75
         },
@@ -711,6 +711,13 @@
         }
     ],
     "sectors": {
-        "Unknown": 100.0
+        "Information Technology": 51.5,
+        "Communication Services": 15.8,
+        "Consumer Discretionary": 13.2,
+        "Health Care": 6.8,
+        "Consumer Staples": 4.5,
+        "Industrials": 4.1,
+        "Utilities": 1.2,
+        "Unknown": 2.9
     }
 }

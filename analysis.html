@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>詳細分析 - インデックス構成銘柄図鑑</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css?v=6">
+</head>
+
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">📊</span>
+                    インデックス構成銘柄図鑑
+                </a>
+                <div class="header-nav">
+                    <a href="index.html" class="nav-btn-home">🏠 トップへ</a>
+                </div>
+                <div class="header-info">
+                    <span class="last-updated" id="lastUpdated">最終更新: --</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="navigation-bar">
+                <a href="index.html" class="nav-link">← トップに戻る</a>
+                <h1 id="pageTitle" class="page-title">読み込み中...</h1>
+            </div>
+
+            <!-- Step 2: Overview -->
+            <section class="story-section" id="step2-overview">
+                <div class="section-badge">概要</div>
+                <h2 class="story-title">どんな指数？</h2>
+                <div class="index-overview" id="indexOverview"></div>
+            </section>
+
+            <!-- Step 3: Composition (Charts) -->
+            <section class="story-section" id="step3-charts">
+                <div class="section-badge">構成</div>
+                <h2 class="story-title">中身はどうなってる？</h2>
+                <div class="charts-grid">
+                    <!-- Sector Chart -->
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>業種（セクター）の割合</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="sectorChart"></canvas>
+                        </div>
+                    </div>
+                    <!-- Price Chart -->
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>株価の推移</h3>
+                            <div class="period-tabs">
+                                <button class="period-btn" data-period="6m">6ヶ月</button>
+                                <button class="period-btn" data-period="1y">1年</button>
+                                <button class="period-btn" data-period="5y">5年</button>
+                                <button class="period-btn active" data-period="all">全期間</button>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="priceChart"></canvas>
+                        </div>
+                        <div class="returns-summary" id="returnsSummary"></div>
+                    </div>
+                </div>
+
+                <!-- Region Charts (Hidden by default) -->
+                <div id="regionSection" style="display: none; margin-top: 30px;">
+                    <div class="charts-grid">
+                        <div class="chart-card">
+                            <div class="chart-header">
+                                <h3>地域別の割合</h3>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="regionChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <div class="chart-header">
+                                <h3>国別の割合 (トップ10)</h3>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="countryChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Historical Country Comparison -->
+                    <div id="countryHistorySection" style="margin-top: 30px;">
+                        <h3 class="chart-header">国の移り変わり (歴史)</h3>
+                        <div id="countryHistoryComparison" class="historical-comparison"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Step 4: Simulation -->
+            <section class="story-section highlight-section" id="step4-simulation">
+                <div class="section-badge">体験</div>
+                <h2 class="story-title">もし1万円投資したら？</h2>
+                <div class="simulation-card full-width">
+                    <div class="simulation-controls">
+                        <label for="investmentAmount">投資金額:</label>
+                        <div class="input-wrapper">
+                            <span class="currency-symbol">¥</span>
+                            <input type="number" id="investmentAmount" value="10000" step="1000" min="1000">
+                        </div>
+                    </div>
+                    <div class="simulation-content">
+                        <div class="simulation-breakdown" id="simulationBreakdown"></div>
+                        <div class="simulation-visual" id="simulationVisual"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Step 5: History -->
+            <section class="story-section" id="step5-history">
+                <div class="section-badge">歴史</div>
+                <h2 class="story-title">歴史を知ろう（銘柄の入れ替え）</h2>
+
+                <div class="timeline-section">
+                    <div class="filter-controls">
+                        <select id="changeTypeFilter" class="filter-select">
+                            <option value="all">すべて</option>
+                            <option value="add">追加のみ</option>
+                            <option value="remove">除外のみ</option>
+                        </select>
+                        <select id="yearFilter" class="filter-select">
+                            <option value="all">全期間</option>
+                        </select>
+                    </div>
+                    <div class="timeline-container" id="timelineContainer"></div>
+                </div>
+
+                <!-- Historical Comparison (moved below timeline) -->
+                <div id="historicalComparison" class="historical-comparison" style="margin-top: 30px;"></div>
+            </section>
+
+            <!-- Link to Full List -->
+            <div class="action-area" style="text-align: center; margin: 50px 0;">
+                <a id="viewListBtn" href="#" class="button-primary">
+                    全構成銘柄リストを見る (重いよ⚠️)
+                </a>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <p>データソース: Wikipedia, JPX, MSCI公式ファクトシート</p>
+        </footer>
+    </div>
+    <script src="app.js?v=6"></script>
+</body>
+
+</html>

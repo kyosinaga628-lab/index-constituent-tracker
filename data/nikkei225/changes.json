@@ -1,19 +1,245 @@
 {
     "changes": [
         {
-            "date": "2025-10-01",
-            "type": "rebalance",
-            "description": "定期入れ替え",
-            "addedCount": 3,
-            "removedCount": 3,
-            "notes": "市場流動性を考慮した定期的な構成銘柄の見直し"
+            "date": "2025-11-05",
+            "type": "add",
+            "ticker": "4062",
+            "name": "イビデン",
+            "sector": "Materials",
+            "reason": "半導体パッケージ基板大手として採用"
         },
         {
-            "date": "2019-04-01",
+            "date": "2025-11-05",
+            "type": "remove",
+            "ticker": "6594",
+            "name": "ニデック",
+            "sector": "Industrials",
+            "reason": "定期見直しによる除外"
+        },
+        {
+            "date": "2025-10-01",
+            "type": "add",
+            "ticker": "3697",
+            "name": "SHIFT",
+            "sector": "Information Technology",
+            "reason": "ITソリューション企業として採用"
+        },
+        {
+            "date": "2025-10-01",
+            "type": "remove",
+            "ticker": "7762",
+            "name": "シチズン時計",
+            "sector": "Consumer Discretionary",
+            "reason": "流動性基準見直しによる除外"
+        },
+        {
+            "date": "2025-07-04",
+            "type": "add",
+            "ticker": "6963",
+            "name": "ローム",
+            "sector": "Information Technology",
+            "reason": "半導体関連銘柄として採用"
+        },
+        {
+            "date": "2025-07-04",
+            "type": "remove",
+            "ticker": "9613",
+            "name": "NTTデータグループ",
+            "sector": "Information Technology",
+            "reason": "定期見直しによる除外"
+        },
+        {
+            "date": "2025-04-01",
+            "type": "add",
+            "ticker": "6532",
+            "name": "ベイカレント・コンサルティング",
+            "sector": "Industrials",
+            "reason": "コンサルティング企業として採用"
+        },
+        {
+            "date": "2025-04-01",
+            "type": "remove",
+            "ticker": "9301",
+            "name": "三菱倉庫",
+            "sector": "Industrials",
+            "reason": "定期見直しによる除外"
+        },
+        {
+            "date": "2024-10-01",
+            "type": "add",
+            "ticker": "4307",
+            "name": "野村総合研究所",
+            "sector": "Information Technology",
+            "reason": "ITサービス大手として採用"
+        },
+        {
+            "date": "2024-10-01",
+            "type": "add",
+            "ticker": "7453",
+            "name": "良品計画",
+            "sector": "Consumer Discretionary",
+            "reason": "小売業界代表銘柄として採用（無印良品）"
+        },
+        {
+            "date": "2024-10-01",
+            "type": "remove",
+            "ticker": "3863",
+            "name": "日本製紙",
+            "sector": "Materials",
+            "reason": "定期見直しによる除外"
+        },
+        {
+            "date": "2024-10-01",
+            "type": "remove",
+            "ticker": "4631",
+            "name": "DIC",
+            "sector": "Materials",
+            "reason": "定期見直しによる除外"
+        },
+        {
+            "date": "2024-04-01",
+            "type": "add",
+            "ticker": "3092",
+            "name": "ZOZO",
+            "sector": "Consumer Discretionary",
+            "reason": "Eコマース・ファッション業界代表として採用"
+        },
+        {
+            "date": "2024-04-01",
+            "type": "add",
+            "ticker": "6146",
+            "name": "ディスコ",
+            "sector": "Information Technology",
+            "reason": "半導体製造装置大手として採用"
+        },
+        {
+            "date": "2024-04-01",
+            "type": "add",
+            "ticker": "6526",
+            "name": "ソシオネクスト",
+            "sector": "Information Technology",
+            "reason": "ファブレス半導体企業として採用"
+        },
+        {
+            "date": "2024-04-01",
+            "type": "remove",
+            "ticker": "2531",
+            "name": "宝ホールディングス",
+            "sector": "Consumer Staples",
+            "reason": "定期見直しによる除外"
+        },
+        {
+            "date": "2024-04-01",
+            "type": "remove",
+            "ticker": "5232",
+            "name": "住友大阪セメント",
+            "sector": "Materials",
+            "reason": "定期見直しによる除外"
+        },
+        {
+            "date": "2024-04-01",
+            "type": "remove",
+            "ticker": "5541",
+            "name": "大平洋金属",
+            "sector": "Materials",
+            "reason": "定期見直しによる除外"
+        },
+        {
+            "date": "2023-10-02",
+            "type": "add",
+            "ticker": "4385",
+            "name": "メルカリ",
+            "sector": "Communication Services",
+            "reason": "Eコマース・プラットフォーム企業として採用"
+        },
+        {
+            "date": "2023-10-02",
+            "type": "add",
+            "ticker": "6920",
+            "name": "レーザーテック",
+            "sector": "Information Technology",
+            "reason": "半導体検査装置大手として採用"
+        },
+        {
+            "date": "2023-10-02",
+            "type": "add",
+            "ticker": "9843",
+            "name": "ニトリホールディングス",
+            "sector": "Consumer Discretionary",
+            "reason": "家具・インテリア業界代表として採用"
+        },
+        {
+            "date": "2023-10-02",
+            "type": "remove",
+            "ticker": "5202",
+            "name": "日本板硝子",
+            "sector": "Materials",
+            "reason": "定期見直しによる除外"
+        },
+        {
+            "date": "2023-10-02",
+            "type": "remove",
+            "ticker": "7003",
+            "name": "三井E&S",
+            "sector": "Industrials",
+            "reason": "定期見直しによる除外"
+        },
+        {
+            "date": "2023-10-02",
+            "type": "remove",
+            "ticker": "8628",
+            "name": "松井証券",
+            "sector": "Financials",
+            "reason": "定期見直しによる除外"
+        },
+        {
+            "date": "2021-10-01",
             "type": "add",
             "ticker": "7974",
             "name": "任天堂",
-            "reason": "ハイテク株としての存在感増大に伴う採用"
+            "sector": "Communication Services",
+            "reason": "ゲーム業界を代表する銘柄として採用。Nintendo Switchの成功による時価総額増大"
+        },
+        {
+            "date": "2021-10-01",
+            "type": "add",
+            "ticker": "6861",
+            "name": "キーエンス",
+            "sector": "Information Technology",
+            "reason": "センサー・計測機器大手として採用"
+        },
+        {
+            "date": "2021-10-01",
+            "type": "add",
+            "ticker": "6981",
+            "name": "村田製作所",
+            "sector": "Information Technology",
+            "reason": "電子部品大手として採用"
+        },
+        {
+            "date": "2020-10-01",
+            "type": "add",
+            "ticker": "6857",
+            "name": "アドバンテスト",
+            "sector": "Information Technology",
+            "reason": "半導体テスター大手として採用"
+        },
+        {
+            "date": "2018-10-01",
+            "type": "add",
+            "ticker": "8035",
+            "name": "東京エレクトロン",
+            "sector": "Information Technology",
+            "reason": "半導体製造装置業界を代表する銘柄として採用"
+        },
+        {
+            "date": "2017-08-01",
+            "type": "add",
+            "ticker": "6501",
+            "name": "日立製作所",
+            "sector": "Industrials",
+            "reason": "総合電機大手としてウェイト維持"
         }
-    ]
+    ],
+    "lastUpdated": "2026-01-27"
 }

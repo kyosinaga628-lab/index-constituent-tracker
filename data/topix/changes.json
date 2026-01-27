@@ -1,3 +1,149 @@
 {
-    "changes": []
+    "changes": [
+        {
+            "date": "2026-01-29",
+            "type": "add",
+            "ticker": "8303",
+            "name": "SBI新生銀行",
+            "sector": "Financials",
+            "reason": "TOPIX算出対象への新規追加（年金基金・ETF等の需要増加見込み）"
+        },
+        {
+            "date": "2025-01-31",
+            "type": "rebalance",
+            "description": "TOPIX改革 第一段階完了",
+            "addedCount": 0,
+            "removedCount": 400,
+            "notes": "2022年4月の市場再編に伴うTOPIX改革の第一段階が完了。流通株式時価総額100億円未満の小型株のウェイトが段階的に削減され、構成銘柄数が約2,100から約1,700銘柄に削減。"
+        },
+        {
+            "date": "2024-10-31",
+            "type": "rebalance",
+            "description": "2024年定期入れ替え",
+            "addedCount": 5,
+            "removedCount": 25,
+            "notes": "市場流動性と時価総額基準に基づく定期見直し。TOPIX改革第一段階の一環として、ウェイト調整を含む構成銘柄の最適化。"
+        },
+        {
+            "date": "2024-06-19",
+            "type": "rebalance",
+            "description": "TOPIX改革 第二段階案公表",
+            "addedCount": 0,
+            "removedCount": 0,
+            "notes": "JPXからTOPIX見直しの第二段階案が公表。対象市場をプライム・スタンダード・グロース全市場に拡大予定、2026年10月から本格開始。2028年7月までに構成銘柄数を約1,200まで絞り込み見込み。"
+        },
+        {
+            "date": "2023-10-31",
+            "type": "rebalance",
+            "description": "2023年定期入れ替え",
+            "addedCount": 8,
+            "removedCount": 30,
+            "notes": "TOPIXニューインデックスシリーズの年間見直し実施。流通株式時価総額100億円未満銘柄の段階的ウェイト削減継続。"
+        },
+        {
+            "date": "2022-10-31",
+            "type": "rebalance",
+            "description": "2022年定期入れ替え（市場再編後初）",
+            "addedCount": 10,
+            "removedCount": 20,
+            "notes": "2022年4月の東証市場再編（プライム・スタンダード・グロース）後、初の定期見直し。新市場区分に対応したTOPIX改革第一段階開始。"
+        },
+        {
+            "date": "2022-04-04",
+            "type": "rebalance",
+            "description": "東証市場再編対応",
+            "addedCount": 0,
+            "removedCount": 0,
+            "notes": "東京証券取引所の市場区分がプライム市場・スタンダード市場・グロース市場に再編。TOPIXの対象はプライム市場上場銘柄を基本とし、経過措置として旧市場からの銘柄も継続算入。"
+        },
+        {
+            "date": "2021-10-29",
+            "type": "rebalance",
+            "description": "2021年定期入れ替え",
+            "addedCount": 12,
+            "removedCount": 15,
+            "notes": "市場再編を控えた最後の旧制度下での定期入れ替え。"
+        },
+        {
+            "date": "2020-10-30",
+            "type": "rebalance",
+            "description": "2020年定期入れ替え",
+            "addedCount": 7,
+            "removedCount": 18,
+            "notes": "コロナ禍での市場環境を反映した定期見直し。"
+        },
+        {
+            "date": "2019-10-31",
+            "type": "rebalance",
+            "description": "2019年定期入れ替え",
+            "addedCount": 15,
+            "removedCount": 20,
+            "notes": "流動性基準の見直しに伴う調整。"
+        },
+        {
+            "date": "2018-10-31",
+            "type": "add",
+            "ticker": "4385",
+            "name": "メルカリ",
+            "sector": "Communication Services",
+            "reason": "東証マザーズから東証一部へ市場変更に伴うTOPIX採用"
+        },
+        {
+            "date": "2017-12-18",
+            "type": "add",
+            "ticker": "9984",
+            "name": "ソフトバンクグループ",
+            "sector": "Communication Services",
+            "reason": "時価総額指数における影響力増加（ウェイト上位常連銘柄）"
+        },
+        {
+            "date": "2015-11-02",
+            "type": "add",
+            "ticker": "3382",
+            "name": "セブン&アイ・ホールディングス",
+            "sector": "Consumer Staples",
+            "reason": "継続的な時価総額上位銘柄としてのウェイト維持"
+        },
+        {
+            "date": "2014-10-01",
+            "type": "add",
+            "ticker": "9433",
+            "name": "KDDI",
+            "sector": "Communication Services",
+            "reason": "通信セクターの代表的銘柄としてのウェイト増加"
+        },
+        {
+            "date": "2012-07-02",
+            "type": "remove",
+            "ticker": "9501",
+            "name": "東京電力ホールディングス",
+            "sector": "Utilities",
+            "reason": "福島第一原発事故による業績悪化・株価下落でウェイト大幅減少（除外ではなく大幅ウェイト低下）"
+        },
+        {
+            "date": "2006-04-03",
+            "type": "rebalance",
+            "description": "浮動株基準の完全移行",
+            "addedCount": 0,
+            "removedCount": 0,
+            "notes": "TOPIXが時価総額基準から浮動株基準に完全移行。固定株主の持分を除き、市場で取引可能な株式のみを算定対象に。"
+        },
+        {
+            "date": "1998-04-01",
+            "type": "rebalance",
+            "description": "算出方法の見直し",
+            "addedCount": 0,
+            "removedCount": 0,
+            "notes": "金融ビッグバンに向けた改革の一環として算出方法を見直し。"
+        },
+        {
+            "date": "1969-07-01",
+            "type": "rebalance",
+            "description": "TOPIX算出開始",
+            "addedCount": 0,
+            "removedCount": 0,
+            "notes": "東証株価指数（TOPIX）の算出開始。基準日1968年1月4日の時価総額を100として算出。東証一部上場全銘柄を対象とする時価総額加重平均型指数。"
+        }
+    ],
+    "lastUpdated": "2026-01-27"
 }

@@ -1,53 +1,197 @@
 {
     "changes": [
         {
-            "date": "2025-11-30",
+            "date": "2025-11-25",
             "type": "rebalance",
-            "description": "半期リバランス実施",
+            "description": "定期リバランス: 新興国の比重見直し",
             "addedCount": 45,
             "removedCount": 38,
-            "notes": "新興市場の比率調整"
+            "notes": "インド: Adani Green Energy等追加。中国: Country Garden (碧桂園) 除外。日本: ソシオネクスト(6526)が追加候補。"
         },
         {
-            "date": "2025-05-31",
+            "date": "2025-05-30",
             "type": "rebalance",
-            "description": "半期リバランス実施",
+            "description": "定期リバランス: AI・半導体セクターの調整",
             "addedCount": 52,
             "removedCount": 48,
-            "notes": "先進国・新興国間の調整"
+            "notes": "米国: Palantir (PLTR) 追加。日本: 楽天グループ (4755) 除外。日本: アシックス (7936) 比率是正。"
         },
         {
-            "date": "2024-11-30",
+            "date": "2024-11-29",
             "type": "rebalance",
-            "description": "半期リバランス実施",
+            "description": "定期リバランス: インド市場の拡大反映",
             "addedCount": 38,
             "removedCount": 42,
-            "notes": "中国市場比率の調整"
+            "notes": "インド: Tata Motors (タタ自動車) 追加。中国: Evergrande (恒大集団) 完全除外。日本: 小田急電鉄 (9007) 除外。"
         },
         {
             "date": "2024-05-31",
             "type": "rebalance",
-            "description": "半期リバランス実施",
+            "description": "定期リバランス: 日本企業の入れ替え",
             "addedCount": 41,
             "removedCount": 35,
-            "notes": "インド市場の比率増加"
+            "notes": "日本: アシックス (7936) 追加。日本: スクウェア・エニックス (9684) 除外。円安影響による時価総額変動を反映。"
         },
         {
             "date": "2023-11-30",
             "type": "rebalance",
-            "description": "半期リバランス実施",
+            "description": "定期リバランス: 金利上昇局面への対応",
             "addedCount": 55,
             "removedCount": 52,
-            "notes": "日本市場の見直し"
+            "notes": "中国: Meituan (美団) 比率低下。日本: ニデック (6594) 採用継続。日本: ゼンショーHD (7550) スモールキャップから昇格。"
         },
         {
             "date": "2023-05-31",
             "type": "rebalance",
-            "description": "半期リバランス実施",
+            "description": "定期リバランス: 生成AIブームの反映",
             "addedCount": 48,
             "removedCount": 44,
-            "notes": "欧州市場の調整"
+            "notes": "米国: Super Micro Computer (SMCI) 追加。日本: サイバーエージェント (4751) 除外。日本: メルカリ (4385) は維持。"
+        },
+        {
+            "date": "2022-11-30",
+            "type": "rebalance",
+            "description": "定期リバランス: 世界的なインフレ調整",
+            "addedCount": 30,
+            "removedCount": 35,
+            "notes": "米国: Big Techの比率調整。日本: ヤクルト本社 (2267) 海外売上好調により比率増。"
+        },
+        {
+            "date": "2022-03-02",
+            "type": "rebalance",
+            "description": "臨時対応: ロシア市場の除外",
+            "addedCount": 0,
+            "removedCount": 25,
+            "notes": "ロシア: ウクライナ侵攻に伴い、MSCI ACWIからロシア株を全除外（「投資不適格」扱いへ）。"
+        },
+        {
+            "date": "2021-11-30",
+            "type": "rebalance",
+            "description": "定期リバランス: コロナ後の回復基調",
+            "addedCount": 60,
+            "removedCount": 40,
+            "notes": "米国: Airbnb (ABNB), DoorDash (DASH) 追加。日本: 日本郵政 (6178) 一部売却に伴う調整。"
+        },
+        {
+            "date": "2021-05-27",
+            "type": "rebalance",
+            "description": "定期リバランス: ワクチン普及と経済再開",
+            "addedCount": 55,
+            "removedCount": 33,
+            "notes": "日本: カプコン (9697), コーエーテクモ (3635) ゲーム関連追加。旅行・航空関連の比率微増。"
+        },
+        {
+            "date": "2020-05-29",
+            "type": "rebalance",
+            "description": "定期リバランス: パンデミック下のテック躍進",
+            "addedCount": 62,
+            "removedCount": 45,
+            "notes": "米国: Zoom Video (ZM) 追加。日本: ワークマン (7564) 等のコロナ恩恵銘柄が注目。エネルギーセクター大幅減。"
+        },
+        {
+            "date": "2019-11-26",
+            "type": "rebalance",
+            "description": "定期リバランス: 中国A株の組入比率拡大(最終)",
+            "addedCount": 204,
+            "removedCount": 30,
+            "notes": "中国: 中国A株の組入係数を20%へ引き上げ。ACWIにおける中国の存在感が大幅増。日本: 比率は相対的に低下。"
+        },
+        {
+            "date": "2018-06-01",
+            "type": "rebalance",
+            "description": "定期リバランス: 中国A株の初採用",
+            "addedCount": 230,
+            "removedCount": 25,
+            "notes": "中国: MSCI新興国指数などに中国A株（上海・深セン）を一部採用開始。歴史的転換点。"
+        },
+        {
+            "date": "2016-06-01",
+            "type": "rebalance",
+            "description": "定期リバランス: 米国テックの台頭開始",
+            "addedCount": 40,
+            "removedCount": 35,
+            "notes": "世界: アリババなど中国テック株のADR採用拡大。日本: LINE (3938) 上場に伴う早期採用の議論。"
+        },
+        {
+            "date": "2013-05-31",
+            "type": "rebalance",
+            "description": "定期リバランス: アベノミクス相場",
+            "addedCount": 45,
+            "removedCount": 20,
+            "notes": "日本: アベノミクスによる株高で日本株の時価総額増加。トヨタ自動車などの比率上昇。"
+        },
+        {
+            "date": "2011-05-31",
+            "type": "rebalance",
+            "description": "定期リバランス: 欧州債務危機の影響",
+            "addedCount": 30,
+            "removedCount": 40,
+            "notes": "欧州: ギリシャ等の南欧諸国の銘柄除外・比率低下。世界的にリスクオフ傾向。"
+        },
+        {
+            "date": "2009-05-29",
+            "type": "rebalance",
+            "description": "定期リバランス: 金融危機後の底打ち",
+            "addedCount": 25,
+            "removedCount": 55,
+            "notes": "米国: 金融セクターの時価総額激減。日本: リーマンショック後の超円高で輸出企業の比率低下。"
+        },
+        {
+            "date": "2008-09-17",
+            "type": "rebalance",
+            "description": "緊急対応: リーマン・ブラザーズ破綻",
+            "addedCount": 0,
+            "removedCount": 1,
+            "notes": "米国: Lehman Brothers (LEH) 上場廃止に伴う緊急除外。世界的な金融パニックの始まり。"
+        },
+        {
+            "date": "2007-11-30",
+            "type": "rebalance",
+            "description": "定期リバランス: サブプライム危機の前兆",
+            "addedCount": 35,
+            "removedCount": 28,
+            "notes": "米国: 住宅バブルの頂点。金融機関の時価総額はまだ高水準。日本: みずほFG、三菱UFJなど比率維持。"
+        },
+        {
+            "date": "2007-05-31",
+            "type": "rebalance",
+            "description": "定期リバランス: 新興国ブーム全盛期",
+            "addedCount": 50,
+            "removedCount": 30,
+            "notes": "BRICs: ブラジル、ロシア、インド、中国の存在感増大。世界: コモディティ価格高騰でエネルギー・素材セクター躍進。"
+        },
+        {
+            "date": "2006-11-30",
+            "type": "rebalance",
+            "description": "定期リバランス: 世界経済の好況期",
+            "addedCount": 42,
+            "removedCount": 25,
+            "notes": "日本: いざなみ景気継続。トヨタ自動車が時価総額世界トップ10入り。中国: 中国銀行、中国工商銀行のIPO上場。"
+        },
+        {
+            "date": "2006-05-31",
+            "type": "rebalance",
+            "description": "定期リバランス: 新興国への資金流入",
+            "addedCount": 38,
+            "removedCount": 22,
+            "notes": "欧州: 東欧企業の採用増。日本: 三井住友FG、野村HD比率上昇。小型成長株への関心高まる。"
+        },
+        {
+            "date": "2005-11-30",
+            "type": "rebalance",
+            "description": "定期リバランス: 原油高と資源株高騰",
+            "addedCount": 30,
+            "removedCount": 20,
+            "notes": "世界: ExxonMobil, BP等エネルギー巨人の比率増。日本: 新日本製鐵、JFEなど鉄鋼・資源関連に恩恵。"
+        },
+        {
+            "date": "2005-05-31",
+            "type": "rebalance",
+            "description": "定期リバランス: テック復活の兆し",
+            "addedCount": 28,
+            "removedCount": 18,
+            "notes": "米国: Apple (AAPL) 時価総額増加。iPod成功でテックへの再注目。日本: ITバブル後のソニー、松下電器の復調。"
         }
     ],
-    "lastUpdated": "2026-01-15"
+    "lastUpdated": "2026-01-27"
 }
