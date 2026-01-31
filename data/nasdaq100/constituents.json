@@ -1,713 +1,713 @@
 {
-    "lastUpdated": "2026-01-30",
+    "lastUpdated": "2026-01-31",
     "totalConstituents": 101,
     "constituents": [
         {
             "ticker": "NVDA",
             "name": "Nvidia",
             "sector": "Unknown",
-            "weight": 11.9616,
-            "price": 192.50999450683594
+            "weight": 11.9692,
+            "price": 191.1300048828125
         },
         {
             "ticker": "GOOGL",
             "name": "Alphabet Inc. (Class A)",
             "sector": "Unknown",
-            "weight": 10.4556,
-            "price": 338.25
+            "weight": 10.53,
+            "price": 338.0
         },
         {
             "ticker": "GOOG",
             "name": "Alphabet Inc. (Class C)",
             "sector": "Unknown",
-            "weight": 10.4335,
-            "price": 338.6600036621094
+            "weight": 10.5114,
+            "price": 338.5299987792969
         },
         {
             "ticker": "AAPL",
             "name": "Apple Inc.",
             "sector": "Unknown",
-            "weight": 9.7398,
-            "price": 258.2799987792969
+            "weight": 9.8619,
+            "price": 259.4800109863281
         },
         {
             "ticker": "MSFT",
             "name": "Microsoft",
             "sector": "Unknown",
-            "weight": 8.2151,
-            "price": 433.5
+            "weight": 8.2184,
+            "price": 430.2900085449219
         },
         {
             "ticker": "AMZN",
             "name": "Amazon",
             "sector": "Unknown",
-            "weight": 6.5949,
-            "price": 241.72999572753906
+            "weight": 6.5799,
+            "price": 239.3000030517578
         },
         {
             "ticker": "META",
             "name": "Meta Platforms",
             "sector": "Unknown",
-            "weight": 4.7662,
-            "price": 738.3099975585938
-        },
-        {
-            "ticker": "AVGO",
-            "name": "Broadcom",
-            "sector": "Unknown",
-            "weight": 4.0018,
-            "price": 330.7300109863281
+            "weight": 4.6618,
+            "price": 716.5
         },
         {
             "ticker": "TSLA",
             "name": "Tesla, Inc.",
             "sector": "Unknown",
-            "weight": 3.9892,
-            "price": 416.55999755859375
+            "weight": 4.1542,
+            "price": 430.4100036621094
+        },
+        {
+            "ticker": "AVGO",
+            "name": "Broadcom",
+            "sector": "Unknown",
+            "weight": 4.0402,
+            "price": 331.29998779296875
         },
         {
             "ticker": "WMT",
             "name": "Walmart",
             "sector": "Unknown",
-            "weight": 2.389,
-            "price": 117.41000366210938
+            "weight": 2.4432,
+            "price": 119.13999938964844
         },
         {
             "ticker": "ASML",
             "name": "ASML Holding",
             "sector": "Unknown",
-            "weight": 1.4415,
-            "price": 1455.1600341796875
+            "weight": 1.4207,
+            "price": 1423.0
         },
         {
             "ticker": "MU",
             "name": "Micron Technology",
             "sector": "Unknown",
-            "weight": 1.2518,
-            "price": 435.7900085449219
+            "weight": 1.2011,
+            "price": 414.8800048828125
         },
         {
             "ticker": "COST",
             "name": "Costco",
             "sector": "Unknown",
-            "weight": 1.0796,
-            "price": 952.8900146484375
+            "weight": 1.0737,
+            "price": 940.25
         },
         {
             "ticker": "AMD",
             "name": "Advanced Micro Devices",
             "sector": "Unknown",
-            "weight": 1.0478,
-            "price": 252.17999267578125
-        },
-        {
-            "ticker": "PLTR",
-            "name": "Palantir Technologies",
-            "sector": "Unknown",
-            "weight": 0.9237,
-            "price": 151.86000061035156
+            "weight": 0.9913,
+            "price": 236.72999572753906
         },
         {
             "ticker": "NFLX",
             "name": "Netflix, Inc.",
             "sector": "Unknown",
-            "weight": 0.9003,
-            "price": 83.16000366210938
+            "weight": 0.9109,
+            "price": 83.48999786376953
         },
         {
-            "ticker": "LRCX",
-            "name": "Lam Research",
+            "ticker": "PLTR",
+            "name": "Palantir Technologies",
             "sector": "Unknown",
-            "weight": 0.7924,
-            "price": 248.1699981689453
+            "weight": 0.8987,
+            "price": 146.58999633789062
         },
         {
             "ticker": "CSCO",
             "name": "Cisco",
             "sector": "Unknown",
-            "weight": 0.7908,
-            "price": 78.43000030517578
+            "weight": 0.7959,
+            "price": 78.31999969482422
+        },
+        {
+            "ticker": "LRCX",
+            "name": "Lam Research",
+            "sector": "Unknown",
+            "weight": 0.7513,
+            "price": 233.4600067138672
         },
         {
             "ticker": "AMAT",
             "name": "Applied Materials",
             "sector": "Unknown",
-            "weight": 0.6914,
-            "price": 341.3399963378906
+            "weight": 0.658,
+            "price": 322.32000732421875
         },
         {
             "ticker": "INTC",
             "name": "Intel",
             "sector": "Unknown",
-            "weight": 0.6203,
-            "price": 48.65999984741211
-        },
-        {
-            "ticker": "KLAC",
-            "name": "KLA Corporation",
-            "sector": "Unknown",
-            "weight": 0.5662,
-            "price": 1684.7099609375
-        },
-        {
-            "ticker": "LIN",
-            "name": "Linde plc",
-            "sector": "Unknown",
-            "weight": 0.5445,
-            "price": 455.0
+            "weight": 0.5971,
+            "price": 46.470001220703125
         },
         {
             "ticker": "TMUS",
             "name": "T-Mobile US",
             "sector": "Unknown",
-            "weight": 0.5436,
-            "price": 189.27999877929688
+            "weight": 0.5709,
+            "price": 197.2100067138672
+        },
+        {
+            "ticker": "LIN",
+            "name": "Linde plc",
+            "sector": "Unknown",
+            "weight": 0.5511,
+            "price": 456.9700012207031
         },
         {
             "ticker": "PEP",
             "name": "PepsiCo",
             "sector": "Unknown",
-            "weight": 0.5195,
-            "price": 148.69000244140625
+            "weight": 0.541,
+            "price": 153.6300048828125
         },
         {
             "ticker": "TXN",
             "name": "Texas Instruments",
             "sector": "Unknown",
-            "weight": 0.5078,
-            "price": 218.97000122070312
+            "weight": 0.5038,
+            "price": 215.5500030517578
         },
         {
-            "ticker": "APP",
-            "name": "AppLovin",
+            "ticker": "KLAC",
+            "name": "KLA Corporation",
             "sector": "Unknown",
-            "weight": 0.4914,
-            "price": 569.239990234375
-        },
-        {
-            "ticker": "SHOP",
-            "name": "Shopify",
-            "sector": "Unknown",
-            "weight": 0.4772,
-            "price": 143.63999938964844
+            "weight": 0.4837,
+            "price": 1427.93994140625
         },
         {
             "ticker": "AMGN",
             "name": "Amgen",
             "sector": "Unknown",
-            "weight": 0.4713,
-            "price": 342.94000244140625
+            "weight": 0.4735,
+            "price": 341.8800048828125
         },
         {
             "ticker": "ISRG",
             "name": "Intuitive Surgical",
             "sector": "Unknown",
-            "weight": 0.4643,
-            "price": 507.54998779296875
+            "weight": 0.4649,
+            "price": 504.2200012207031
         },
         {
             "ticker": "GILD",
             "name": "Gilead Sciences",
             "sector": "Unknown",
-            "weight": 0.4419,
-            "price": 139.5500030517578
+            "weight": 0.453,
+            "price": 141.9499969482422
         },
         {
-            "ticker": "BKNG",
-            "name": "Booking Holdings",
+            "ticker": "SHOP",
+            "name": "Shopify",
             "sector": "Unknown",
-            "weight": 0.4229,
-            "price": 5113.31982421875
+            "weight": 0.4394,
+            "price": 131.22999572753906
         },
         {
             "ticker": "QCOM",
             "name": "Qualcomm",
             "sector": "Unknown",
-            "weight": 0.4161,
-            "price": 152.22000122070312
+            "weight": 0.4176,
+            "price": 151.58999633789062
         },
         {
-            "ticker": "ADI",
-            "name": "Analog Devices",
+            "ticker": "BKNG",
+            "name": "Booking Holdings",
             "sector": "Unknown",
-            "weight": 0.3983,
-            "price": 318.70001220703125
+            "weight": 0.417,
+            "price": 5001.83984375
+        },
+        {
+            "ticker": "APP",
+            "name": "AppLovin",
+            "sector": "Unknown",
+            "weight": 0.4116,
+            "price": 473.1099853515625
         },
         {
             "ticker": "HON",
             "name": "Honeywell",
             "sector": "Unknown",
-            "weight": 0.3908,
-            "price": 227.24000549316406
+            "weight": 0.3944,
+            "price": 227.52000427246094
+        },
+        {
+            "ticker": "ADI",
+            "name": "Analog Devices",
+            "sector": "Unknown",
+            "weight": 0.3915,
+            "price": 310.8800048828125
         },
         {
             "ticker": "PDD",
             "name": "PDD Holdings",
             "sector": "Unknown",
-            "weight": 0.3721,
-            "price": 102.69999694824219
+            "weight": 0.369,
+            "price": 101.05000305175781
         },
         {
             "ticker": "INTU",
             "name": "Intuit",
             "sector": "Unknown",
-            "weight": 0.3574,
-            "price": 502.9800109863281
+            "weight": 0.3573,
+            "price": 498.9200134277344
         },
         {
             "ticker": "PANW",
             "name": "Palo Alto Networks",
             "sector": "Unknown",
-            "weight": 0.3134,
-            "price": 176.1999969482422
+            "weight": 0.3173,
+            "price": 176.97000122070312
         },
         {
             "ticker": "ADBE",
             "name": "Adobe Inc.",
             "sector": "Unknown",
-            "weight": 0.3116,
-            "price": 291.6499938964844
+            "weight": 0.3157,
+            "price": 293.25
         },
         {
             "ticker": "VRTX",
             "name": "Vertex Pharmaceuticals",
             "sector": "Unknown",
-            "weight": 0.3112,
-            "price": 475.67999267578125
+            "weight": 0.3099,
+            "price": 469.8999938964844
         },
         {
             "ticker": "CMCSA",
             "name": "Comcast",
             "sector": "Unknown",
-            "weight": 0.2941,
-            "price": 29.239999771118164
+            "weight": 0.3016,
+            "price": 29.75
         },
         {
             "ticker": "ARM",
             "name": "Arm Holdings",
             "sector": "Unknown",
-            "weight": 0.2936,
-            "price": 108.43000030517578
-        },
-        {
-            "ticker": "MELI",
-            "name": "Mercado Libre",
-            "sector": "Unknown",
-            "weight": 0.287,
-            "price": 2218.139892578125
+            "weight": 0.2875,
+            "price": 105.36000061035156
         },
         {
             "ticker": "CRWD",
             "name": "CrowdStrike",
             "sector": "Unknown",
-            "weight": 0.2861,
-            "price": 444.6199951171875
+            "weight": 0.2862,
+            "price": 441.4049987792969
+        },
+        {
+            "ticker": "MELI",
+            "name": "Mercado Libre",
+            "sector": "Unknown",
+            "weight": 0.2801,
+            "price": 2147.7900390625
         },
         {
             "ticker": "SBUX",
             "name": "Starbucks",
             "sector": "Unknown",
-            "weight": 0.273,
-            "price": 93.87999725341797
+            "weight": 0.2695,
+            "price": 91.94999694824219
         },
         {
             "ticker": "CEG",
             "name": "Constellation Energy",
             "sector": "Unknown",
-            "weight": 0.2658,
-            "price": 287.45001220703125
+            "weight": 0.2616,
+            "price": 280.67999267578125
         },
         {
             "ticker": "ADP",
             "name": "Automatic Data Processing",
             "sector": "Unknown",
-            "weight": 0.2539,
-            "price": 245.97000122070312
-        },
-        {
-            "ticker": "STX",
-            "name": "Seagate Technology",
-            "sector": "Unknown",
-            "weight": 0.2483,
-            "price": 446.57000732421875
-        },
-        {
-            "ticker": "WDC",
-            "name": "Western Digital",
-            "sector": "Unknown",
-            "weight": 0.2436,
-            "price": 278.4100036621094
+            "weight": 0.2568,
+            "price": 246.82000732421875
         },
         {
             "ticker": "SNPS",
             "name": "Synopsys",
             "sector": "Unknown",
-            "weight": 0.2344,
-            "price": 480.0
+            "weight": 0.2289,
+            "price": 465.1199951171875
+        },
+        {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Unknown",
+            "weight": 0.2285,
+            "price": 407.69000244140625
         },
         {
             "ticker": "DASH",
             "name": "DoorDash",
             "sector": "Unknown",
-            "weight": 0.2284,
-            "price": 207.67999267578125
+            "weight": 0.2268,
+            "price": 204.6199951171875
+        },
+        {
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Unknown",
+            "weight": 0.2206,
+            "price": 250.22999572753906
         },
         {
             "ticker": "MAR",
             "name": "Marriott International",
             "sector": "Unknown",
-            "weight": 0.2215,
-            "price": 319.7699890136719
+            "weight": 0.2201,
+            "price": 315.29998779296875
         },
         {
             "ticker": "ORLY",
             "name": "O'Reilly Automotive",
             "sector": "Unknown",
-            "weight": 0.2134,
-            "price": 98.8499984741211
+            "weight": 0.2141,
+            "price": 98.41000366210938
         },
         {
             "ticker": "CDNS",
             "name": "Cadence Design Systems",
             "sector": "Unknown",
-            "weight": 0.2105,
-            "price": 302.6700134277344
+            "weight": 0.2077,
+            "price": 296.3599853515625
         },
         {
             "ticker": "ABNB",
             "name": "Airbnb",
             "sector": "Unknown",
-            "weight": 0.2059,
-            "price": 131.77000427246094
-        },
-        {
-            "ticker": "REGN",
-            "name": "Regeneron Pharmaceuticals",
-            "sector": "Unknown",
-            "weight": 0.2027,
-            "price": 749.4400024414062
+            "weight": 0.2037,
+            "price": 129.3699951171875
         },
         {
             "ticker": "MNST",
             "name": "Monster Beverage",
             "sector": "Unknown",
-            "weight": 0.1996,
-            "price": 80.04000091552734
+            "weight": 0.203,
+            "price": 80.76000213623047
+        },
+        {
+            "ticker": "REGN",
+            "name": "Regeneron Pharmaceuticals",
+            "sector": "Unknown",
+            "weight": 0.2021,
+            "price": 741.4500122070312
         },
         {
             "ticker": "CTAS",
             "name": "Cintas",
             "sector": "Unknown",
-            "weight": 0.1945,
-            "price": 189.64999389648438
+            "weight": 0.1978,
+            "price": 191.38999938964844
         },
         {
             "ticker": "MDLZ",
             "name": "Mondelez International",
             "sector": "Unknown",
-            "weight": 0.1893,
-            "price": 57.310001373291016
+            "weight": 0.1946,
+            "price": 58.470001220703125
         },
         {
             "ticker": "CSX",
             "name": "CSX Corporation",
             "sector": "Unknown",
-            "weight": 0.1802,
-            "price": 37.869998931884766
-        },
-        {
-            "ticker": "MRVL",
-            "name": "Marvell Technology",
-            "sector": "Unknown",
-            "weight": 0.179,
-            "price": 81.33999633789062
+            "weight": 0.1811,
+            "price": 37.7599983215332
         },
         {
             "ticker": "WBD",
             "name": "Warner Bros. Discovery",
             "sector": "Unknown",
-            "weight": 0.1746,
-            "price": 27.600000381469727
+            "weight": 0.1756,
+            "price": 27.540000915527344
+        },
+        {
+            "ticker": "MRVL",
+            "name": "Marvell Technology",
+            "sector": "Unknown",
+            "weight": 0.175,
+            "price": 78.91999816894531
         },
         {
             "ticker": "PCAR",
             "name": "Paccar",
             "sector": "Unknown",
-            "weight": 0.1654,
-            "price": 123.31999969482422
+            "weight": 0.1661,
+            "price": 122.91000366210938
         },
         {
             "ticker": "AEP",
             "name": "American Electric Power",
             "sector": "Unknown",
-            "weight": 0.1628,
-            "price": 119.20999908447266
+            "weight": 0.1649,
+            "price": 119.77999877929688
         },
         {
             "ticker": "FTNT",
             "name": "Fortinet",
             "sector": "Unknown",
-            "weight": 0.1594,
-            "price": 81.51000213623047
+            "weight": 0.1602,
+            "price": 81.26000213623047
         },
         {
             "ticker": "ROST",
             "name": "Ross Stores",
             "sector": "Unknown",
-            "weight": 0.1548,
-            "price": 186.5
+            "weight": 0.1578,
+            "price": 188.64999389648438
         },
         {
             "ticker": "NXPI",
             "name": "NXP Semiconductors",
             "sector": "Unknown",
-            "weight": 0.1502,
-            "price": 233.5
-        },
-        {
-            "ticker": "MPWR",
-            "name": "Monolithic Power Systems",
-            "sector": "Unknown",
-            "weight": 0.1447,
-            "price": 1183.1500244140625
+            "weight": 0.1466,
+            "price": 226.13999938964844
         },
         {
             "ticker": "BKR",
             "name": "Baker Hughes",
             "sector": "Unknown",
-            "weight": 0.1429,
-            "price": 56.72999954223633
+            "weight": 0.1422,
+            "price": 56.040000915527344
         },
         {
             "ticker": "ADSK",
             "name": "Autodesk",
             "sector": "Unknown",
-            "weight": 0.139,
-            "price": 255.67999267578125
+            "weight": 0.1385,
+            "price": 252.8699951171875
+        },
+        {
+            "ticker": "MPWR",
+            "name": "Monolithic Power Systems",
+            "sector": "Unknown",
+            "weight": 0.1385,
+            "price": 1124.1500244140625
         },
         {
             "ticker": "IDXX",
             "name": "Idexx Laboratories",
             "sector": "Unknown",
-            "weight": 0.1382,
-            "price": 676.7100219726562
+            "weight": 0.138,
+            "price": 670.4600219726562
         },
         {
             "ticker": "EA",
             "name": "Electronic Arts",
             "sector": "Unknown",
-            "weight": 0.1302,
-            "price": 203.9499969482422
-        },
-        {
-            "ticker": "TRI",
-            "name": "Thomson Reuters",
-            "sector": "Unknown",
-            "weight": 0.1301,
-            "price": 112.76000213623047
+            "weight": 0.1312,
+            "price": 203.9199981689453
         },
         {
             "ticker": "PYPL",
             "name": "PayPal",
             "sector": "Unknown",
             "weight": 0.1295,
-            "price": 53.11000061035156
+            "price": 52.689998626708984
+        },
+        {
+            "ticker": "TRI",
+            "name": "Thomson Reuters",
+            "sector": "Unknown",
+            "weight": 0.1286,
+            "price": 110.62999725341797
         },
         {
             "ticker": "FAST",
             "name": "Fastenal",
             "sector": "Unknown",
-            "weight": 0.1269,
-            "price": 43.31999969482422
+            "weight": 0.128,
+            "price": 43.36000061035156
         },
         {
             "ticker": "FER",
             "name": "Ferrovial",
             "sector": "Unknown",
-            "weight": 0.1242,
-            "price": 68.11000061035156
+            "weight": 0.125,
+            "price": 67.98999786376953
         },
         {
             "ticker": "FANG",
             "name": "Diamondback Energy",
             "sector": "Unknown",
-            "weight": 0.1205,
-            "price": 163.07000732421875
+            "weight": 0.1221,
+            "price": 163.9499969482422
         },
         {
             "ticker": "WDAY",
             "name": "Workday, Inc.",
             "sector": "Unknown",
-            "weight": 0.119,
-            "price": 174.66000366210938
-        },
-        {
-            "ticker": "ALNY",
-            "name": "Alnylam Pharmaceuticals",
-            "sector": "Unknown",
-            "weight": 0.1169,
-            "price": 346.7900085449219
+            "weight": 0.1206,
+            "price": 175.6300048828125
         },
         {
             "ticker": "DDOG",
             "name": "Datadog",
             "sector": "Unknown",
-            "weight": 0.1147,
-            "price": 128.17999267578125
-        },
-        {
-            "ticker": "XEL",
-            "name": "Xcel Energy",
-            "sector": "Unknown",
-            "weight": 0.1147,
-            "price": 75.97000122070312
+            "weight": 0.1166,
+            "price": 129.32000732421875
         },
         {
             "ticker": "EXC",
             "name": "Exelon",
             "sector": "Unknown",
-            "weight": 0.1145,
-            "price": 44.40999984741211
+            "weight": 0.1163,
+            "price": 44.779998779296875
         },
         {
-            "ticker": "TTWO",
-            "name": "Take-Two Interactive",
+            "ticker": "XEL",
+            "name": "Xcel Energy",
             "sector": "Unknown",
-            "weight": 0.1128,
-            "price": 239.27000427246094
+            "weight": 0.1157,
+            "price": 76.05999755859375
         },
         {
-            "ticker": "MCHP",
-            "name": "Microchip Technology",
+            "ticker": "ALNY",
+            "name": "Alnylam Pharmaceuticals",
             "sector": "Unknown",
-            "weight": 0.1095,
-            "price": 79.36000061035156
-        },
-        {
-            "ticker": "CCEP",
-            "name": "Coca-Cola Europacific Partners",
-            "sector": "Unknown",
-            "weight": 0.1062,
-            "price": 91.22000122070312
+            "weight": 0.1149,
+            "price": 338.05999755859375
         },
         {
             "ticker": "MSTR",
             "name": "MicroStrategy",
             "sector": "Unknown",
-            "weight": 0.1057,
-            "price": 143.19000244140625
+            "weight": 0.1114,
+            "price": 149.7100067138672
         },
         {
-            "ticker": "AXON",
-            "name": "Axon Enterprise",
+            "ticker": "CCEP",
+            "name": "Coca-Cola Europacific Partners",
             "sector": "Unknown",
-            "weight": 0.1033,
-            "price": 509.5799865722656
+            "weight": 0.1076,
+            "price": 91.69999694824219
+        },
+        {
+            "ticker": "MCHP",
+            "name": "Microchip Technology",
+            "sector": "Unknown",
+            "weight": 0.1055,
+            "price": 75.91999816894531
+        },
+        {
+            "ticker": "TTWO",
+            "name": "Take-Two Interactive",
+            "sector": "Unknown",
+            "weight": 0.1047,
+            "price": 220.3000030517578
         },
         {
             "ticker": "CTSH",
             "name": "Cognizant",
             "sector": "Unknown",
-            "weight": 0.1028,
-            "price": 82.44999694824219
+            "weight": 0.1031,
+            "price": 82.05999755859375
         },
         {
             "ticker": "ROP",
             "name": "Roper Technologies",
             "sector": "Unknown",
-            "weight": 0.1003,
-            "price": 365.0
+            "weight": 0.1028,
+            "price": 371.2300109863281
         },
         {
             "ticker": "CPRT",
             "name": "Copart",
             "sector": "Unknown",
-            "weight": 0.0995,
-            "price": 40.279998779296875
+            "weight": 0.101,
+            "price": 40.58000183105469
         },
         {
-            "ticker": "PAYX",
-            "name": "Paychex",
+            "ticker": "AXON",
+            "name": "Axon Enterprise",
             "sector": "Unknown",
-            "weight": 0.0937,
-            "price": 102.2300033569336
+            "weight": 0.0988,
+            "price": 483.5799865722656
         },
         {
             "ticker": "KDP",
             "name": "Keurig Dr Pepper",
             "sector": "Unknown",
-            "weight": 0.093,
-            "price": 26.81999969482422
+            "weight": 0.0959,
+            "price": 27.440000534057617
+        },
+        {
+            "ticker": "PAYX",
+            "name": "Paychex",
+            "sector": "Unknown",
+            "weight": 0.0952,
+            "price": 103.12999725341797
         },
         {
             "ticker": "ODFL",
             "name": "Old Dominion Freight Line",
             "sector": "Unknown",
-            "weight": 0.0926,
-            "price": 172.58999633789062
+            "weight": 0.0936,
+            "price": 173.1999969482422
         },
         {
             "ticker": "GEHC",
             "name": "GE HealthCare",
             "sector": "Unknown",
-            "weight": 0.0918,
-            "price": 78.77999877929688
+            "weight": 0.0927,
+            "price": 78.97000122070312
         },
         {
             "ticker": "INSM",
             "name": "Insmed Incorporated",
             "sector": "Unknown",
-            "weight": 0.0859,
-            "price": 157.82000732421875
+            "weight": 0.0861,
+            "price": 156.8699951171875
         },
         {
             "ticker": "ZS",
             "name": "Zscaler",
             "sector": "Unknown",
-            "weight": 0.0817,
-            "price": 200.6300048828125
+            "weight": 0.082,
+            "price": 200.00999450683594
         },
         {
             "ticker": "TEAM",
             "name": "Atlassian",
             "sector": "Unknown",
-            "weight": 0.0809,
-            "price": 120.37999725341797
+            "weight": 0.08,
+            "price": 118.18000030517578
         },
         {
             "ticker": "VRSK",
             "name": "Verisk Analytics",
             "sector": "Unknown",
-            "weight": 0.0772,
-            "price": 216.58999633789062
+            "weight": 0.0781,
+            "price": 217.4600067138672
         },
         {
             "ticker": "DXCM",
             "name": "DexCom",
             "sector": "Unknown",
-            "weight": 0.0741,
-            "price": 74.0
+            "weight": 0.0737,
+            "price": 73.04000091552734
+        },
+        {
+            "ticker": "CHTR",
+            "name": "Charter Communications",
+            "sector": "Unknown",
+            "weight": 0.0724,
+            "price": 206.1199951171875
         },
         {
             "ticker": "KHC",
             "name": "Kraft Heinz",
             "sector": "Unknown",
-            "weight": 0.0699,
-            "price": 23.139999389648438
+            "weight": 0.0723,
+            "price": 23.739999771118164
         },
         {
             "ticker": "CSGP",
             "name": "CoStar Group",
             "sector": "Unknown",
             "weight": 0.067,
-            "price": 61.93000030517578
-        },
-        {
-            "ticker": "CHTR",
-            "name": "Charter Communications",
-            "sector": "Unknown",
-            "weight": 0.0668,
-            "price": 191.52000427246094
+            "price": 61.5
         }
     ],
     "sectors": {
