@@ -1,19 +1,19 @@
 {
-    "lastUpdated": "2026-02-14",
+    "lastUpdated": "2026-02-15",
     "totalConstituents": 503,
     "constituents": [
         {
             "ticker": "NVDA",
             "name": "Nvidia",
             "sector": "Information Technology",
-            "weight": 6.7325,
+            "weight": 6.7324,
             "price": 182.80999755859375
         },
         {
             "ticker": "AAPL",
             "name": "Apple Inc.",
             "sector": "Information Technology",
-            "weight": 5.6866,
+            "weight": 5.6865,
             "price": 255.77999877929688
         },
         {
@@ -27,14 +27,14 @@
             "ticker": "GOOGL",
             "name": "Alphabet Inc. (Class A)",
             "sector": "Communication Services",
-            "weight": 5.5942,
+            "weight": 5.5941,
             "price": 305.7200012207031
         },
         {
             "ticker": "MSFT",
             "name": "Microsoft",
             "sector": "Information Technology",
-            "weight": 4.5118,
+            "weight": 4.5117,
             "price": 401.32000732421875
         },
         {
@@ -62,7 +62,7 @@
             "ticker": "AVGO",
             "name": "Broadcom",
             "sector": "Information Technology",
-            "weight": 2.3321,
+            "weight": 2.332,
             "price": 325.1700134277344
         },
         {
@@ -97,7 +97,7 @@
             "ticker": "XOM",
             "name": "ExxonMobil",
             "sector": "Energy",
-            "weight": 0.947,
+            "weight": 0.9469,
             "price": 148.4499969482422
         },
         {
@@ -139,7 +139,7 @@
             "ticker": "COST",
             "name": "Costco",
             "sector": "Consumer Staples",
-            "weight": 0.684,
+            "weight": 0.6839,
             "price": 1018.47998046875
         },
         {
@@ -153,7 +153,7 @@
             "ticker": "HD",
             "name": "Home Depot (The)",
             "sector": "Consumer Discretionary",
-            "weight": 0.5889,
+            "weight": 0.5888,
             "price": 391.04998779296875
         },
         {
@@ -167,7 +167,7 @@
             "ticker": "PG",
             "name": "Procter & Gamble",
             "sector": "Consumer Staples",
-            "weight": 0.5667,
+            "weight": 0.5658,
             "price": 160.07000732421875
         },
         {
@@ -188,7 +188,7 @@
             "ticker": "KO",
             "name": "Coca-Cola Company (The)",
             "sector": "Consumer Staples",
-            "weight": 0.512,
+            "weight": 0.5119,
             "price": 78.68000030517578
         },
         {
@@ -202,7 +202,7 @@
             "ticker": "GE",
             "name": "GE Aerospace",
             "sector": "Industrials",
-            "weight": 0.5033,
+            "weight": 0.5032,
             "price": 315.4100036621094
         },
         {
@@ -272,7 +272,7 @@
             "ticker": "MS",
             "name": "Morgan Stanley",
             "sector": "Financials",
-            "weight": 0.4115,
+            "weight": 0.4114,
             "price": 171.14999389648438
         },
         {
@@ -1277,6 +1277,13 @@
             "price": 120.7300033569336
         },
         {
+            "ticker": "TRV",
+            "name": "Travelers Companies (The)",
+            "sector": "Financials",
+            "weight": 0.0993,
+            "price": 294.2099914550781
+        },
+        {
             "ticker": "FTNT",
             "name": "Fortinet",
             "sector": "Information Technology",
@@ -1303,13 +1310,6 @@
             "sector": "Consumer Discretionary",
             "weight": 0.0971,
             "price": 3858.159912109375
-        },
-        {
-            "ticker": "TRV",
-            "name": "Travelers Companies (The)",
-            "sector": "Financials",
-            "weight": 0.0968,
-            "price": 294.2099914550781
         },
         {
             "ticker": "ROST",
@@ -2208,18 +2208,18 @@
             "price": 24.799999237060547
         },
         {
-            "ticker": "ON",
-            "name": "ON Semiconductor",
-            "sector": "Information Technology",
-            "weight": 0.044,
-            "price": 72.20999908447266
-        },
-        {
             "ticker": "TSCO",
             "name": "Tractor Supply",
             "sector": "Consumer Discretionary",
             "weight": 0.044,
             "price": 55.029998779296875
+        },
+        {
+            "ticker": "ON",
+            "name": "ON Semiconductor",
+            "sector": "Information Technology",
+            "weight": 0.0439,
+            "price": 72.20999908447266
         },
         {
             "ticker": "FE",
@@ -2579,18 +2579,18 @@
             "price": 282.6300048828125
         },
         {
+            "ticker": "BRO",
+            "name": "Brown & Brown",
+            "sector": "Financials",
+            "weight": 0.0354,
+            "price": 68.47000122070312
+        },
+        {
             "ticker": "Q",
             "name": "Qnity Electronics",
             "sector": "Information Technology",
             "weight": 0.0354,
             "price": 111.69000244140625
-        },
-        {
-            "ticker": "BRO",
-            "name": "Brown & Brown",
-            "sector": "Financials",
-            "weight": 0.0353,
-            "price": 68.47000122070312
         },
         {
             "ticker": "DOW",
@@ -3528,7 +3528,7 @@
         "Information Technology": 29.58,
         "Communication Services": 16.14,
         "Consumer Discretionary": 9.88,
-        "Financials": 12.32,
+        "Financials": 12.33,
         "Consumer Staples": 5.74,
         "Health Care": 8.94,
         "Energy": 3.11,
