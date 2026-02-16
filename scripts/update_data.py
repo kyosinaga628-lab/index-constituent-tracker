@@ -1,5 +1,5 @@
 import pandas as pd
-import yfinance as yf
+from yahooquery import Ticker
 import json
 import os
 import datetime
@@ -16,20 +16,26 @@ def get_html_with_ua(url):
     return response.text
 
 def get_sp500_tickers():
+    print("Fetching S&P 500 list from Wikipedia...")
     url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
     html = get_html_with_ua(url)
     tables = pd.read_html(html)
     df = tables[0]
     tickers = df['Symbol'].tolist()
-    # Normalize tickers for yfinance (e.g. BRK.B -> BRK-B)
+    # Normalize tickers for yfinance/yahooquery (e.g. BRK.B -> BRK-B)
     tickers = [t.replace('.', '-') for t in tickers]
+    
+    # We can also get sector from Wiki, but let's try to get live from Yahoo if possible, 
+    # or fallback to Wiki. Wiki is reliable for sector.
     return tickers, df.set_index('Symbol')['Security'].to_dict(), df.set_index('Symbol')['GICS Sector'].to_dict()
 
 def get_nasdaq100_tickers():
+    print("Fetching NASDAQ 100 list from Wikipedia...")
     url = "https://en.wikipedia.org/wiki/Nasdaq-100"
     html = get_html_with_ua(url)
     tables = pd.read_html(html)
-    # The table index varies, usually the one with "Ticker" is correct
+    
+    df = None
     for table in tables:
         if 'Ticker' in table.columns:
             df = table
@@ -37,6 +43,9 @@ def get_nasdaq100_tickers():
         if 'Symbol' in table.columns:
             df = table
             break
+            
+    if df is None:
+        raise ValueError("Could not find NASDAQ 100 table")
     
     tickers = df['Ticker'].tolist() if 'Ticker' in df.columns else df['Symbol'].tolist()
     names = df['Company'].tolist()
@@ -45,32 +54,77 @@ def get_nasdaq100_tickers():
     return tickers, ticker_map
 
 def fetch_market_data(tickers):
-    print(f"Fetching data for {len(tickers)} tickers...")
-    # Chunking to avoid URL too long error or rate limits
+    print(f"Fetching data for {len(tickers)} tickers using yahooquery...")
+    
+    # yahooquery handles batching efficiently
+    # It sends requests for all tickers. 
+    # To be safe with large lists, we can chunk if needed, but 500 might work in one go or yahooquery splits it.
+    # yahooquery usually handles chunks of 100-250 internally or via configuration.
+    # Let's chunk manually to be safe and show progress.
+    
     chunk_size = 50
     all_data = []
     
     for i in range(0, len(tickers), chunk_size):
         chunk = tickers[i:i+chunk_size]
+        print(f"Processing chunk {i//chunk_size + 1}/{(len(tickers)-1)//chunk_size + 1}...")
+        
         try:
-            # multiple tickers separated by space
-            tickers_str = " ".join(chunk)
-            info = yf.Tickers(tickers_str)
+            yq = Ticker(chunk)
+            
+            # summary_detail gives price and market cap
+            # price is 'regularMarketPrice' or 'previousClose' if market closed? 
+            # 'regularMarketPrice' is usually available.
+            
+            # summary_profile gives sector
+            
+            # We need to fetch modules. 
+            # Note: Ticker(...).price is a property that fetches price module.
+            # Ticker(...).summary_profile fetches profile.
+            
+            # Let's fetch all needed modules in one go if possible, or access properties
+            # yq.get_modules(['summaryDetail', 'summaryProfile', 'price'])
+            
+            data = yq.get_modules(['summaryDetail', 'price', 'summaryProfile'])
+            
+            # data is a dict keyed by ticker
             
             for ticker in chunk:
                 try:
-                    obj = info.tickers[ticker]
-                    # We need Market Cap for weighting
-                    # fast_info is faster
-                    mcap = obj.fast_info['marketCap']
-                    price = obj.fast_info['lastPrice']
-                    all_data.append({
-                        'ticker': ticker,
-                        'marketCap': mcap,
-                        'price': price
-                    })
+                    # data[ticker] might be a string (error) or dict
+                    if isinstance(data.get(ticker), str):
+                        print(f"Error for {ticker}: {data[ticker]}")
+                        continue
+                        
+                    quote_type = data[ticker].get('quoteType', {}) # sometimes implies validity
+                    price_module = data[ticker].get('price', {})
+                    summary_detail = data[ticker].get('summaryDetail', {})
+                    summary_profile = data[ticker].get('summaryProfile', {})
+                    
+                    # prioritizing regularMarketPrice
+                    price = price_module.get('regularMarketPrice')
+                    if price is None:
+                        price = summary_detail.get('regularMarketPrice')
+                    if price is None:
+                         price = summary_detail.get('previousClose')
+                         
+                    mcap = summary_detail.get('marketCap')
+                    
+                    sector = summary_profile.get('sector', 'Unknown')
+                    
+                    if mcap is not None and price is not None:
+                        all_data.append({
+                            'ticker': ticker,
+                            'marketCap': mcap,
+                            'price': price,
+                            'sector': sector # Enriched sector data
+                        })
+                    else:
+                        print(f"Missing data for {ticker}")
+
                 except Exception as e:
-                    print(f"Error fetching {ticker}: {e}")
+                    print(f"Error processing {ticker}: {e}")
+                    
         except Exception as e:
             print(f"Batch error: {e}")
             
@@ -79,6 +133,11 @@ def fetch_market_data(tickers):
 def save_constituents(index_name, df_weights, names_map=None, sectors_map=None):
     # Prepare standard JSON format
     constituents = []
+    
+    if df_weights.empty:
+        print(f"No data found for {index_name}")
+        return
+
     total_mcap = df_weights['marketCap'].sum()
     
     for _, row in df_weights.iterrows():
@@ -86,9 +145,13 @@ def save_constituents(index_name, df_weights, names_map=None, sectors_map=None):
         weight = (row['marketCap'] / total_mcap) * 100
         
         name = names_map.get(ticker, ticker) if names_map else ticker
-        sector = sectors_map.get(ticker.replace('-', '.'), 'Unknown') if sectors_map else 'Unknown'
         
-        # NASDAQ sector fix if needed (Wikipedia might not have it in the same table)
+        # Use sector from API if available and valid, else fallback to Wiki map
+        api_sector = row.get('sector')
+        if api_sector and api_sector != 'Unknown':
+             sector = api_sector
+        else:
+             sector = sectors_map.get(ticker.replace('-', '.'), 'Unknown') if sectors_map else 'Unknown'
         
         constituents.append({
             "ticker": ticker,
@@ -111,8 +174,12 @@ def save_constituents(index_name, df_weights, names_map=None, sectors_map=None):
     for s in sector_weights:
         sector_weights[s] = round(sector_weights[s], 2)
 
+    # Timezone: Keeping it simple, just local time str or UTC?
+    # User asked for time. Let's provide standard format.
+    now_str = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
     output = {
-        "lastUpdated": datetime.datetime.now().strftime('%Y-%m-%d'),
+        "lastUpdated": now_str,
         "totalConstituents": len(constituents),
         "constituents": constituents,
         "sectors": sector_weights
@@ -125,7 +192,7 @@ def save_constituents(index_name, df_weights, names_map=None, sectors_map=None):
     with open(os.path.join(dest_dir, 'constituents.json'), 'w', encoding='utf-8') as f:
         json.dump(output, f, indent=4, ensure_ascii=False)
         
-    print(f"Saved {index_name} data.")
+    print(f"Saved {index_name} data. total: {len(constituents)}")
 
 def update_sp500():
     print("Updating S&P 500...")
@@ -137,13 +204,6 @@ def update_nasdaq100():
     print("Updating NASDAQ 100...")
     tickers, names = get_nasdaq100_tickers()
     df = fetch_market_data(tickers)
-    # NASDAQ sectors are tricky from Wikipedia, defaulting to Tech/Growth mixed or fetched from yfinance info if slow
-    # For now, let's try to get sector from yfinance info (slow) or just map later.
-    # To save time, I will set all to 'Technology' or 'Unknown' for now, or improve logic.
-    # Actually, yfinance Ticker object has .info['sector'].
-    
-    # Let's do a quick enrichment
-    # But for speed, I might skip sector for NASDAQ initially or fetch strictly needed ones.
     save_constituents('nasdaq100', df, names)
 
 if __name__ == "__main__":

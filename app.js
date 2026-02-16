@@ -476,14 +476,14 @@ function updateTimeline() {
 
     const changes = state.data[state.currentIndex].changes.changes;
     const typeFilter = document.getElementById('changeTypeFilter').value;
-    const yearFilter = document.getElementById('yearFilter').value;
+    // const yearFilter = document.getElementById('yearFilter').value; // Removed
     const products = state.data.products || {};
 
     // Grouping
     const grouped = {};
     changes.forEach(c => {
         if (typeFilter !== 'all' && c.type !== typeFilter) return;
-        if (yearFilter !== 'all' && !c.date.startsWith(yearFilter)) return;
+        // Filter by year removed
         if (!grouped[c.date]) grouped[c.date] = { changes: [], events: [] };
         grouped[c.date].changes.push(c);
     });
@@ -492,7 +492,7 @@ function updateTimeline() {
         state.data.events.forEach(e => {
             if (e.indices.includes(state.currentIndex)) {
                 const dateKey = `${e.year}-01-01`;
-                if (yearFilter !== 'all' && e.year !== yearFilter) return;
+                // Filter by year removed
                 if (!grouped[dateKey]) grouped[dateKey] = { changes: [], events: [] };
                 grouped[dateKey].events.push(e);
             }
@@ -806,7 +806,7 @@ function setupEventListeners() {
     });
 
     document.getElementById('changeTypeFilter')?.addEventListener('change', updateTimeline);
-    document.getElementById('yearFilter')?.addEventListener('change', updateTimeline);
+    // document.getElementById('yearFilter')?.addEventListener('change', updateTimeline); // Removed
 
     // Sim Input
     const simInput = document.getElementById('investmentAmount');
