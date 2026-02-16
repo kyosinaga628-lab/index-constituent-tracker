@@ -167,6 +167,7 @@ async function initAnalysis(indexName) {
     updateHistoricalComparison();
     updateCountryHistoryComparison();
     updateTimeline();
+    updateLastUpdated();
     updateSimulation(); // Initial sim
 }
 
