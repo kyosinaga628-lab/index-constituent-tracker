@@ -234,6 +234,17 @@ function setupChartDefaults() {
 // UI Update Functions
 // =======================
 
+function updateLastUpdated() {
+    const el = document.getElementById('lastUpdated');
+    if (!el || !state.data[state.currentIndex]) return;
+
+    // Check nested structure
+    const lastUpdated = state.data[state.currentIndex].constituents?.lastUpdated;
+    if (lastUpdated) {
+        el.textContent = `最終更新: ${lastUpdated}`;
+    }
+}
+
 function updateIndexOverview() {
     const container = document.getElementById('indexOverview');
     if (!container || !state.data.metadata) return;
