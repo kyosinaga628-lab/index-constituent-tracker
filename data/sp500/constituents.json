@@ -1,3541 +1,3541 @@
 {
-    "lastUpdated": "2026-02-26 02:40:40",
+    "lastUpdated": "2026-02-27 02:39:43",
     "totalConstituents": 503,
     "constituents": [
         {
             "ticker": "NVDA",
             "name": "Nvidia",
             "sector": "Technology",
-            "weight": 7.0907,
-            "price": 195.56
+            "weight": 6.7437,
+            "price": 184.89
         },
         {
             "ticker": "AAPL",
             "name": "Apple Inc.",
             "sector": "Technology",
-            "weight": 6.0026,
-            "price": 274.23
-        },
-        {
-            "ticker": "GOOG",
-            "name": "Alphabet Inc. (Class C)",
-            "sector": "Communication Services",
-            "weight": 5.6393,
-            "price": 313.03
+            "weight": 6.0101,
+            "price": 272.95
         },
         {
             "ticker": "GOOGL",
             "name": "Alphabet Inc. (Class A)",
             "sector": "Communication Services",
-            "weight": 5.637,
-            "price": 312.9
+            "weight": 5.5705,
+            "price": 307.38
+        },
+        {
+            "ticker": "GOOG",
+            "name": "Alphabet Inc. (Class C)",
+            "sector": "Communication Services",
+            "weight": 5.5663,
+            "price": 307.15
         },
         {
             "ticker": "MSFT",
             "name": "Microsoft",
             "sector": "Technology",
-            "weight": 4.4341,
-            "price": 400.6
+            "weight": 4.4729,
+            "price": 401.72
         },
         {
             "ticker": "AMZN",
             "name": "Amazon",
             "sector": "Consumer Cyclical",
-            "weight": 3.3675,
-            "price": 210.64
+            "weight": 3.3438,
+            "price": 207.92
         },
         {
             "ticker": "META",
             "name": "Meta Platforms",
             "sector": "Communication Services",
-            "weight": 2.4625,
-            "price": 653.69
-        },
-        {
-            "ticker": "AVGO",
-            "name": "Broadcom",
-            "sector": "Technology",
-            "weight": 2.3464,
-            "price": 332.31
+            "weight": 2.4897,
+            "price": 657.01
         },
         {
             "ticker": "TSLA",
             "name": "Tesla, Inc.",
             "sector": "Consumer Cyclical",
-            "weight": 2.3325,
-            "price": 417.4
+            "weight": 2.2968,
+            "price": 408.58
+        },
+        {
+            "ticker": "AVGO",
+            "name": "Broadcom",
+            "sector": "Technology",
+            "weight": 2.285,
+            "price": 321.7
         },
         {
             "ticker": "BRK-B",
             "name": "BRK-B",
             "sector": "Financial Services",
-            "weight": 1.5871,
-            "price": 493.99
+            "weight": 1.6246,
+            "price": 502.67
         },
         {
             "ticker": "WMT",
             "name": "Walmart",
             "sector": "Consumer Defensive",
-            "weight": 1.4931,
-            "price": 125.75
+            "weight": 1.4861,
+            "price": 124.42
         },
         {
             "ticker": "LLY",
             "name": "Lilly (Eli)",
             "sector": "Healthcare",
-            "weight": 1.4454,
-            "price": 1028.83
+            "weight": 1.4444,
+            "price": 1022.02
         },
         {
             "ticker": "JPM",
             "name": "JPMorgan Chase",
             "sector": "Financial Services",
-            "weight": 1.2182,
-            "price": 303.3
+            "weight": 1.2369,
+            "price": 306.13
         },
         {
             "ticker": "XOM",
             "name": "ExxonMobil",
             "sector": "Energy",
-            "weight": 0.925,
-            "price": 149.06
+            "weight": 0.9272,
+            "price": 148.54
         },
         {
             "ticker": "V",
             "name": "Visa Inc.",
             "sector": "Financial Services",
-            "weight": 0.8987,
-            "price": 312.99
+            "weight": 0.9148,
+            "price": 316.7
         },
         {
             "ticker": "JNJ",
             "name": "Johnson & Johnson",
             "sector": "Healthcare",
-            "weight": 0.8799,
-            "price": 245.17
+            "weight": 0.879,
+            "price": 243.47
         },
         {
             "ticker": "MU",
             "name": "Micron Technology",
             "sector": "Technology",
-            "weight": 0.7191,
-            "price": 429.0
+            "weight": 0.7007,
+            "price": 415.56
         },
         {
             "ticker": "MA",
             "name": "Mastercard",
             "sector": "Financial Services",
-            "weight": 0.677,
-            "price": 509.39
+            "weight": 0.6882,
+            "price": 514.77
         },
         {
             "ticker": "COST",
             "name": "Costco",
             "sector": "Consumer Defensive",
-            "weight": 0.6577,
-            "price": 994.76
+            "weight": 0.6563,
+            "price": 986.74
         },
         {
             "ticker": "ORCL",
             "name": "Oracle Corporation",
             "sector": "Technology",
-            "weight": 0.633,
-            "price": 147.89
+            "weight": 0.6472,
+            "price": 150.31
         },
         {
             "ticker": "ABBV",
             "name": "AbbVie",
             "sector": "Healthcare",
-            "weight": 0.5975,
-            "price": 226.92
+            "weight": 0.5952,
+            "price": 224.69
         },
         {
             "ticker": "PG",
             "name": "Procter & Gamble",
             "sector": "Consumer Defensive",
-            "weight": 0.5695,
-            "price": 163.39
+            "weight": 0.5742,
+            "price": 163.75
         },
         {
             "ticker": "BAC",
             "name": "Bank of America",
             "sector": "Financial Services",
-            "weight": 0.5621,
-            "price": 51.69
+            "weight": 0.5722,
+            "price": 52.3
         },
         {
             "ticker": "HD",
             "name": "Home Depot (The)",
             "sector": "Consumer Cyclical",
-            "weight": 0.5568,
-            "price": 375.57
+            "weight": 0.5594,
+            "price": 375.09
         },
         {
             "ticker": "CVX",
             "name": "Chevron Corporation",
             "sector": "Energy",
-            "weight": 0.5485,
-            "price": 184.22
+            "weight": 0.5516,
+            "price": 184.16
         },
         {
             "ticker": "GE",
             "name": "GE Aerospace",
             "sector": "Industrials",
             "weight": 0.5386,
-            "price": 342.89
-        },
-        {
-            "ticker": "CAT",
-            "name": "Caterpillar Inc.",
-            "sector": "Industrials",
-            "weight": 0.5343,
-            "price": 766.61
+            "price": 340.84
         },
         {
             "ticker": "NFLX",
             "name": "Netflix",
             "sector": "Communication Services",
-            "weight": 0.5224,
-            "price": 82.7
+            "weight": 0.5375,
+            "price": 84.59
+        },
+        {
+            "ticker": "CAT",
+            "name": "Caterpillar Inc.",
+            "sector": "Industrials",
+            "weight": 0.5279,
+            "price": 752.93
         },
         {
             "ticker": "KO",
             "name": "Coca-Cola Company (The)",
             "sector": "Consumer Defensive",
-            "weight": 0.5155,
-            "price": 80.47
+            "weight": 0.5188,
+            "price": 80.5
         },
         {
             "ticker": "AMD",
             "name": "Advanced Micro Devices",
             "sector": "Technology",
-            "weight": 0.512,
-            "price": 210.86
+            "weight": 0.4975,
+            "price": 203.68
         },
         {
             "ticker": "PLTR",
             "name": "Palantir Technologies",
             "sector": "Technology",
-            "weight": 0.478,
-            "price": 134.19
-        },
-        {
-            "ticker": "AMAT",
-            "name": "Applied Materials",
-            "sector": "Technology",
-            "weight": 0.4668,
-            "price": 394.95
-        },
-        {
-            "ticker": "LRCX",
-            "name": "Lam Research",
-            "sector": "Technology",
-            "weight": 0.4667,
-            "price": 249.48
+            "weight": 0.4871,
+            "price": 135.94
         },
         {
             "ticker": "CSCO",
             "name": "Cisco",
             "sector": "Technology",
-            "weight": 0.4656,
-            "price": 79.12
+            "weight": 0.4623,
+            "price": 78.1
+        },
+        {
+            "ticker": "LRCX",
+            "name": "Lam Research",
+            "sector": "Technology",
+            "weight": 0.4498,
+            "price": 239.07
+        },
+        {
+            "ticker": "AMAT",
+            "name": "Applied Materials",
+            "sector": "Technology",
+            "weight": 0.4467,
+            "price": 375.72
         },
         {
             "ticker": "MRK",
             "name": "Merck & Co.",
             "sector": "Healthcare",
-            "weight": 0.4555,
-            "price": 122.46
+            "weight": 0.4464,
+            "price": 119.3
         },
         {
             "ticker": "PM",
             "name": "Philip Morris International",
             "sector": "Consumer Defensive",
-            "weight": 0.44,
-            "price": 189.8
-        },
-        {
-            "ticker": "GS",
-            "name": "Goldman Sachs",
-            "sector": "Financial Services",
-            "weight": 0.4154,
-            "price": 921.38
+            "weight": 0.4373,
+            "price": 187.5
         },
         {
             "ticker": "MS",
             "name": "Morgan Stanley",
             "sector": "Financial Services",
-            "weight": 0.4112,
-            "price": 173.73
+            "weight": 0.4226,
+            "price": 177.49
+        },
+        {
+            "ticker": "GS",
+            "name": "Goldman Sachs",
+            "sector": "Financial Services",
+            "weight": 0.4213,
+            "price": 929.0
         },
         {
             "ticker": "WFC",
             "name": "Wells Fargo",
             "sector": "Financial Services",
-            "weight": 0.4056,
-            "price": 86.76
+            "weight": 0.4058,
+            "price": 86.3
         },
         {
             "ticker": "RTX",
             "name": "RTX Corporation",
             "sector": "Industrials",
-            "weight": 0.3918,
-            "price": 195.98
+            "weight": 0.3974,
+            "price": 197.63
         },
         {
             "ticker": "UNH",
             "name": "UnitedHealth Group",
             "sector": "Healthcare",
-            "weight": 0.3834,
-            "price": 284.2
-        },
-        {
-            "ticker": "TMUS",
-            "name": "T-Mobile US",
-            "sector": "Communication Services",
-            "weight": 0.3642,
-            "price": 218.66
-        },
-        {
-            "ticker": "LIN",
-            "name": "Linde plc",
-            "sector": "Basic Materials",
-            "weight": 0.3549,
-            "price": 508.27
-        },
-        {
-            "ticker": "GEV",
-            "name": "GE Vernova",
-            "sector": "Industrials",
-            "weight": 0.354,
-            "price": 876.01
+            "weight": 0.389,
+            "price": 286.66
         },
         {
             "ticker": "MCD",
             "name": "McDonald's",
             "sector": "Consumer Cyclical",
-            "weight": 0.3539,
-            "price": 333.01
+            "weight": 0.3576,
+            "price": 334.53
         },
         {
-            "ticker": "INTC",
-            "name": "Intel",
-            "sector": "Technology",
-            "weight": 0.3487,
-            "price": 46.88
+            "ticker": "TMUS",
+            "name": "T-Mobile US",
+            "sector": "Communication Services",
+            "weight": 0.3572,
+            "price": 213.15
         },
         {
-            "ticker": "PEP",
-            "name": "PepsiCo",
-            "sector": "Consumer Defensive",
-            "weight": 0.3445,
-            "price": 169.17
+            "ticker": "GEV",
+            "name": "GE Vernova",
+            "sector": "Industrials",
+            "weight": 0.3562,
+            "price": 876.46
+        },
+        {
+            "ticker": "LIN",
+            "name": "Linde plc",
+            "sector": "Basic Materials",
+            "weight": 0.3502,
+            "price": 498.51
         },
         {
             "ticker": "AXP",
             "name": "American Express",
             "sector": "Financial Services",
-            "weight": 0.3356,
-            "price": 327.09
+            "weight": 0.346,
+            "price": 335.32
+        },
+        {
+            "ticker": "PEP",
+            "name": "PepsiCo",
+            "sector": "Consumer Defensive",
+            "weight": 0.3433,
+            "price": 167.58
+        },
+        {
+            "ticker": "INTC",
+            "name": "Intel",
+            "sector": "Technology",
+            "weight": 0.3402,
+            "price": 45.46
         },
         {
             "ticker": "IBM",
             "name": "IBM",
             "sector": "Technology",
-            "weight": 0.3307,
-            "price": 237.54
-        },
-        {
-            "ticker": "VZ",
-            "name": "Verizon",
-            "sector": "Communication Services",
-            "weight": 0.3092,
-            "price": 49.23
-        },
-        {
-            "ticker": "AMGN",
-            "name": "Amgen",
-            "sector": "Healthcare",
-            "weight": 0.3085,
-            "price": 384.33
+            "weight": 0.3389,
+            "price": 242.01
         },
         {
             "ticker": "C",
             "name": "Citigroup",
             "sector": "Financial Services",
-            "weight": 0.3047,
-            "price": 114.34
+            "weight": 0.3114,
+            "price": 116.19
         },
         {
-            "ticker": "KLAC",
-            "name": "KLA Corporation",
-            "sector": "Technology",
-            "weight": 0.3026,
-            "price": 1546.68
+            "ticker": "VZ",
+            "name": "Verizon",
+            "sector": "Communication Services",
+            "weight": 0.3089,
+            "price": 48.89
+        },
+        {
+            "ticker": "AMGN",
+            "name": "Amgen",
+            "sector": "Healthcare",
+            "weight": 0.3063,
+            "price": 379.33
         },
         {
             "ticker": "ABT",
             "name": "Abbott Laboratories",
             "sector": "Healthcare",
-            "weight": 0.2975,
-            "price": 114.76
+            "weight": 0.3031,
+            "price": 116.26
         },
         {
-            "ticker": "NEE",
-            "name": "NextEra Energy",
-            "sector": "Utilities",
-            "weight": 0.2951,
-            "price": 95.11
+            "ticker": "KLAC",
+            "name": "KLA Corporation",
+            "sector": "Technology",
+            "weight": 0.3,
+            "price": 1524.31
+        },
+        {
+            "ticker": "TMO",
+            "name": "Thermo Fisher Scientific",
+            "sector": "Healthcare",
+            "weight": 0.2927,
+            "price": 520.12
         },
         {
             "ticker": "T",
             "name": "AT&T",
             "sector": "Communication Services",
-            "weight": 0.2942,
-            "price": 27.87
+            "weight": 0.2916,
+            "price": 27.46
         },
         {
             "ticker": "TXN",
             "name": "Texas Instruments",
             "sector": "Technology",
             "weight": 0.2894,
-            "price": 213.9
+            "price": 212.63
         },
         {
-            "ticker": "TMO",
-            "name": "Thermo Fisher Scientific",
-            "sector": "Healthcare",
-            "weight": 0.2874,
-            "price": 513.68
-        },
-        {
-            "ticker": "APH",
-            "name": "Amphenol",
-            "sector": "Technology",
-            "weight": 0.2794,
-            "price": 152.64
-        },
-        {
-            "ticker": "DIS",
-            "name": "Walt Disney Company (The)",
-            "sector": "Communication Services",
-            "weight": 0.2774,
-            "price": 105.05
+            "ticker": "NEE",
+            "name": "NextEra Energy",
+            "sector": "Utilities",
+            "weight": 0.2871,
+            "price": 91.99
         },
         {
             "ticker": "CRM",
             "name": "Salesforce",
             "sector": "Technology",
-            "weight": 0.2719,
-            "price": 191.75
+            "weight": 0.2845,
+            "price": 199.47
         },
         {
-            "ticker": "GILD",
-            "name": "Gilead Sciences",
-            "sector": "Healthcare",
-            "weight": 0.2718,
-            "price": 147.12
+            "ticker": "DIS",
+            "name": "Walt Disney Company (The)",
+            "sector": "Communication Services",
+            "weight": 0.2804,
+            "price": 105.55
+        },
+        {
+            "ticker": "APH",
+            "name": "Amphenol",
+            "sector": "Technology",
+            "weight": 0.2734,
+            "price": 148.47
         },
         {
             "ticker": "BA",
             "name": "Boeing",
             "sector": "Industrials",
-            "weight": 0.2694,
-            "price": 230.36
+            "weight": 0.2699,
+            "price": 229.41
         },
         {
             "ticker": "ISRG",
             "name": "Intuitive Surgical",
             "sector": "Healthcare",
-            "weight": 0.2677,
-            "price": 506.17
+            "weight": 0.2697,
+            "price": 506.88
         },
         {
-            "ticker": "ADI",
-            "name": "Analog Devices",
-            "sector": "Technology",
-            "weight": 0.2631,
-            "price": 360.8
-        },
-        {
-            "ticker": "TJX",
-            "name": "TJX Companies",
-            "sector": "Consumer Cyclical",
-            "weight": 0.2583,
-            "price": 155.82
+            "ticker": "GILD",
+            "name": "Gilead Sciences",
+            "sector": "Healthcare",
+            "weight": 0.2672,
+            "price": 143.77
         },
         {
             "ticker": "SCHW",
             "name": "Charles Schwab Corporation",
             "sector": "Financial Services",
-            "weight": 0.2578,
-            "price": 95.35
+            "weight": 0.2652,
+            "price": 97.52
+        },
+        {
+            "ticker": "TJX",
+            "name": "TJX Companies",
+            "sector": "Consumer Cyclical",
+            "weight": 0.2646,
+            "price": 158.69
+        },
+        {
+            "ticker": "ADI",
+            "name": "Analog Devices",
+            "sector": "Technology",
+            "weight": 0.2599,
+            "price": 354.35
         },
         {
             "ticker": "BLK",
             "name": "BlackRock",
             "sector": "Financial Services",
-            "weight": 0.2527,
-            "price": 1093.78
+            "weight": 0.2534,
+            "price": 1090.27
         },
         {
             "ticker": "DE",
             "name": "Deere & Company",
             "sector": "Industrials",
-            "weight": 0.2517,
-            "price": 623.61
+            "weight": 0.2516,
+            "price": 619.46
         },
         {
             "ticker": "ANET",
             "name": "Arista Networks",
             "sector": "Technology",
-            "weight": 0.2492,
-            "price": 132.89
+            "weight": 0.2457,
+            "price": 130.25
         },
         {
             "ticker": "HON",
             "name": "Honeywell",
             "sector": "Industrials",
-            "weight": 0.2431,
-            "price": 242.2
+            "weight": 0.2432,
+            "price": 240.88
         },
         {
             "ticker": "UNP",
             "name": "Union Pacific Corporation",
             "sector": "Industrials",
-            "weight": 0.2335,
-            "price": 264.25
+            "weight": 0.236,
+            "price": 265.45
         },
         {
             "ticker": "QCOM",
             "name": "Qualcomm",
             "sector": "Technology",
-            "weight": 0.2319,
-            "price": 145.82
-        },
-        {
-            "ticker": "PFE",
-            "name": "Pfizer",
-            "sector": "Healthcare",
-            "weight": 0.2294,
-            "price": 27.09
+            "weight": 0.2329,
+            "price": 145.59
         },
         {
             "ticker": "UBER",
             "name": "Uber",
             "sector": "Technology",
-            "weight": 0.2254,
-            "price": 72.83
+            "weight": 0.2328,
+            "price": 74.8
         },
         {
-            "ticker": "LMT",
-            "name": "Lockheed Martin",
-            "sector": "Industrials",
-            "weight": 0.2231,
-            "price": 647.5
-        },
-        {
-            "ticker": "DHR",
-            "name": "Danaher Corporation",
+            "ticker": "PFE",
+            "name": "Pfizer",
             "sector": "Healthcare",
-            "weight": 0.2206,
-            "price": 209.52
-        },
-        {
-            "ticker": "LOW",
-            "name": "Lowe's",
-            "sector": "Consumer Cyclical",
-            "weight": 0.2197,
-            "price": 263.02
-        },
-        {
-            "ticker": "SYK",
-            "name": "Stryker Corporation",
-            "sector": "Healthcare",
-            "weight": 0.2189,
-            "price": 384.03
-        },
-        {
-            "ticker": "ETN",
-            "name": "Eaton Corporation",
-            "sector": "Industrials",
-            "weight": 0.2166,
-            "price": 373.53
-        },
-        {
-            "ticker": "BX",
-            "name": "Blackstone Inc.",
-            "sector": "Financial Services",
-            "weight": 0.2165,
-            "price": 118.22
-        },
-        {
-            "ticker": "WELL",
-            "name": "Welltower",
-            "sector": "Real Estate",
-            "weight": 0.2164,
-            "price": 208.25
+            "weight": 0.2308,
+            "price": 27.1
         },
         {
             "ticker": "APP",
             "name": "AppLovin",
             "sector": "Communication Services",
-            "weight": 0.2124,
-            "price": 421.63
+            "weight": 0.2255,
+            "price": 444.93
         },
         {
-            "ticker": "GLW",
-            "name": "Corning Inc.",
-            "sector": "Technology",
-            "weight": 0.205,
-            "price": 160.43
+            "ticker": "LMT",
+            "name": "Lockheed Martin",
+            "sector": "Industrials",
+            "weight": 0.2224,
+            "price": 641.63
+        },
+        {
+            "ticker": "LOW",
+            "name": "Lowe's",
+            "sector": "Consumer Cyclical",
+            "weight": 0.2222,
+            "price": 264.39
+        },
+        {
+            "ticker": "DHR",
+            "name": "Danaher Corporation",
+            "sector": "Healthcare",
+            "weight": 0.2217,
+            "price": 209.36
+        },
+        {
+            "ticker": "SYK",
+            "name": "Stryker Corporation",
+            "sector": "Healthcare",
+            "weight": 0.2213,
+            "price": 386.06
+        },
+        {
+            "ticker": "ETN",
+            "name": "Eaton Corporation",
+            "sector": "Industrials",
+            "weight": 0.2185,
+            "price": 374.59
+        },
+        {
+            "ticker": "WELL",
+            "name": "Welltower",
+            "sector": "Real Estate",
+            "weight": 0.2179,
+            "price": 208.45
+        },
+        {
+            "ticker": "BX",
+            "name": "Blackstone Inc.",
+            "sector": "Financial Services",
+            "weight": 0.2173,
+            "price": 117.95
         },
         {
             "ticker": "NEM",
             "name": "Newmont",
             "sector": "Basic Materials",
-            "weight": 0.2029,
-            "price": 124.85
-        },
-        {
-            "ticker": "COP",
-            "name": "ConocoPhillips",
-            "sector": "Energy",
-            "weight": 0.2003,
-            "price": 110.01
+            "weight": 0.2084,
+            "price": 127.47
         },
         {
             "ticker": "BKNG",
             "name": "Booking Holdings",
             "sector": "Consumer Cyclical",
-            "weight": 0.1998,
-            "price": 4163.0
+            "weight": 0.2052,
+            "price": 4250.26
+        },
+        {
+            "ticker": "COP",
+            "name": "ConocoPhillips",
+            "sector": "Energy",
+            "weight": 0.2027,
+            "price": 110.7
         },
         {
             "ticker": "CB",
             "name": "Chubb Limited",
             "sector": "Financial Services",
-            "weight": 0.1961,
-            "price": 334.54
-        },
-        {
-            "ticker": "COF",
-            "name": "Capital One",
-            "sector": "Financial Services",
-            "weight": 0.1948,
-            "price": 205.79
+            "weight": 0.1992,
+            "price": 337.92
         },
         {
             "ticker": "PLD",
             "name": "Prologis",
             "sector": "Real Estate",
-            "weight": 0.1938,
-            "price": 140.03
+            "weight": 0.1987,
+            "price": 142.66
+        },
+        {
+            "ticker": "COF",
+            "name": "Capital One",
+            "sector": "Financial Services",
+            "weight": 0.1985,
+            "price": 208.47
         },
         {
             "ticker": "SPGI",
             "name": "S&P Global",
             "sector": "Financial Services",
-            "weight": 0.191,
-            "price": 423.61
+            "weight": 0.1985,
+            "price": 437.49
+        },
+        {
+            "ticker": "GLW",
+            "name": "Corning Inc.",
+            "sector": "Technology",
+            "weight": 0.1932,
+            "price": 150.3
+        },
+        {
+            "ticker": "ACN",
+            "name": "Accenture",
+            "sector": "Technology",
+            "weight": 0.1927,
+            "price": 207.38
         },
         {
             "ticker": "PH",
             "name": "Parker Hannifin",
             "sector": "Industrials",
-            "weight": 0.1902,
-            "price": 1011.8
+            "weight": 0.1919,
+            "price": 1014.97
         },
         {
             "ticker": "IBKR",
             "name": "Interactive Brokers",
             "sector": "Financial Services",
-            "weight": 0.1865,
-            "price": 73.65
+            "weight": 0.1899,
+            "price": 74.56
         },
         {
             "ticker": "BMY",
             "name": "Bristol Myers Squibb",
             "sector": "Healthcare",
-            "weight": 0.1859,
-            "price": 61.3
+            "weight": 0.1864,
+            "price": 61.1
         },
         {
             "ticker": "MDT",
             "name": "Medtronic",
             "sector": "Healthcare",
-            "weight": 0.1846,
-            "price": 96.65
+            "weight": 0.1864,
+            "price": 97.03
+        },
+        {
+            "ticker": "PGR",
+            "name": "Progressive Corporation",
+            "sector": "Financial Services",
+            "weight": 0.1859,
+            "price": 211.73
         },
         {
             "ticker": "VRTX",
             "name": "Vertex Pharmaceuticals",
             "sector": "Healthcare",
             "weight": 0.1827,
-            "price": 483.05
-        },
-        {
-            "ticker": "HCA",
-            "name": "HCA Healthcare",
-            "sector": "Healthcare",
-            "weight": 0.18,
-            "price": 540.57
-        },
-        {
-            "ticker": "PGR",
-            "name": "Progressive Corporation",
-            "sector": "Financial Services",
-            "weight": 0.1786,
-            "price": 204.54
-        },
-        {
-            "ticker": "MCK",
-            "name": "McKesson Corporation",
-            "sector": "Healthcare",
-            "weight": 0.1771,
-            "price": 963.24
-        },
-        {
-            "ticker": "ACN",
-            "name": "Accenture",
-            "sector": "Technology",
-            "weight": 0.1769,
-            "price": 191.5
+            "price": 480.13
         },
         {
             "ticker": "PANW",
             "name": "Palo Alto Networks",
             "sector": "Technology",
-            "weight": 0.176,
-            "price": 144.84
+            "weight": 0.1826,
+            "price": 149.4
+        },
+        {
+            "ticker": "MCK",
+            "name": "McKesson Corporation",
+            "sector": "Healthcare",
+            "weight": 0.1802,
+            "price": 974.45
+        },
+        {
+            "ticker": "HCA",
+            "name": "HCA Healthcare",
+            "sector": "Healthcare",
+            "weight": 0.1762,
+            "price": 525.88
         },
         {
             "ticker": "CEG",
             "name": "Constellation Energy",
             "sector": "Utilities",
-            "weight": 0.1758,
-            "price": 325.84
+            "weight": 0.1756,
+            "price": 323.56
         },
         {
             "ticker": "MO",
             "name": "Altria",
             "sector": "Consumer Defensive",
-            "weight": 0.1742,
-            "price": 69.7
-        },
-        {
-            "ticker": "CMCSA",
-            "name": "Comcast",
-            "sector": "Communication Services",
-            "weight": 0.1671,
-            "price": 30.79
-        },
-        {
-            "ticker": "SBUX",
-            "name": "Starbucks",
-            "sector": "Consumer Cyclical",
-            "weight": 0.1662,
-            "price": 97.93
-        },
-        {
-            "ticker": "CME",
-            "name": "CME Group",
-            "sector": "Financial Services",
-            "weight": 0.1646,
-            "price": 307.36
+            "weight": 0.1747,
+            "price": 69.47
         },
         {
             "ticker": "NOW",
             "name": "ServiceNow",
             "sector": "Technology",
-            "weight": 0.1638,
-            "price": 104.23
+            "weight": 0.1728,
+            "price": 109.3
+        },
+        {
+            "ticker": "CME",
+            "name": "CME Group",
+            "sector": "Financial Services",
+            "weight": 0.1704,
+            "price": 316.45
         },
         {
             "ticker": "BSX",
             "name": "Boston Scientific",
             "sector": "Healthcare",
-            "weight": 0.1624,
-            "price": 73.48
+            "weight": 0.1684,
+            "price": 75.75
         },
         {
-            "ticker": "ADBE",
-            "name": "Adobe Inc.",
-            "sector": "Technology",
-            "weight": 0.1607,
-            "price": 257.81
+            "ticker": "CMCSA",
+            "name": "Comcast",
+            "sector": "Communication Services",
+            "weight": 0.1684,
+            "price": 30.85
+        },
+        {
+            "ticker": "SBUX",
+            "name": "Starbucks",
+            "sector": "Consumer Cyclical",
+            "weight": 0.1674,
+            "price": 98.08
         },
         {
             "ticker": "INTU",
             "name": "Intuit",
             "sector": "Technology",
-            "weight": 0.1581,
-            "price": 381.23
+            "weight": 0.1645,
+            "price": 394.42
+        },
+        {
+            "ticker": "ADBE",
+            "name": "Adobe Inc.",
+            "sector": "Technology",
+            "weight": 0.1624,
+            "price": 259.04
         },
         {
             "ticker": "SO",
             "name": "Southern Company",
             "sector": "Utilities",
-            "weight": 0.1573,
-            "price": 95.92
+            "weight": 0.1589,
+            "price": 96.35
         },
         {
             "ticker": "HWM",
             "name": "Howmet Aerospace",
             "sector": "Industrials",
-            "weight": 0.1556,
-            "price": 259.64
+            "weight": 0.157,
+            "price": 260.31
+        },
+        {
+            "ticker": "NOC",
+            "name": "Northrop Grumman",
+            "sector": "Industrials",
+            "weight": 0.152,
+            "price": 710.9
         },
         {
             "ticker": "TT",
             "name": "Trane Technologies",
             "sector": "Industrials",
             "weight": 0.1519,
-            "price": 460.02
-        },
-        {
-            "ticker": "NOC",
-            "name": "Northrop Grumman",
-            "sector": "Industrials",
-            "weight": 0.1496,
-            "price": 703.65
+            "price": 457.14
         },
         {
             "ticker": "DUK",
             "name": "Duke Energy",
             "sector": "Utilities",
-            "weight": 0.1493,
-            "price": 128.93
-        },
-        {
-            "ticker": "WDC",
-            "name": "Western Digital",
-            "sector": "Technology",
-            "weight": 0.1481,
-            "price": 290.95
-        },
-        {
-            "ticker": "FCX",
-            "name": "Freeport-McMoRan",
-            "sector": "Basic Materials",
-            "weight": 0.1473,
-            "price": 68.82
+            "weight": 0.1506,
+            "price": 129.23
         },
         {
             "ticker": "CVS",
             "name": "CVS Health",
             "sector": "Healthcare",
-            "weight": 0.1444,
-            "price": 76.19
+            "weight": 0.1487,
+            "price": 78.01
         },
         {
             "ticker": "UPS",
             "name": "United Parcel Service",
             "sector": "Industrials",
-            "weight": 0.144,
-            "price": 113.85
+            "weight": 0.1484,
+            "price": 116.63
         },
         {
-            "ticker": "EQIX",
-            "name": "Equinix",
-            "sector": "Real Estate",
-            "weight": 0.1405,
-            "price": 960.52
+            "ticker": "FCX",
+            "name": "Freeport-McMoRan",
+            "sector": "Basic Materials",
+            "weight": 0.1472,
+            "price": 68.38
         },
         {
-            "ticker": "NKE",
-            "name": "Nike, Inc.",
-            "sector": "Consumer Cyclical",
-            "weight": 0.1398,
-            "price": 63.4
+            "ticker": "WDC",
+            "name": "Western Digital",
+            "sector": "Technology",
+            "weight": 0.1446,
+            "price": 282.25
         },
         {
             "ticker": "SNDK",
             "name": "Sandisk",
             "sector": "Technology",
-            "weight": 0.139,
-            "price": 632.38
-        },
-        {
-            "ticker": "GD",
-            "name": "General Dynamics",
-            "sector": "Industrials",
-            "weight": 0.1382,
-            "price": 343.14
-        },
-        {
-            "ticker": "MAR",
-            "name": "Marriott International",
-            "sector": "Consumer Cyclical",
-            "weight": 0.1371,
-            "price": 347.44
-        },
-        {
-            "ticker": "STX",
-            "name": "Seagate Technology",
-            "sector": "Technology",
-            "weight": 0.137,
-            "price": 421.85
-        },
-        {
-            "ticker": "WM",
-            "name": "Waste Management",
-            "sector": "Industrials",
-            "weight": 0.137,
-            "price": 228.1
+            "weight": 0.1441,
+            "price": 651.9
         },
         {
             "ticker": "CRWD",
             "name": "CrowdStrike",
             "sector": "Technology",
-            "weight": 0.1364,
-            "price": 363.31
+            "weight": 0.1439,
+            "price": 381.1
+        },
+        {
+            "ticker": "GD",
+            "name": "General Dynamics",
+            "sector": "Industrials",
+            "weight": 0.1421,
+            "price": 350.72
+        },
+        {
+            "ticker": "NKE",
+            "name": "Nike, Inc.",
+            "sector": "Consumer Cyclical",
+            "weight": 0.1418,
+            "price": 63.95
+        },
+        {
+            "ticker": "WM",
+            "name": "Waste Management",
+            "sector": "Industrials",
+            "weight": 0.1413,
+            "price": 233.9
+        },
+        {
+            "ticker": "EQIX",
+            "name": "Equinix",
+            "sector": "Real Estate",
+            "weight": 0.1395,
+            "price": 948.02
+        },
+        {
+            "ticker": "MAR",
+            "name": "Marriott International",
+            "sector": "Consumer Cyclical",
+            "weight": 0.1392,
+            "price": 350.57
         },
         {
             "ticker": "ICE",
             "name": "Intercontinental Exchange",
             "sector": "Financial Services",
-            "weight": 0.1361,
-            "price": 160.33
-        },
-        {
-            "ticker": "WMB",
-            "name": "Williams Companies",
-            "sector": "Energy",
-            "weight": 0.1346,
-            "price": 73.97
+            "weight": 0.1391,
+            "price": 162.89
         },
         {
             "ticker": "FDX",
             "name": "FedEx",
             "sector": "Industrials",
-            "weight": 0.1344,
-            "price": 382.59
+            "weight": 0.137,
+            "price": 387.68
         },
         {
-            "ticker": "PNC",
-            "name": "PNC Financial Services",
-            "sector": "Financial Services",
-            "weight": 0.1336,
-            "price": 221.95
-        },
-        {
-            "ticker": "KKR",
-            "name": "KKR & Co.",
-            "sector": "Financial Services",
-            "weight": 0.1333,
-            "price": 96.63
-        },
-        {
-            "ticker": "SHW",
-            "name": "Sherwin-Williams",
-            "sector": "Basic Materials",
-            "weight": 0.1327,
-            "price": 357.25
+            "ticker": "WMB",
+            "name": "Williams Companies",
+            "sector": "Energy",
+            "weight": 0.1369,
+            "price": 74.77
         },
         {
             "ticker": "MRSH",
             "name": "Marsh McLennan",
             "sector": "Financial Services",
-            "weight": 0.1321,
-            "price": 181.1
+            "weight": 0.136,
+            "price": 185.29
         },
         {
-            "ticker": "JCI",
-            "name": "Johnson Controls",
-            "sector": "Industrials",
-            "weight": 0.1317,
-            "price": 144.49
+            "ticker": "PNC",
+            "name": "PNC Financial Services",
+            "sector": "Financial Services",
+            "weight": 0.135,
+            "price": 222.82
         },
         {
-            "ticker": "MMM",
-            "name": "3M",
-            "sector": "Industrials",
-            "weight": 0.1298,
-            "price": 165.54
+            "ticker": "SHW",
+            "name": "Sherwin-Williams",
+            "sector": "Basic Materials",
+            "weight": 0.1347,
+            "price": 360.5
+        },
+        {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Technology",
+            "weight": 0.1338,
+            "price": 409.67
         },
         {
             "ticker": "USB",
             "name": "U.S. Bancorp",
             "sector": "Financial Services",
-            "weight": 0.1298,
-            "price": 56.05
-        },
-        {
-            "ticker": "ECL",
-            "name": "Ecolab",
-            "sector": "Basic Materials",
-            "weight": 0.1293,
-            "price": 306.52
+            "weight": 0.1334,
+            "price": 57.26
         },
         {
             "ticker": "ADP",
             "name": "Automatic Data Processing",
             "sector": "Technology",
-            "weight": 0.129,
-            "price": 214.25
+            "weight": 0.1323,
+            "price": 218.36
         },
         {
-            "ticker": "SNPS",
-            "name": "Synopsys",
-            "sector": "Technology",
-            "weight": 0.128,
-            "price": 449.17
+            "ticker": "JCI",
+            "name": "Johnson Controls",
+            "sector": "Industrials",
+            "weight": 0.1315,
+            "price": 143.42
         },
         {
-            "ticker": "AMT",
-            "name": "American Tower",
-            "sector": "Real Estate",
-            "weight": 0.1273,
-            "price": 182.48
+            "ticker": "MMM",
+            "name": "3M",
+            "sector": "Industrials",
+            "weight": 0.1311,
+            "price": 166.17
         },
         {
             "ticker": "RCL",
             "name": "Royal Caribbean Group",
             "sector": "Consumer Cyclical",
-            "weight": 0.1271,
-            "price": 313.0
+            "weight": 0.1303,
+            "price": 318.94
         },
         {
-            "ticker": "PWR",
-            "name": "Quanta Services",
-            "sector": "Industrials",
-            "weight": 0.125,
-            "price": 562.77
+            "ticker": "ECL",
+            "name": "Ecolab",
+            "sector": "Basic Materials",
+            "weight": 0.1302,
+            "price": 306.76
         },
         {
-            "ticker": "BK",
-            "name": "BNY Mellon",
+            "ticker": "KKR",
+            "name": "KKR & Co.",
             "sector": "Financial Services",
-            "weight": 0.1249,
-            "price": 120.31
+            "weight": 0.1299,
+            "price": 93.62
         },
         {
-            "ticker": "ITW",
-            "name": "Illinois Tool Works",
-            "sector": "Industrials",
-            "weight": 0.1244,
-            "price": 289.74
+            "ticker": "AMT",
+            "name": "American Tower",
+            "sector": "Real Estate",
+            "weight": 0.1298,
+            "price": 185.01
         },
         {
             "ticker": "EMR",
             "name": "Emerson Electric",
             "sector": "Industrials",
-            "weight": 0.1243,
-            "price": 148.44
-        },
-        {
-            "ticker": "MNST",
-            "name": "Monster Beverage",
-            "sector": "Consumer Defensive",
-            "weight": 0.1243,
-            "price": 85.41
-        },
-        {
-            "ticker": "REGN",
-            "name": "Regeneron Pharmaceuticals",
-            "sector": "Healthcare",
-            "weight": 0.1235,
-            "price": 784.28
-        },
-        {
-            "ticker": "DELL",
-            "name": "Dell Technologies",
-            "sector": "Technology",
-            "weight": 0.1232,
-            "price": 123.48
-        },
-        {
-            "ticker": "CDNS",
-            "name": "Cadence Design Systems",
-            "sector": "Technology",
-            "weight": 0.1225,
-            "price": 301.84
-        },
-        {
-            "ticker": "CMI",
-            "name": "Cummins",
-            "sector": "Industrials",
-            "weight": 0.1223,
-            "price": 594.41
+            "weight": 0.1286,
+            "price": 152.72
         },
         {
             "ticker": "MCO",
             "name": "Moody's Corporation",
             "sector": "Financial Services",
-            "weight": 0.1223,
-            "price": 463.37
+            "weight": 0.1274,
+            "price": 479.47
         },
         {
-            "ticker": "CRH",
-            "name": "CRH plc",
-            "sector": "Basic Materials",
-            "weight": 0.1199,
-            "price": 120.16
+            "ticker": "BK",
+            "name": "BNY Mellon",
+            "sector": "Financial Services",
+            "weight": 0.127,
+            "price": 121.61
+        },
+        {
+            "ticker": "MNST",
+            "name": "Monster Beverage",
+            "sector": "Consumer Defensive",
+            "weight": 0.1268,
+            "price": 86.66
+        },
+        {
+            "ticker": "PWR",
+            "name": "Quanta Services",
+            "sector": "Industrials",
+            "weight": 0.1262,
+            "price": 565.05
+        },
+        {
+            "ticker": "ITW",
+            "name": "Illinois Tool Works",
+            "sector": "Industrials",
+            "weight": 0.1253,
+            "price": 290.28
         },
         {
             "ticker": "ABNB",
             "name": "Airbnb",
             "sector": "Consumer Cyclical",
-            "weight": 0.1179,
-            "price": 132.02
+            "weight": 0.123,
+            "price": 136.97
+        },
+        {
+            "ticker": "REGN",
+            "name": "Regeneron Pharmaceuticals",
+            "sector": "Healthcare",
+            "weight": 0.1221,
+            "price": 770.79
+        },
+        {
+            "ticker": "SNPS",
+            "name": "Synopsys",
+            "sector": "Technology",
+            "weight": 0.1221,
+            "price": 426.0
+        },
+        {
+            "ticker": "DELL",
+            "name": "Dell Technologies",
+            "sector": "Technology",
+            "weight": 0.1219,
+            "price": 121.45
+        },
+        {
+            "ticker": "CMI",
+            "name": "Cummins",
+            "sector": "Industrials",
+            "weight": 0.1217,
+            "price": 588.11
+        },
+        {
+            "ticker": "CRH",
+            "name": "CRH plc",
+            "sector": "Basic Materials",
+            "weight": 0.1216,
+            "price": 121.14
+        },
+        {
+            "ticker": "CDNS",
+            "name": "Cadence Design Systems",
+            "sector": "Technology",
+            "weight": 0.1215,
+            "price": 297.6
         },
         {
             "ticker": "CTAS",
             "name": "Cintas",
             "sector": "Industrials",
-            "weight": 0.1178,
-            "price": 196.78
+            "weight": 0.1194,
+            "price": 198.28
         },
         {
             "ticker": "CSX",
             "name": "CSX Corporation",
             "sector": "Industrials",
-            "weight": 0.1169,
-            "price": 42.22
-        },
-        {
-            "ticker": "MSI",
-            "name": "Motorola Solutions",
-            "sector": "Technology",
-            "weight": 0.1169,
-            "price": 471.33
+            "weight": 0.1188,
+            "price": 42.65
         },
         {
             "ticker": "CL",
             "name": "Colgate-Palmolive",
             "sector": "Consumer Defensive",
-            "weight": 0.1164,
-            "price": 96.67
+            "weight": 0.1181,
+            "price": 97.55
         },
         {
-            "ticker": "MDLZ",
-            "name": "Mondelez International",
-            "sector": "Consumer Defensive",
-            "weight": 0.1155,
-            "price": 60.12
-        },
-        {
-            "ticker": "SLB",
-            "name": "Schlumberger",
-            "sector": "Energy",
-            "weight": 0.115,
-            "price": 51.66
-        },
-        {
-            "ticker": "ORLY",
-            "name": "O’Reilly Automotive",
-            "sector": "Consumer Cyclical",
-            "weight": 0.1149,
-            "price": 91.44
-        },
-        {
-            "ticker": "GM",
-            "name": "General Motors",
-            "sector": "Consumer Cyclical",
-            "weight": 0.1145,
-            "price": 82.43
-        },
-        {
-            "ticker": "CI",
-            "name": "Cigna",
-            "sector": "Healthcare",
-            "weight": 0.1132,
-            "price": 284.44
-        },
-        {
-            "ticker": "SPG",
-            "name": "Simon Property Group",
-            "sector": "Real Estate",
-            "weight": 0.1129,
-            "price": 200.99
+            "ticker": "MSI",
+            "name": "Motorola Solutions",
+            "sector": "Technology",
+            "weight": 0.1178,
+            "price": 471.95
         },
         {
             "ticker": "DASH",
             "name": "DoorDash",
             "sector": "Consumer Cyclical",
-            "weight": 0.1111,
-            "price": 173.06
+            "weight": 0.1165,
+            "price": 180.41
         },
         {
             "ticker": "CVNA",
             "name": "Carvana",
             "sector": "Consumer Cyclical",
-            "weight": 0.1093,
-            "price": 334.89
+            "weight": 0.1162,
+            "price": 353.9
+        },
+        {
+            "ticker": "MDLZ",
+            "name": "Mondelez International",
+            "sector": "Consumer Defensive",
+            "weight": 0.1159,
+            "price": 59.94
+        },
+        {
+            "ticker": "CI",
+            "name": "Cigna",
+            "sector": "Healthcare",
+            "weight": 0.1156,
+            "price": 288.82
+        },
+        {
+            "ticker": "ORLY",
+            "name": "O’Reilly Automotive",
+            "sector": "Consumer Cyclical",
+            "weight": 0.1155,
+            "price": 91.33
+        },
+        {
+            "ticker": "SLB",
+            "name": "Schlumberger",
+            "sector": "Energy",
+            "weight": 0.1153,
+            "price": 51.49
+        },
+        {
+            "ticker": "SPG",
+            "name": "Simon Property Group",
+            "sector": "Real Estate",
+            "weight": 0.1145,
+            "price": 202.6
+        },
+        {
+            "ticker": "GM",
+            "name": "General Motors",
+            "sector": "Consumer Cyclical",
+            "weight": 0.1129,
+            "price": 80.79
         },
         {
             "ticker": "TDG",
             "name": "TransDigm Group",
             "sector": "Industrials",
-            "weight": 0.1089,
-            "price": 1295.12
-        },
-        {
-            "ticker": "ELV",
-            "name": "Elevance Health",
-            "sector": "Healthcare",
-            "weight": 0.1086,
-            "price": 330.51
-        },
-        {
-            "ticker": "KMI",
-            "name": "Kinder Morgan",
-            "sector": "Energy",
-            "weight": 0.1086,
-            "price": 32.77
+            "weight": 0.1112,
+            "price": 1314.26
         },
         {
             "ticker": "HLT",
             "name": "Hilton Worldwide",
             "sector": "Consumer Cyclical",
-            "weight": 0.1085,
-            "price": 313.35
+            "weight": 0.1107,
+            "price": 317.83
         },
         {
-            "ticker": "AEP",
-            "name": "American Electric Power",
-            "sector": "Utilities",
-            "weight": 0.1067,
-            "price": 132.46
-        },
-        {
-            "ticker": "WBD",
-            "name": "Warner Bros. Discovery",
-            "sector": "Communication Services",
-            "weight": 0.1067,
-            "price": 28.9
-        },
-        {
-            "ticker": "TEL",
-            "name": "TE Connectivity",
-            "sector": "Technology",
-            "weight": 0.106,
-            "price": 242.4
-        },
-        {
-            "ticker": "COR",
-            "name": "Cencora",
-            "sector": "Healthcare",
-            "weight": 0.1052,
-            "price": 363.03
-        },
-        {
-            "ticker": "NSC",
-            "name": "Norfolk Southern",
-            "sector": "Industrials",
-            "weight": 0.1043,
-            "price": 311.85
+            "ticker": "KMI",
+            "name": "Kinder Morgan",
+            "sector": "Energy",
+            "weight": 0.1102,
+            "price": 33.06
         },
         {
             "ticker": "HOOD",
             "name": "Robinhood Markets",
             "sector": "Financial Services",
-            "weight": 0.104,
-            "price": 77.53
+            "weight": 0.1072,
+            "price": 79.45
+        },
+        {
+            "ticker": "AEP",
+            "name": "American Electric Power",
+            "sector": "Utilities",
+            "weight": 0.107,
+            "price": 132.1
+        },
+        {
+            "ticker": "WBD",
+            "name": "Warner Bros. Discovery",
+            "sector": "Communication Services",
+            "weight": 0.107,
+            "price": 28.8
+        },
+        {
+            "ticker": "COR",
+            "name": "Cencora",
+            "sector": "Healthcare",
+            "weight": 0.1069,
+            "price": 366.65
+        },
+        {
+            "ticker": "ELV",
+            "name": "Elevance Health",
+            "sector": "Healthcare",
+            "weight": 0.1068,
+            "price": 323.05
         },
         {
             "ticker": "AON",
             "name": "Aon plc",
             "sector": "Financial Services",
-            "weight": 0.1039,
-            "price": 324.66
+            "weight": 0.1063,
+            "price": 330.27
+        },
+        {
+            "ticker": "NSC",
+            "name": "Norfolk Southern",
+            "sector": "Industrials",
+            "weight": 0.1053,
+            "price": 313.01
         },
         {
             "ticker": "RSG",
             "name": "Republic Services",
             "sector": "Industrials",
-            "weight": 0.1022,
-            "price": 221.59
+            "weight": 0.1042,
+            "price": 224.59
         },
         {
-            "ticker": "APO",
-            "name": "Apollo Global Management",
-            "sector": "Financial Services",
-            "weight": 0.1013,
-            "price": 117.21
+            "ticker": "TEL",
+            "name": "TE Connectivity",
+            "sector": "Technology",
+            "weight": 0.1037,
+            "price": 235.79
         },
         {
             "ticker": "TRV",
             "name": "Travelers Companies (The)",
             "sector": "Financial Services",
-            "weight": 0.1012,
-            "price": 304.76
+            "weight": 0.1023,
+            "price": 306.24
         },
         {
-            "ticker": "EOG",
-            "name": "EOG Resources",
-            "sector": "Energy",
-            "weight": 0.0996,
-            "price": 122.5
-        },
-        {
-            "ticker": "BDX",
-            "name": "Becton Dickinson",
-            "sector": "Healthcare",
-            "weight": 0.0976,
-            "price": 180.96
-        },
-        {
-            "ticker": "PCAR",
-            "name": "Paccar",
-            "sector": "Industrials",
-            "weight": 0.0976,
-            "price": 124.58
-        },
-        {
-            "ticker": "ROST",
-            "name": "Ross Stores",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0976,
-            "price": 201.53
-        },
-        {
-            "ticker": "TFC",
-            "name": "Truist Financial",
+            "ticker": "APO",
+            "name": "Apollo Global Management",
             "sector": "Financial Services",
-            "weight": 0.0963,
-            "price": 50.57
-        },
-        {
-            "ticker": "BKR",
-            "name": "Baker Hughes",
-            "sector": "Energy",
-            "weight": 0.0954,
-            "price": 64.81
+            "weight": 0.0995,
+            "price": 114.4
         },
         {
             "ticker": "LHX",
             "name": "L3Harris",
             "sector": "Industrials",
-            "weight": 0.095,
-            "price": 341.05
+            "weight": 0.0995,
+            "price": 355.16
         },
         {
-            "ticker": "DLR",
-            "name": "Digital Realty",
-            "sector": "Real Estate",
-            "weight": 0.0936,
-            "price": 179.59
+            "ticker": "EOG",
+            "name": "EOG Resources",
+            "sector": "Energy",
+            "weight": 0.0991,
+            "price": 121.13
         },
         {
-            "ticker": "APD",
-            "name": "Air Products",
-            "sector": "Basic Materials",
-            "weight": 0.0929,
-            "price": 280.3
+            "ticker": "ROST",
+            "name": "Ross Stores",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0991,
+            "price": 203.5
+        },
+        {
+            "ticker": "TFC",
+            "name": "Truist Financial",
+            "sector": "Financial Services",
+            "weight": 0.0987,
+            "price": 51.5
+        },
+        {
+            "ticker": "PCAR",
+            "name": "Paccar",
+            "sector": "Industrials",
+            "weight": 0.0978,
+            "price": 124.08
+        },
+        {
+            "ticker": "BKR",
+            "name": "Baker Hughes",
+            "sector": "Energy",
+            "weight": 0.0961,
+            "price": 64.9
+        },
+        {
+            "ticker": "BDX",
+            "name": "Becton Dickinson",
+            "sector": "Healthcare",
+            "weight": 0.0959,
+            "price": 176.66
         },
         {
             "ticker": "VLO",
             "name": "Valero Energy",
             "sector": "Energy",
-            "weight": 0.0924,
-            "price": 199.64
+            "weight": 0.0948,
+            "price": 203.79
         },
         {
             "ticker": "O",
             "name": "Realty Income",
             "sector": "Real Estate",
-            "weight": 0.092,
-            "price": 65.99
+            "weight": 0.0934,
+            "price": 66.6
         },
         {
             "ticker": "SRE",
             "name": "Sempra",
             "sector": "Utilities",
-            "weight": 0.0919,
-            "price": 94.5
+            "weight": 0.0931,
+            "price": 95.2
+        },
+        {
+            "ticker": "DLR",
+            "name": "Digital Realty",
+            "sector": "Real Estate",
+            "weight": 0.0924,
+            "price": 176.37
         },
         {
             "ticker": "PSX",
             "name": "Phillips 66",
             "sector": "Energy",
-            "weight": 0.0914,
-            "price": 151.91
+            "weight": 0.0923,
+            "price": 152.46
+        },
+        {
+            "ticker": "APD",
+            "name": "Air Products",
+            "sector": "Basic Materials",
+            "weight": 0.0921,
+            "price": 276.23
         },
         {
             "ticker": "AZO",
             "name": "AutoZone",
             "sector": "Consumer Cyclical",
-            "weight": 0.091,
-            "price": 3671.82
-        },
-        {
-            "ticker": "MPWR",
-            "name": "Monolithic Power Systems",
-            "sector": "Technology",
-            "weight": 0.0894,
-            "price": 1231.95
-        },
-        {
-            "ticker": "VST",
-            "name": "Vistra Corp.",
-            "sector": "Utilities",
-            "weight": 0.0885,
-            "price": 175.36
+            "weight": 0.0912,
+            "price": 3660.0
         },
         {
             "ticker": "FTNT",
             "name": "Fortinet",
             "sector": "Technology",
-            "weight": 0.0883,
-            "price": 77.35
-        },
-        {
-            "ticker": "NXPI",
-            "name": "NXP Semiconductors",
-            "sector": "Technology",
-            "weight": 0.0883,
-            "price": 235.07
-        },
-        {
-            "ticker": "AFL",
-            "name": "Aflac",
-            "sector": "Financial Services",
-            "weight": 0.0878,
-            "price": 112.44
+            "weight": 0.0909,
+            "price": 79.2
         },
         {
             "ticker": "MPC",
             "name": "Marathon Petroleum",
             "sector": "Energy",
-            "weight": 0.0876,
-            "price": 195.77
+            "weight": 0.0905,
+            "price": 201.07
         },
         {
-            "ticker": "F",
-            "name": "Ford Motor Company",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0857,
-            "price": 14.43
+            "ticker": "VST",
+            "name": "Vistra Corp.",
+            "sector": "Utilities",
+            "weight": 0.0898,
+            "price": 176.82
         },
         {
-            "ticker": "ZTS",
-            "name": "Zoetis",
-            "sector": "Healthcare",
-            "weight": 0.0846,
-            "price": 128.95
+            "ticker": "AFL",
+            "name": "Aflac",
+            "sector": "Financial Services",
+            "weight": 0.0895,
+            "price": 113.97
+        },
+        {
+            "ticker": "NXPI",
+            "name": "NXP Semiconductors",
+            "sector": "Technology",
+            "weight": 0.0877,
+            "price": 232.23
         },
         {
             "ticker": "AJG",
             "name": "Arthur J. Gallagher & Co.",
             "sector": "Financial Services",
-            "weight": 0.0835,
-            "price": 218.13
+            "weight": 0.0867,
+            "price": 225.22
+        },
+        {
+            "ticker": "F",
+            "name": "Ford Motor Company",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0861,
+            "price": 14.41
+        },
+        {
+            "ticker": "MPWR",
+            "name": "Monolithic Power Systems",
+            "sector": "Technology",
+            "weight": 0.0861,
+            "price": 1180.13
+        },
+        {
+            "ticker": "ZTS",
+            "name": "Zoetis",
+            "sector": "Healthcare",
+            "weight": 0.0857,
+            "price": 129.76
         },
         {
             "ticker": "ALL",
             "name": "Allstate",
             "sector": "Financial Services",
-            "weight": 0.0816,
-            "price": 209.33
-        },
-        {
-            "ticker": "TER",
-            "name": "Teradyne",
-            "sector": "Technology",
-            "weight": 0.0812,
-            "price": 342.82
+            "weight": 0.0834,
+            "price": 212.76
         },
         {
             "ticker": "URI",
             "name": "United Rentals",
             "sector": "Industrials",
-            "weight": 0.081,
-            "price": 854.46
-        },
-        {
-            "ticker": "D",
-            "name": "Dominion Energy",
-            "sector": "Utilities",
-            "weight": 0.0808,
-            "price": 63.57
+            "weight": 0.0818,
+            "price": 858.09
         },
         {
             "ticker": "AME",
             "name": "Ametek",
             "sector": "Industrials",
-            "weight": 0.0799,
-            "price": 233.02
+            "weight": 0.0817,
+            "price": 236.96
         },
         {
-            "ticker": "GWW",
-            "name": "W. W. Grainger",
-            "sector": "Industrials",
-            "weight": 0.0796,
-            "price": 1117.18
+            "ticker": "D",
+            "name": "Dominion Energy",
+            "sector": "Utilities",
+            "weight": 0.081,
+            "price": 63.35
         },
         {
             "ticker": "CAH",
             "name": "Cardinal Health",
             "sector": "Healthcare",
-            "weight": 0.0793,
-            "price": 226.18
-        },
-        {
-            "ticker": "TGT",
-            "name": "Target Corporation",
-            "sector": "Consumer Defensive",
-            "weight": 0.0788,
-            "price": 116.44
-        },
-        {
-            "ticker": "IDXX",
-            "name": "Idexx Laboratories",
-            "sector": "Healthcare",
-            "weight": 0.0783,
-            "price": 657.38
-        },
-        {
-            "ticker": "CTVA",
-            "name": "Corteva",
-            "sector": "Basic Materials",
-            "weight": 0.0782,
-            "price": 77.67
+            "weight": 0.0801,
+            "price": 227.13
         },
         {
             "ticker": "PSA",
             "name": "Public Storage",
             "sector": "Real Estate",
-            "weight": 0.0782,
-            "price": 299.35
+            "weight": 0.0799,
+            "price": 303.95
         },
         {
-            "ticker": "KEYS",
-            "name": "Keysight Technologies",
-            "sector": "Technology",
-            "weight": 0.0773,
-            "price": 302.18
+            "ticker": "CTVA",
+            "name": "Corteva",
+            "sector": "Basic Materials",
+            "weight": 0.0798,
+            "price": 78.82
         },
         {
             "ticker": "OKE",
             "name": "Oneok",
             "sector": "Energy",
-            "weight": 0.0772,
-            "price": 82.28
+            "weight": 0.0793,
+            "price": 84.02
+        },
+        {
+            "ticker": "TER",
+            "name": "Teradyne",
+            "sector": "Technology",
+            "weight": 0.0793,
+            "price": 332.7
+        },
+        {
+            "ticker": "IDXX",
+            "name": "Idexx Laboratories",
+            "sector": "Healthcare",
+            "weight": 0.0792,
+            "price": 660.71
+        },
+        {
+            "ticker": "GWW",
+            "name": "W. W. Grainger",
+            "sector": "Industrials",
+            "weight": 0.0792,
+            "price": 1105.52
+        },
+        {
+            "ticker": "KEYS",
+            "name": "Keysight Technologies",
+            "sector": "Technology",
+            "weight": 0.0788,
+            "price": 306.03
         },
         {
             "ticker": "CARR",
             "name": "Carrier Global",
             "sector": "Industrials",
-            "weight": 0.0766,
-            "price": 61.5
+            "weight": 0.0786,
+            "price": 62.76
         },
         {
             "ticker": "FAST",
             "name": "Fastenal",
             "sector": "Industrials",
-            "weight": 0.0763,
-            "price": 44.63
+            "weight": 0.0786,
+            "price": 45.68
+        },
+        {
+            "ticker": "TGT",
+            "name": "Target Corporation",
+            "sector": "Consumer Defensive",
+            "weight": 0.0781,
+            "price": 114.79
         },
         {
             "ticker": "FIX",
             "name": "Comfort Systems USA",
             "sector": "Industrials",
-            "weight": 0.0762,
-            "price": 1450.6
-        },
-        {
-            "ticker": "EA",
-            "name": "Electronic Arts",
-            "sector": "Communication Services",
-            "weight": 0.0753,
-            "price": 201.98
+            "weight": 0.076,
+            "price": 1438.23
         },
         {
             "ticker": "OXY",
             "name": "Occidental Petroleum",
             "sector": "Energy",
-            "weight": 0.0748,
-            "price": 50.94
+            "weight": 0.076,
+            "price": 51.43
         },
         {
-            "ticker": "CIEN",
-            "name": "Ciena",
-            "sector": "Technology",
-            "weight": 0.0744,
-            "price": 353.33
-        },
-        {
-            "ticker": "EXC",
-            "name": "Exelon",
-            "sector": "Utilities",
-            "weight": 0.0742,
-            "price": 48.7
-        },
-        {
-            "ticker": "COIN",
-            "name": "Coinbase",
+            "ticker": "NDAQ",
+            "name": "Nasdaq, Inc.",
             "sector": "Financial Services",
-            "weight": 0.0739,
-            "price": 183.94
-        },
-        {
-            "ticker": "MET",
-            "name": "MetLife",
-            "sector": "Financial Services",
-            "weight": 0.0739,
-            "price": 75.31
-        },
-        {
-            "ticker": "CMG",
-            "name": "Chipotle Mexican Grill",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0738,
-            "price": 37.5
-        },
-        {
-            "ticker": "TRGP",
-            "name": "Targa Resources",
-            "sector": "Energy",
-            "weight": 0.0738,
-            "price": 230.14
-        },
-        {
-            "ticker": "XEL",
-            "name": "Xcel Energy",
-            "sector": "Utilities",
-            "weight": 0.0736,
-            "price": 83.55
+            "weight": 0.0758,
+            "price": 88.59
         },
         {
             "ticker": "EW",
             "name": "Edwards Lifesciences",
             "sector": "Healthcare",
-            "weight": 0.0729,
-            "price": 83.4
+            "weight": 0.0756,
+            "price": 85.9
+        },
+        {
+            "ticker": "CMG",
+            "name": "Chipotle Mexican Grill",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0754,
+            "price": 38.05
+        },
+        {
+            "ticker": "EA",
+            "name": "Electronic Arts",
+            "sector": "Communication Services",
+            "weight": 0.0754,
+            "price": 201.07
+        },
+        {
+            "ticker": "MET",
+            "name": "MetLife",
+            "sector": "Financial Services",
+            "weight": 0.075,
+            "price": 75.94
+        },
+        {
+            "ticker": "EXC",
+            "name": "Exelon",
+            "sector": "Utilities",
+            "weight": 0.0748,
+            "price": 48.8
+        },
+        {
+            "ticker": "ADSK",
+            "name": "Autodesk",
+            "sector": "Technology",
+            "weight": 0.0745,
+            "price": 233.45
+        },
+        {
+            "ticker": "TRGP",
+            "name": "Targa Resources",
+            "sector": "Energy",
+            "weight": 0.0745,
+            "price": 231.22
+        },
+        {
+            "ticker": "XEL",
+            "name": "Xcel Energy",
+            "sector": "Utilities",
+            "weight": 0.074,
+            "price": 83.47
         },
         {
             "ticker": "GRMN",
             "name": "Garmin",
             "sector": "Technology",
-            "weight": 0.0722,
-            "price": 251.99
+            "weight": 0.0733,
+            "price": 254.16
+        },
+        {
+            "ticker": "COIN",
+            "name": "Coinbase",
+            "sector": "Financial Services",
+            "weight": 0.0731,
+            "price": 181.06
+        },
+        {
+            "ticker": "CIEN",
+            "name": "Ciena",
+            "sector": "Technology",
+            "weight": 0.0723,
+            "price": 341.16
         },
         {
             "ticker": "FANG",
             "name": "Diamondback Energy",
             "sector": "Energy",
-            "weight": 0.0716,
-            "price": 167.77
+            "weight": 0.0717,
+            "price": 166.98
         },
         {
             "ticker": "ETR",
             "name": "Entergy",
             "sector": "Utilities",
             "weight": 0.0716,
-            "price": 106.26
-        },
-        {
-            "ticker": "NDAQ",
-            "name": "Nasdaq, Inc.",
-            "sector": "Financial Services",
-            "weight": 0.0714,
-            "price": 83.99
-        },
-        {
-            "ticker": "ADSK",
-            "name": "Autodesk",
-            "sector": "Technology",
-            "weight": 0.0713,
-            "price": 224.81
+            "price": 105.73
         },
         {
             "ticker": "HSY",
             "name": "Hershey Company (The)",
             "sector": "Consumer Defensive",
-            "weight": 0.0694,
-            "price": 229.64
+            "weight": 0.0703,
+            "price": 231.5
         },
         {
             "ticker": "FITB",
             "name": "Fifth Third Bancorp",
             "sector": "Financial Services",
-            "weight": 0.0691,
-            "price": 51.56
+            "weight": 0.0701,
+            "price": 51.97
         },
         {
             "ticker": "DHI",
             "name": "D. R. Horton",
             "sector": "Consumer Cyclical",
-            "weight": 0.0683,
-            "price": 157.46
-        },
-        {
-            "ticker": "YUM",
-            "name": "Yum! Brands",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0683,
-            "price": 165.23
-        },
-        {
-            "ticker": "DAL",
-            "name": "Delta Air Lines",
-            "sector": "Industrials",
-            "weight": 0.0675,
-            "price": 69.38
+            "weight": 0.0693,
+            "price": 158.97
         },
         {
             "ticker": "ROK",
             "name": "Rockwell Automation",
             "sector": "Industrials",
-            "weight": 0.0674,
-            "price": 402.38
+            "weight": 0.0693,
+            "price": 411.3
+        },
+        {
+            "ticker": "DAL",
+            "name": "Delta Air Lines",
+            "sector": "Industrials",
+            "weight": 0.069,
+            "price": 70.51
+        },
+        {
+            "ticker": "YUM",
+            "name": "Yum! Brands",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0689,
+            "price": 165.71
+        },
+        {
+            "ticker": "AMP",
+            "name": "Ameriprise Financial",
+            "sector": "Financial Services",
+            "weight": 0.0678,
+            "price": 486.98
+        },
+        {
+            "ticker": "CCL",
+            "name": "Carnival",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0677,
+            "price": 32.7
         },
         {
             "ticker": "WAB",
             "name": "Wabtec",
             "sector": "Industrials",
+            "weight": 0.0675,
+            "price": 263.41
+        },
+        {
+            "ticker": "CBRE",
+            "name": "CBRE Group",
+            "sector": "Real Estate",
             "weight": 0.0669,
-            "price": 262.81
+            "price": 150.0
         },
         {
             "ticker": "KR",
             "name": "Kroger",
             "sector": "Consumer Defensive",
             "weight": 0.0667,
-            "price": 67.59
-        },
-        {
-            "ticker": "AMP",
-            "name": "Ameriprise Financial",
-            "sector": "Financial Services",
-            "weight": 0.0662,
-            "price": 478.25
-        },
-        {
-            "ticker": "PYPL",
-            "name": "PayPal",
-            "sector": "Financial Services",
-            "weight": 0.0659,
-            "price": 47.32
-        },
-        {
-            "ticker": "CCL",
-            "name": "Carnival",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0653,
-            "price": 31.7
-        },
-        {
-            "ticker": "CBRE",
-            "name": "CBRE Group",
-            "sector": "Real Estate",
-            "weight": 0.0653,
-            "price": 147.24
-        },
-        {
-            "ticker": "AIG",
-            "name": "American International Group",
-            "sector": "Financial Services",
-            "weight": 0.0644,
-            "price": 80.15
-        },
-        {
-            "ticker": "PEG",
-            "name": "Public Service Enterprise Group",
-            "sector": "Utilities",
-            "weight": 0.0639,
-            "price": 85.97
-        },
-        {
-            "ticker": "SYY",
-            "name": "Sysco",
-            "sector": "Consumer Defensive",
-            "weight": 0.0636,
-            "price": 89.13
-        },
-        {
-            "ticker": "MSCI",
-            "name": "MSCI Inc.",
-            "sector": "Financial Services",
-            "weight": 0.0623,
-            "price": 556.87
+            "price": 67.18
         },
         {
             "ticker": "AXON",
             "name": "Axon Enterprise",
             "sector": "Industrials",
-            "weight": 0.0615,
-            "price": 520.18
+            "weight": 0.0655,
+            "price": 550.19
         },
         {
-            "ticker": "VTR",
-            "name": "Ventas",
-            "sector": "Real Estate",
-            "weight": 0.0611,
-            "price": 86.41
+            "ticker": "AIG",
+            "name": "American International Group",
+            "sector": "Financial Services",
+            "weight": 0.0649,
+            "price": 80.35
         },
         {
-            "ticker": "KDP",
-            "name": "Keurig Dr Pepper",
+            "ticker": "MSCI",
+            "name": "MSCI Inc.",
+            "sector": "Financial Services",
+            "weight": 0.0645,
+            "price": 572.87
+        },
+        {
+            "ticker": "PEG",
+            "name": "Public Service Enterprise Group",
+            "sector": "Utilities",
+            "weight": 0.0642,
+            "price": 85.85
+        },
+        {
+            "ticker": "SYY",
+            "name": "Sysco",
             "sector": "Consumer Defensive",
-            "weight": 0.061,
-            "price": 30.15
+            "weight": 0.0639,
+            "price": 89.12
+        },
+        {
+            "ticker": "PYPL",
+            "name": "PayPal",
+            "sector": "Financial Services",
+            "weight": 0.0638,
+            "price": 45.53
+        },
+        {
+            "ticker": "ODFL",
+            "name": "Old Dominion",
+            "sector": "Industrials",
+            "weight": 0.0625,
+            "price": 198.37
         },
         {
             "ticker": "PCG",
             "name": "PG&E Corporation",
             "sector": "Utilities",
-            "weight": 0.061,
-            "price": 18.65
+            "weight": 0.0622,
+            "price": 18.88
         },
         {
-            "ticker": "EL",
-            "name": "Estée Lauder Companies (The)",
+            "ticker": "KDP",
+            "name": "Keurig Dr Pepper",
             "sector": "Consumer Defensive",
-            "weight": 0.0608,
-            "price": 112.92
+            "weight": 0.0617,
+            "price": 30.33
+        },
+        {
+            "ticker": "VTR",
+            "name": "Ventas",
+            "sector": "Real Estate",
+            "weight": 0.0615,
+            "price": 86.44
+        },
+        {
+            "ticker": "MLM",
+            "name": "Martin Marietta Materials",
+            "sector": "Basic Materials",
+            "weight": 0.0613,
+            "price": 678.46
+        },
+        {
+            "ticker": "DDOG",
+            "name": "Datadog",
+            "sector": "Technology",
+            "weight": 0.0612,
+            "price": 116.46
+        },
+        {
+            "ticker": "VMC",
+            "name": "Vulcan Materials Company",
+            "sector": "Basic Materials",
+            "weight": 0.0612,
+            "price": 308.99
         },
         {
             "ticker": "MCHP",
             "name": "Microchip Technology",
             "sector": "Technology",
             "weight": 0.0608,
-            "price": 75.47
+            "price": 74.97
         },
         {
-            "ticker": "MLM",
-            "name": "Martin Marietta Materials",
-            "sector": "Basic Materials",
-            "weight": 0.0605,
-            "price": 673.29
-        },
-        {
-            "ticker": "VMC",
-            "name": "Vulcan Materials Company",
-            "sector": "Basic Materials",
-            "weight": 0.0601,
-            "price": 305.53
-        },
-        {
-            "ticker": "ODFL",
-            "name": "Old Dominion",
-            "sector": "Industrials",
-            "weight": 0.06,
-            "price": 191.7
-        },
-        {
-            "ticker": "NUE",
-            "name": "Nucor",
-            "sector": "Basic Materials",
-            "weight": 0.0598,
-            "price": 175.48
-        },
-        {
-            "ticker": "ED",
-            "name": "Consolidated Edison",
-            "sector": "Utilities",
-            "weight": 0.0597,
-            "price": 111.0
-        },
-        {
-            "ticker": "NRG",
-            "name": "NRG Energy",
-            "sector": "Utilities",
-            "weight": 0.059,
-            "price": 183.59
-        },
-        {
-            "ticker": "HIG",
-            "name": "Hartford (The)",
-            "sector": "Financial Services",
-            "weight": 0.0586,
-            "price": 141.06
-        },
-        {
-            "ticker": "ARES",
-            "name": "Ares Management",
-            "sector": "Financial Services",
-            "weight": 0.0581,
-            "price": 119.18
+            "ticker": "EL",
+            "name": "Estée Lauder Companies (The)",
+            "sector": "Consumer Defensive",
+            "weight": 0.0606,
+            "price": 111.9
         },
         {
             "ticker": "EBAY",
             "name": "eBay Inc.",
             "sector": "Consumer Cyclical",
-            "weight": 0.0581,
-            "price": 85.33
+            "weight": 0.0602,
+            "price": 87.9
         },
         {
-            "ticker": "DDOG",
-            "name": "Datadog",
-            "sector": "Technology",
-            "weight": 0.0576,
-            "price": 110.33
+            "ticker": "NUE",
+            "name": "Nucor",
+            "sector": "Basic Materials",
+            "weight": 0.0602,
+            "price": 175.61
+        },
+        {
+            "ticker": "ED",
+            "name": "Consolidated Edison",
+            "sector": "Utilities",
+            "weight": 0.0599,
+            "price": 110.76
         },
         {
             "ticker": "TTWO",
             "name": "Take-Two Interactive",
             "sector": "Communication Services",
-            "weight": 0.0572,
-            "price": 207.31
+            "weight": 0.0592,
+            "price": 213.29
+        },
+        {
+            "ticker": "HIG",
+            "name": "Hartford (The)",
+            "sector": "Financial Services",
+            "weight": 0.0589,
+            "price": 141.07
+        },
+        {
+            "ticker": "NRG",
+            "name": "NRG Energy",
+            "sector": "Utilities",
+            "weight": 0.0586,
+            "price": 181.34
+        },
+        {
+            "ticker": "ARES",
+            "name": "Ares Management",
+            "sector": "Financial Services",
+            "weight": 0.058,
+            "price": 118.08
         },
         {
             "ticker": "GEHC",
             "name": "GE HealthCare",
             "sector": "Healthcare",
-            "weight": 0.057,
-            "price": 84.03
-        },
-        {
-            "ticker": "WEC",
-            "name": "WEC Energy Group",
-            "sector": "Utilities",
-            "weight": 0.0559,
-            "price": 115.42
-        },
-        {
-            "ticker": "CCI",
-            "name": "Crown Castle",
-            "sector": "Real Estate",
-            "weight": 0.0558,
-            "price": 86.04
-        },
-        {
-            "ticker": "LVS",
-            "name": "Las Vegas Sands",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0555,
-            "price": 55.07
-        },
-        {
-            "ticker": "EQT",
-            "name": "EQT Corporation",
-            "sector": "Energy",
-            "weight": 0.0552,
-            "price": 59.38
+            "weight": 0.0573,
+            "price": 83.92
         },
         {
             "ticker": "ROP",
             "name": "Roper Technologies",
             "sector": "Technology",
-            "weight": 0.0552,
-            "price": 344.24
+            "weight": 0.0568,
+            "price": 352.15
         },
         {
-            "ticker": "RMD",
-            "name": "ResMed",
-            "sector": "Healthcare",
-            "weight": 0.0549,
-            "price": 252.53
-        },
-        {
-            "ticker": "IR",
-            "name": "Ingersoll Rand",
-            "sector": "Industrials",
-            "weight": 0.0547,
-            "price": 93.02
-        },
-        {
-            "ticker": "STT",
-            "name": "State Street Corporation",
-            "sector": "Financial Services",
-            "weight": 0.0547,
-            "price": 131.62
+            "ticker": "LVS",
+            "name": "Las Vegas Sands",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0567,
+            "price": 55.95
         },
         {
             "ticker": "UAL",
             "name": "United Airlines Holdings",
             "sector": "Industrials",
-            "weight": 0.0544,
-            "price": 112.87
+            "weight": 0.0565,
+            "price": 116.43
         },
         {
-            "ticker": "KMB",
-            "name": "Kimberly-Clark",
-            "sector": "Consumer Defensive",
-            "weight": 0.054,
-            "price": 109.21
+            "ticker": "WEC",
+            "name": "WEC Energy Group",
+            "sector": "Utilities",
+            "weight": 0.0565,
+            "price": 115.79
         },
         {
-            "ticker": "ACGL",
-            "name": "Arch Capital Group",
-            "sector": "Financial Services",
-            "weight": 0.0537,
-            "price": 99.36
+            "ticker": "CCI",
+            "name": "Crown Castle",
+            "sector": "Real Estate",
+            "weight": 0.0564,
+            "price": 86.4
         },
         {
-            "ticker": "LYV",
-            "name": "Live Nation Entertainment",
-            "sector": "Communication Services",
-            "weight": 0.0537,
-            "price": 155.22
+            "ticker": "RMD",
+            "name": "ResMed",
+            "sector": "Healthcare",
+            "weight": 0.0562,
+            "price": 257.06
         },
         {
-            "ticker": "KVUE",
-            "name": "Kenvue",
-            "sector": "Consumer Defensive",
-            "weight": 0.0536,
-            "price": 18.77
-        },
-        {
-            "ticker": "EME",
-            "name": "Emcor",
+            "ticker": "IR",
+            "name": "Ingersoll Rand",
             "sector": "Industrials",
-            "weight": 0.0535,
-            "price": 801.8
+            "weight": 0.056,
+            "price": 94.53
+        },
+        {
+            "ticker": "EQT",
+            "name": "EQT Corporation",
+            "sector": "Energy",
+            "weight": 0.0559,
+            "price": 59.74
         },
         {
             "ticker": "WDAY",
             "name": "Workday, Inc.",
             "sector": "Technology",
-            "weight": 0.0529,
-            "price": 133.15
+            "weight": 0.0556,
+            "price": 139.11
         },
         {
-            "ticker": "A",
-            "name": "Agilent Technologies",
-            "sector": "Healthcare",
-            "weight": 0.0527,
-            "price": 124.72
-        },
-        {
-            "ticker": "TPL",
-            "name": "Texas Pacific Land Corporation",
-            "sector": "Energy",
-            "weight": 0.0524,
-            "price": 510.3
-        },
-        {
-            "ticker": "PRU",
-            "name": "Prudential Financial",
+            "ticker": "STT",
+            "name": "State Street Corporation",
             "sector": "Financial Services",
-            "weight": 0.0523,
-            "price": 100.86
+            "weight": 0.0553,
+            "price": 132.27
         },
         {
-            "ticker": "HBAN",
-            "name": "Huntington Bancshares",
+            "ticker": "KMB",
+            "name": "Kimberly-Clark",
+            "sector": "Consumer Defensive",
+            "weight": 0.0549,
+            "price": 110.38
+        },
+        {
+            "ticker": "LYV",
+            "name": "Live Nation Entertainment",
+            "sector": "Communication Services",
+            "weight": 0.0549,
+            "price": 157.91
+        },
+        {
+            "ticker": "KVUE",
+            "name": "Kenvue",
+            "sector": "Consumer Defensive",
+            "weight": 0.0545,
+            "price": 19.0
+        },
+        {
+            "ticker": "ACGL",
+            "name": "Arch Capital Group",
             "sector": "Financial Services",
-            "weight": 0.0522,
-            "price": 17.28
-        },
-        {
-            "ticker": "OTIS",
-            "name": "Otis Worldwide",
-            "sector": "Industrials",
-            "weight": 0.0519,
-            "price": 89.43
+            "weight": 0.0541,
+            "price": 99.65
         },
         {
             "ticker": "CPRT",
             "name": "Copart",
             "sector": "Industrials",
-            "weight": 0.0517,
-            "price": 35.84
+            "weight": 0.0539,
+            "price": 37.15
+        },
+        {
+            "ticker": "OTIS",
+            "name": "Otis Worldwide",
+            "sector": "Industrials",
+            "weight": 0.0534,
+            "price": 91.46
+        },
+        {
+            "ticker": "HBAN",
+            "name": "Huntington Bancshares",
+            "sector": "Financial Services",
+            "weight": 0.0533,
+            "price": 17.54
+        },
+        {
+            "ticker": "PRU",
+            "name": "Prudential Financial",
+            "sector": "Financial Services",
+            "weight": 0.0533,
+            "price": 102.31
+        },
+        {
+            "ticker": "TPL",
+            "name": "Texas Pacific Land Corporation",
+            "sector": "Energy",
+            "weight": 0.0529,
+            "price": 512.54
         },
         {
             "ticker": "MTB",
             "name": "M&T Bank",
             "sector": "Financial Services",
-            "weight": 0.0509,
-            "price": 222.52
+            "weight": 0.0519,
+            "price": 225.35
+        },
+        {
+            "ticker": "A",
+            "name": "Agilent Technologies",
+            "sector": "Healthcare",
+            "weight": 0.0514,
+            "price": 120.97
         },
         {
             "ticker": "DG",
             "name": "Dollar General",
             "sector": "Consumer Defensive",
-            "weight": 0.0507,
-            "price": 154.79
-        },
-        {
-            "ticker": "FISV",
-            "name": "Fiserv",
-            "sector": "Financials",
-            "weight": 0.0499,
-            "price": 61.61
-        },
-        {
-            "ticker": "IRM",
-            "name": "Iron Mountain",
-            "sector": "Real Estate",
-            "weight": 0.0492,
-            "price": 111.78
+            "weight": 0.0508,
+            "price": 154.0
         },
         {
             "ticker": "PAYX",
             "name": "Paychex",
             "sector": "Technology",
-            "weight": 0.0488,
-            "price": 91.23
+            "weight": 0.0508,
+            "price": 94.48
         },
         {
-            "ticker": "EXR",
-            "name": "Extra Space Storage",
-            "sector": "Real Estate",
-            "weight": 0.0485,
-            "price": 146.87
+            "ticker": "FISV",
+            "name": "Fiserv",
+            "sector": "Financials",
+            "weight": 0.0504,
+            "price": 61.89
         },
         {
-            "ticker": "ADM",
-            "name": "Archer Daniels Midland",
-            "sector": "Consumer Defensive",
-            "weight": 0.0483,
-            "price": 67.45
-        },
-        {
-            "ticker": "VICI",
-            "name": "Vici Properties",
-            "sector": "Real Estate",
-            "weight": 0.0481,
-            "price": 30.24
-        },
-        {
-            "ticker": "TPR",
-            "name": "Tapestry, Inc.",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0478,
-            "price": 156.92
-        },
-        {
-            "ticker": "TDY",
-            "name": "Teledyne Technologies",
-            "sector": "Technology",
-            "weight": 0.0474,
-            "price": 677.38
+            "ticker": "EME",
+            "name": "Emcor",
+            "sector": "Industrials",
+            "weight": 0.05,
+            "price": 746.18
         },
         {
             "ticker": "XYZ",
             "name": "Block, Inc.",
             "sector": "Technology",
-            "weight": 0.0472,
-            "price": 51.94
-        },
-        {
-            "ticker": "WAT",
-            "name": "Waters Corporation",
-            "sector": "Healthcare",
-            "weight": 0.0467,
-            "price": 319.44
-        },
-        {
-            "ticker": "RJF",
-            "name": "Raymond James Financial",
-            "sector": "Financial Services",
-            "weight": 0.0466,
-            "price": 158.34
-        },
-        {
-            "ticker": "XYL",
-            "name": "Xylem Inc.",
-            "sector": "Industrials",
-            "weight": 0.0465,
-            "price": 128.26
-        },
-        {
-            "ticker": "DOV",
-            "name": "Dover Corporation",
-            "sector": "Industrials",
-            "weight": 0.0463,
-            "price": 226.73
+            "weight": 0.0498,
+            "price": 54.53
         },
         {
             "ticker": "FICO",
             "name": "Fair Isaac",
             "sector": "Technology",
-            "weight": 0.046,
-            "price": 1300.94
+            "weight": 0.0493,
+            "price": 1388.44
         },
         {
-            "ticker": "AEE",
-            "name": "Ameren",
-            "sector": "Utilities",
-            "weight": 0.0459,
-            "price": 111.44
-        },
-        {
-            "ticker": "ULTA",
-            "name": "Ulta Beauty",
+            "ticker": "TPR",
+            "name": "Tapestry, Inc.",
             "sector": "Consumer Cyclical",
-            "weight": 0.0457,
-            "price": 684.27
+            "weight": 0.0492,
+            "price": 160.49
         },
         {
-            "ticker": "CBOE",
-            "name": "Cboe Global Markets",
-            "sector": "Financial Services",
-            "weight": 0.0454,
-            "price": 291.27
+            "ticker": "EXR",
+            "name": "Extra Space Storage",
+            "sector": "Real Estate",
+            "weight": 0.049,
+            "price": 147.64
         },
         {
-            "ticker": "DTE",
-            "name": "DTE Energy",
-            "sector": "Utilities",
-            "weight": 0.0452,
-            "price": 146.02
+            "ticker": "ADM",
+            "name": "Archer Daniels Midland",
+            "sector": "Consumer Defensive",
+            "weight": 0.0486,
+            "price": 67.42
         },
         {
-            "ticker": "ATO",
-            "name": "Atmos Energy",
-            "sector": "Utilities",
-            "weight": 0.0449,
-            "price": 182.06
+            "ticker": "IRM",
+            "name": "Iron Mountain",
+            "sector": "Real Estate",
+            "weight": 0.0485,
+            "price": 109.35
         },
         {
-            "ticker": "HAL",
-            "name": "Halliburton",
-            "sector": "Energy",
-            "weight": 0.0442,
-            "price": 35.27
+            "ticker": "XYL",
+            "name": "Xylem Inc.",
+            "sector": "Industrials",
+            "weight": 0.0481,
+            "price": 131.93
         },
         {
-            "ticker": "JBL",
-            "name": "Jabil",
+            "ticker": "TDY",
+            "name": "Teledyne Technologies",
             "sector": "Technology",
-            "weight": 0.0442,
-            "price": 277.57
+            "weight": 0.0477,
+            "price": 678.82
+        },
+        {
+            "ticker": "VICI",
+            "name": "Vici Properties",
+            "sector": "Real Estate",
+            "weight": 0.0477,
+            "price": 29.78
+        },
+        {
+            "ticker": "WAT",
+            "name": "Waters Corporation",
+            "sector": "Healthcare",
+            "weight": 0.0474,
+            "price": 322.83
+        },
+        {
+            "ticker": "RJF",
+            "name": "Raymond James Financial",
+            "sector": "Financial Services",
+            "weight": 0.0472,
+            "price": 159.68
         },
         {
             "ticker": "CTSH",
             "name": "Cognizant",
             "sector": "Technology",
-            "weight": 0.0441,
-            "price": 61.33
+            "weight": 0.047,
+            "price": 64.97
         },
         {
-            "ticker": "FE",
-            "name": "FirstEnergy",
+            "ticker": "DOV",
+            "name": "Dover Corporation",
+            "sector": "Industrials",
+            "weight": 0.0467,
+            "price": 227.14
+        },
+        {
+            "ticker": "ULTA",
+            "name": "Ulta Beauty",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0467,
+            "price": 695.63
+        },
+        {
+            "ticker": "AEE",
+            "name": "Ameren",
             "sector": "Utilities",
-            "weight": 0.0436,
-            "price": 50.64
+            "weight": 0.0464,
+            "price": 112.03
+        },
+        {
+            "ticker": "CBOE",
+            "name": "Cboe Global Markets",
+            "sector": "Financial Services",
+            "weight": 0.0458,
+            "price": 292.3
+        },
+        {
+            "ticker": "DTE",
+            "name": "DTE Energy",
+            "sector": "Utilities",
+            "weight": 0.0456,
+            "price": 146.59
+        },
+        {
+            "ticker": "ATO",
+            "name": "Atmos Energy",
+            "sector": "Utilities",
+            "weight": 0.0455,
+            "price": 183.63
+        },
+        {
+            "ticker": "HAL",
+            "name": "Halliburton",
+            "sector": "Energy",
+            "weight": 0.045,
+            "price": 35.71
         },
         {
             "ticker": "CHTR",
             "name": "Charter Communications",
             "sector": "Communication Services",
-            "weight": 0.0435,
-            "price": 225.75
-        },
-        {
-            "ticker": "KHC",
-            "name": "Kraft Heinz",
-            "sector": "Consumer Defensive",
-            "weight": 0.0433,
-            "price": 24.555
-        },
-        {
-            "ticker": "EIX",
-            "name": "Edison International",
-            "sector": "Utilities",
-            "weight": 0.0431,
-            "price": 75.2
-        },
-        {
-            "ticker": "PPL",
-            "name": "PPL Corporation",
-            "sector": "Utilities",
-            "weight": 0.0428,
-            "price": 38.28
-        },
-        {
-            "ticker": "DXCM",
-            "name": "Dexcom",
-            "sector": "Healthcare",
-            "weight": 0.0425,
-            "price": 73.16
-        },
-        {
-            "ticker": "ROL",
-            "name": "Rollins, Inc.",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0424,
-            "price": 59.13
+            "weight": 0.0443,
+            "price": 228.38
         },
         {
             "ticker": "WTW",
             "name": "Willis Towers Watson",
             "sector": "Financial Services",
-            "weight": 0.0423,
-            "price": 296.84
+            "weight": 0.0442,
+            "price": 308.29
         },
         {
-            "ticker": "CNP",
-            "name": "CenterPoint Energy",
+            "ticker": "FE",
+            "name": "FirstEnergy",
             "sector": "Utilities",
-            "weight": 0.042,
-            "price": 43.19
+            "weight": 0.0438,
+            "price": 50.64
         },
         {
-            "ticker": "MTD",
-            "name": "Mettler Toledo",
+            "ticker": "KHC",
+            "name": "Kraft Heinz",
+            "sector": "Consumer Defensive",
+            "weight": 0.0436,
+            "price": 24.57
+        },
+        {
+            "ticker": "DXCM",
+            "name": "Dexcom",
             "sector": "Healthcare",
-            "weight": 0.042,
-            "price": 1379.91
-        },
-        {
-            "ticker": "STLD",
-            "name": "Steel Dynamics",
-            "sector": "Basic Materials",
-            "weight": 0.042,
-            "price": 191.53
-        },
-        {
-            "ticker": "ES",
-            "name": "Eversource Energy",
-            "sector": "Utilities",
-            "weight": 0.0419,
-            "price": 74.92
-        },
-        {
-            "ticker": "HUBB",
-            "name": "Hubbell Incorporated",
-            "sector": "Industrials",
-            "weight": 0.0418,
-            "price": 527.9
-        },
-        {
-            "ticker": "ON",
-            "name": "ON Semiconductor",
-            "sector": "Technology",
-            "weight": 0.0418,
-            "price": 69.68
-        },
-        {
-            "ticker": "BIIB",
-            "name": "Biogen",
-            "sector": "Healthcare",
-            "weight": 0.0417,
-            "price": 190.73
+            "weight": 0.0435,
+            "price": 74.38
         },
         {
             "ticker": "IQV",
             "name": "IQVIA",
             "sector": "Healthcare",
-            "weight": 0.0411,
-            "price": 161.91
+            "weight": 0.0435,
+            "price": 170.64
         },
         {
-            "ticker": "HPE",
-            "name": "Hewlett Packard Enterprise",
+            "ticker": "JBL",
+            "name": "Jabil",
             "sector": "Technology",
-            "weight": 0.041,
-            "price": 20.63
+            "weight": 0.0435,
+            "price": 271.91
         },
         {
-            "ticker": "NTRS",
-            "name": "Northern Trust",
-            "sector": "Financial Services",
-            "weight": 0.041,
-            "price": 145.74
+            "ticker": "PPL",
+            "name": "PPL Corporation",
+            "sector": "Utilities",
+            "weight": 0.0434,
+            "price": 38.6
         },
         {
-            "ticker": "PPG",
-            "name": "PPG Industries",
+            "ticker": "ROL",
+            "name": "Rollins, Inc.",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0431,
+            "price": 59.76
+        },
+        {
+            "ticker": "EIX",
+            "name": "Edison International",
+            "sector": "Utilities",
+            "weight": 0.0429,
+            "price": 74.37
+        },
+        {
+            "ticker": "STLD",
+            "name": "Steel Dynamics",
             "sector": "Basic Materials",
-            "weight": 0.041,
-            "price": 123.12
-        },
-        {
-            "ticker": "LEN",
-            "name": "Lennar",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0407,
-            "price": 110.73
-        },
-        {
-            "ticker": "TSCO",
-            "name": "Tractor Supply",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0407,
-            "price": 51.77
+            "weight": 0.0425,
+            "price": 192.52
         },
         {
             "ticker": "VRSK",
             "name": "Verisk Analytics",
             "sector": "Industrials",
-            "weight": 0.0407,
-            "price": 195.82
+            "weight": 0.0424,
+            "price": 202.64
         },
         {
-            "ticker": "WRB",
-            "name": "W. R. Berkley Corporation",
+            "ticker": "ES",
+            "name": "Eversource Energy",
+            "sector": "Utilities",
+            "weight": 0.0422,
+            "price": 75.05
+        },
+        {
+            "ticker": "CNP",
+            "name": "CenterPoint Energy",
+            "sector": "Utilities",
+            "weight": 0.0421,
+            "price": 43.01
+        },
+        {
+            "ticker": "MTD",
+            "name": "Mettler Toledo",
+            "sector": "Healthcare",
+            "weight": 0.0421,
+            "price": 1377.22
+        },
+        {
+            "ticker": "NTRS",
+            "name": "Northern Trust",
             "sector": "Financial Services",
-            "weight": 0.0405,
-            "price": 71.58
+            "weight": 0.0418,
+            "price": 147.59
+        },
+        {
+            "ticker": "HPE",
+            "name": "Hewlett Packard Enterprise",
+            "sector": "Technology",
+            "weight": 0.0417,
+            "price": 20.84
+        },
+        {
+            "ticker": "HUBB",
+            "name": "Hubbell Incorporated",
+            "sector": "Industrials",
+            "weight": 0.0417,
+            "price": 524.19
+        },
+        {
+            "ticker": "LEN",
+            "name": "Lennar",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0414,
+            "price": 112.0
+        },
+        {
+            "ticker": "BIIB",
+            "name": "Biogen",
+            "sector": "Healthcare",
+            "weight": 0.0413,
+            "price": 188.02
+        },
+        {
+            "ticker": "PPG",
+            "name": "PPG Industries",
+            "sector": "Basic Materials",
+            "weight": 0.0413,
+            "price": 123.48
         },
         {
             "ticker": "CFG",
             "name": "Citizens Financial Group",
             "sector": "Financial Services",
-            "weight": 0.0403,
-            "price": 63.06
+            "weight": 0.0411,
+            "price": 63.86
+        },
+        {
+            "ticker": "ON",
+            "name": "ON Semiconductor",
+            "sector": "Technology",
+            "weight": 0.0411,
+            "price": 68.16
+        },
+        {
+            "ticker": "WRB",
+            "name": "W. R. Berkley Corporation",
+            "sector": "Financial Services",
+            "weight": 0.0408,
+            "price": 71.58
         },
         {
             "ticker": "STZ",
             "name": "Constellation Brands",
             "sector": "Consumer Defensive",
-            "weight": 0.0402,
-            "price": 155.12
+            "weight": 0.0406,
+            "price": 155.76
         },
         {
-            "ticker": "DVN",
-            "name": "Devon Energy",
-            "sector": "Energy",
-            "weight": 0.0394,
-            "price": 42.62
+            "ticker": "TSCO",
+            "name": "Tractor Supply",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0405,
+            "price": 51.18
+        },
+        {
+            "ticker": "EXPE",
+            "name": "Expedia Group",
+            "sector": "Consumer Cyclical",
+            "weight": 0.04,
+            "price": 217.93
+        },
+        {
+            "ticker": "FIS",
+            "name": "Fidelity National Information Services",
+            "sector": "Technology",
+            "weight": 0.04,
+            "price": 51.05
+        },
+        {
+            "ticker": "OMC",
+            "name": "Omnicom Group",
+            "sector": "Communication Services",
+            "weight": 0.0399,
+            "price": 84.71
         },
         {
             "ticker": "SYF",
             "name": "Synchrony Financial",
             "sector": "Financial Services",
-            "weight": 0.0391,
-            "price": 72.81
+            "weight": 0.0399,
+            "price": 73.98
+        },
+        {
+            "ticker": "DVN",
+            "name": "Devon Energy",
+            "sector": "Energy",
+            "weight": 0.0396,
+            "price": 42.66
+        },
+        {
+            "ticker": "LUV",
+            "name": "Southwest Airlines",
+            "sector": "Industrials",
+            "weight": 0.0395,
+            "price": 50.93
         },
         {
             "ticker": "AWK",
             "name": "American Water Works",
             "sector": "Utilities",
-            "weight": 0.039,
-            "price": 134.22
+            "weight": 0.0393,
+            "price": 134.32
+        },
+        {
+            "ticker": "Q",
+            "name": "Qnity Electronics",
+            "sector": "Technology",
+            "weight": 0.0392,
+            "price": 124.78
+        },
+        {
+            "ticker": "PHM",
+            "name": "PulteGroup",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0391,
+            "price": 135.66
         },
         {
             "ticker": "DLTR",
             "name": "Dollar Tree",
             "sector": "Consumer Defensive",
             "weight": 0.0388,
-            "price": 127.7
-        },
-        {
-            "ticker": "OMC",
-            "name": "Omnicom Group",
-            "sector": "Communication Services",
-            "weight": 0.0388,
-            "price": 82.71
-        },
-        {
-            "ticker": "PHM",
-            "name": "PulteGroup",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0386,
-            "price": 134.61
-        },
-        {
-            "ticker": "LUV",
-            "name": "Southwest Airlines",
-            "sector": "Industrials",
-            "weight": 0.0384,
-            "price": 49.89
-        },
-        {
-            "ticker": "FIS",
-            "name": "Fidelity National Information Services",
-            "sector": "Technology",
-            "weight": 0.0382,
-            "price": 49.07
+            "price": 126.95
         },
         {
             "ticker": "CINF",
             "name": "Cincinnati Financial",
             "sector": "Financial Services",
-            "weight": 0.038,
-            "price": 163.75
+            "weight": 0.0386,
+            "price": 165.2
         },
         {
             "ticker": "RF",
             "name": "Regions Financial Corporation",
             "sector": "Financial Services",
-            "weight": 0.0379,
-            "price": 29.0
+            "weight": 0.0386,
+            "price": 29.36
         },
         {
             "ticker": "AVB",
             "name": "AvalonBay Communities",
             "sector": "Real Estate",
-            "weight": 0.0376,
-            "price": 178.27
-        },
-        {
-            "ticker": "EXE",
-            "name": "Expand Energy",
-            "sector": "Energy",
-            "weight": 0.0376,
-            "price": 106.05
-        },
-        {
-            "ticker": "Q",
-            "name": "Qnity Electronics",
-            "sector": "Technology",
-            "weight": 0.0374,
-            "price": 119.86
-        },
-        {
-            "ticker": "EXPE",
-            "name": "Expedia Group",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0372,
-            "price": 203.74
-        },
-        {
-            "ticker": "WSM",
-            "name": "Williams-Sonoma, Inc.",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0372,
-            "price": 209.22
-        },
-        {
-            "ticker": "CHD",
-            "name": "Church & Dwight",
-            "sector": "Consumer Defensive",
-            "weight": 0.0371,
-            "price": 103.63
-        },
-        {
-            "ticker": "EQR",
-            "name": "Equity Residential",
-            "sector": "Real Estate",
-            "weight": 0.037,
-            "price": 63.4
-        },
-        {
-            "ticker": "STE",
-            "name": "Steris",
-            "sector": "Healthcare",
-            "weight": 0.0368,
-            "price": 251.62
-        },
-        {
-            "ticker": "DRI",
-            "name": "Darden Restaurants",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0367,
-            "price": 212.06
+            "weight": 0.0381,
+            "price": 179.67
         },
         {
             "ticker": "EFX",
             "name": "Equifax",
             "sector": "Industrials",
-            "weight": 0.0361,
-            "price": 198.12
+            "weight": 0.0381,
+            "price": 207.85
         },
         {
-            "ticker": "SW",
-            "name": "Smurfit Westrock",
+            "ticker": "EXE",
+            "name": "Expand Energy",
+            "sector": "Energy",
+            "weight": 0.0379,
+            "price": 106.29
+        },
+        {
+            "ticker": "WSM",
+            "name": "Williams-Sonoma, Inc.",
             "sector": "Consumer Cyclical",
-            "weight": 0.0358,
-            "price": 45.97
+            "weight": 0.0378,
+            "price": 211.38
         },
         {
-            "ticker": "BRO",
-            "name": "Brown & Brown",
-            "sector": "Financial Services",
-            "weight": 0.0356,
-            "price": 70.05
+            "ticker": "EQR",
+            "name": "Equity Residential",
+            "sector": "Real Estate",
+            "weight": 0.0377,
+            "price": 64.12
         },
         {
-            "ticker": "GIS",
-            "name": "General Mills",
-            "sector": "Consumer Defensive",
-            "weight": 0.0354,
-            "price": 44.54
+            "ticker": "DRI",
+            "name": "Darden Restaurants",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0374,
+            "price": 214.83
         },
         {
-            "ticker": "KEY",
-            "name": "KeyCorp",
-            "sector": "Financial Services",
-            "weight": 0.0352,
-            "price": 21.47
-        },
-        {
-            "ticker": "BG",
-            "name": "Bunge Global",
-            "sector": "Consumer Defensive",
-            "weight": 0.035,
-            "price": 121.38
-        },
-        {
-            "ticker": "CMS",
-            "name": "CMS Energy",
-            "sector": "Utilities",
-            "weight": 0.035,
-            "price": 76.59
-        },
-        {
-            "ticker": "LH",
-            "name": "Labcorp",
+            "ticker": "STE",
+            "name": "Steris",
             "sector": "Healthcare",
-            "weight": 0.0349,
-            "price": 282.78
+            "weight": 0.0374,
+            "price": 254.7
+        },
+        {
+            "ticker": "CHD",
+            "name": "Church & Dwight",
+            "sector": "Consumer Defensive",
+            "weight": 0.0373,
+            "price": 103.67
         },
         {
             "ticker": "VLTO",
             "name": "Veralto",
             "sector": "Industrials",
-            "weight": 0.0349,
-            "price": 94.37
+            "weight": 0.0365,
+            "price": 98.02
         },
         {
-            "ticker": "CPAY",
-            "name": "Corpay",
-            "sector": "Technology",
-            "weight": 0.0347,
-            "price": 330.25
+            "ticker": "BRO",
+            "name": "Brown & Brown",
+            "sector": "Financial Services",
+            "weight": 0.0364,
+            "price": 71.22
         },
         {
             "ticker": "FOX",
             "name": "Fox Corporation (Class B)",
             "sector": "Communication Services",
-            "weight": 0.0345,
-            "price": 49.62
+            "weight": 0.0364,
+            "price": 52.03
         },
         {
-            "ticker": "ALB",
-            "name": "Albemarle Corporation",
-            "sector": "Basic Materials",
-            "weight": 0.0344,
-            "price": 195.87
-        },
-        {
-            "ticker": "DGX",
-            "name": "Quest Diagnostics",
-            "sector": "Healthcare",
-            "weight": 0.0344,
-            "price": 207.8
+            "ticker": "SW",
+            "name": "Smurfit Westrock",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0364,
+            "price": 46.47
         },
         {
             "ticker": "FOXA",
             "name": "Fox Corporation (Class A)",
             "sector": "Communication Services",
-            "weight": 0.0343,
-            "price": 54.12
+            "weight": 0.0362,
+            "price": 56.82
         },
         {
-            "ticker": "IP",
-            "name": "International Paper",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0343,
-            "price": 43.66
+            "ticker": "KEY",
+            "name": "KeyCorp",
+            "sector": "Financial Services",
+            "weight": 0.0361,
+            "price": 21.86
+        },
+        {
+            "ticker": "GIS",
+            "name": "General Mills",
+            "sector": "Consumer Defensive",
+            "weight": 0.0359,
+            "price": 44.93
+        },
+        {
+            "ticker": "LH",
+            "name": "Labcorp",
+            "sector": "Healthcare",
+            "weight": 0.0357,
+            "price": 287.62
+        },
+        {
+            "ticker": "CMS",
+            "name": "CMS Energy",
+            "sector": "Utilities",
+            "weight": 0.0354,
+            "price": 77.05
+        },
+        {
+            "ticker": "CPAY",
+            "name": "Corpay",
+            "sector": "Technology",
+            "weight": 0.0353,
+            "price": 334.12
+        },
+        {
+            "ticker": "DGX",
+            "name": "Quest Diagnostics",
+            "sector": "Healthcare",
+            "weight": 0.0352,
+            "price": 211.1
+        },
+        {
+            "ticker": "BG",
+            "name": "Bunge Global",
+            "sector": "Consumer Defensive",
+            "weight": 0.0346,
+            "price": 119.42
         },
         {
             "ticker": "RL",
             "name": "Ralph Lauren Corporation",
             "sector": "Consumer Cyclical",
-            "weight": 0.0341,
-            "price": 377.07
+            "weight": 0.0344,
+            "price": 378.85
         },
         {
             "ticker": "CTRA",
             "name": "Coterra",
             "sector": "Energy",
-            "weight": 0.0339,
-            "price": 29.9
+            "weight": 0.0342,
+            "price": 30.01
+        },
+        {
+            "ticker": "IP",
+            "name": "International Paper",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0341,
+            "price": 43.13
         },
         {
             "ticker": "L",
             "name": "Loews Corporation",
             "sector": "Financial Services",
+            "weight": 0.0339,
+            "price": 109.43
+        },
+        {
+            "ticker": "HUM",
+            "name": "Humana",
+            "sector": "Healthcare",
             "weight": 0.0337,
-            "price": 109.45
-        },
-        {
-            "ticker": "AMCR",
-            "name": "Amcor",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0336,
-            "price": 48.82
-        },
-        {
-            "ticker": "FSLR",
-            "name": "First Solar",
-            "sector": "Technology",
-            "weight": 0.0336,
-            "price": 210.12
-        },
-        {
-            "ticker": "NI",
-            "name": "NiSource",
-            "sector": "Utilities",
-            "weight": 0.0328,
-            "price": 46.53
-        },
-        {
-            "ticker": "TSN",
-            "name": "Tyson Foods",
-            "sector": "Consumer Defensive",
-            "weight": 0.0328,
-            "price": 62.61
-        },
-        {
-            "ticker": "GPN",
-            "name": "Global Payments",
-            "sector": "Industrials",
-            "weight": 0.0325,
-            "price": 77.94
+            "price": 186.83
         },
         {
             "ticker": "LDOS",
             "name": "Leidos",
             "sector": "Technology",
-            "weight": 0.0323,
-            "price": 169.89
+            "weight": 0.0337,
+            "price": 175.86
+        },
+        {
+            "ticker": "TSN",
+            "name": "Tyson Foods",
+            "sector": "Consumer Defensive",
+            "weight": 0.0336,
+            "price": 63.61
+        },
+        {
+            "ticker": "AMCR",
+            "name": "Amcor",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0334,
+            "price": 48.24
         },
         {
             "ticker": "LULU",
             "name": "Lululemon Athletica",
             "sector": "Consumer Cyclical",
+            "weight": 0.0331,
+            "price": 186.1
+        },
+        {
+            "ticker": "NI",
+            "name": "NiSource",
+            "sector": "Utilities",
+            "weight": 0.0331,
+            "price": 46.7
+        },
+        {
+            "ticker": "CHRW",
+            "name": "C.H. Robinson",
+            "sector": "Industrials",
+            "weight": 0.0327,
+            "price": 184.08
+        },
+        {
+            "ticker": "GPN",
+            "name": "Global Payments",
+            "sector": "Industrials",
+            "weight": 0.0327,
+            "price": 77.85
+        },
+        {
+            "ticker": "ALB",
+            "name": "Albemarle Corporation",
+            "sector": "Basic Materials",
+            "weight": 0.0326,
+            "price": 184.93
+        },
+        {
+            "ticker": "JBHT",
+            "name": "J.B. Hunt",
+            "sector": "Industrials",
+            "weight": 0.0326,
+            "price": 228.22
+        },
+        {
+            "ticker": "FSLR",
+            "name": "First Solar",
+            "sector": "Technology",
             "weight": 0.0322,
-            "price": 182.55
+            "price": 200.1
+        },
+        {
+            "ticker": "BR",
+            "name": "Broadridge Financial Solutions",
+            "sector": "Technology",
+            "weight": 0.0321,
+            "price": 183.26
         },
         {
             "ticker": "DOW",
             "name": "Dow Inc.",
             "sector": "Basic Materials",
             "weight": 0.0321,
-            "price": 30.02
-        },
-        {
-            "ticker": "DD",
-            "name": "DuPont",
-            "sector": "Basic Materials",
-            "weight": 0.0317,
-            "price": 50.74
-        },
-        {
-            "ticker": "HUM",
-            "name": "Humana",
-            "sector": "Healthcare",
-            "weight": 0.0315,
-            "price": 176.06
-        },
-        {
-            "ticker": "CNC",
-            "name": "Centene Corporation",
-            "sector": "Healthcare",
-            "weight": 0.0313,
-            "price": 42.69
-        },
-        {
-            "ticker": "SBAC",
-            "name": "SBA Communications",
-            "sector": "Real Estate",
-            "weight": 0.0313,
-            "price": 197.17
-        },
-        {
-            "ticker": "CHRW",
-            "name": "C.H. Robinson",
-            "sector": "Industrials",
-            "weight": 0.0311,
-            "price": 175.91
-        },
-        {
-            "ticker": "JBHT",
-            "name": "J.B. Hunt",
-            "sector": "Industrials",
-            "weight": 0.0311,
-            "price": 219.25
+            "price": 29.9
         },
         {
             "ticker": "PFG",
             "name": "Principal Financial Group",
             "sector": "Financial Services",
-            "weight": 0.031,
-            "price": 94.68
+            "weight": 0.0321,
+            "price": 97.5
         },
         {
-            "ticker": "TROW",
-            "name": "T. Rowe Price",
-            "sector": "Financial Services",
-            "weight": 0.031,
-            "price": 95.27
+            "ticker": "CNC",
+            "name": "Centene Corporation",
+            "sector": "Healthcare",
+            "weight": 0.0316,
+            "price": 42.93
         },
         {
-            "ticker": "PKG",
-            "name": "Packaging Corporation of America",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0309,
-            "price": 230.92
-        },
-        {
-            "ticker": "BR",
-            "name": "Broadridge Financial Solutions",
-            "sector": "Technology",
-            "weight": 0.0308,
-            "price": 177.32
+            "ticker": "DD",
+            "name": "DuPont",
+            "sector": "Basic Materials",
+            "weight": 0.0316,
+            "price": 50.35
         },
         {
             "ticker": "NVR",
             "name": "NVR, Inc.",
             "sector": "Consumer Cyclical",
-            "weight": 0.0308,
-            "price": 7283.14
+            "weight": 0.0316,
+            "price": 7434.14
         },
         {
-            "ticker": "IFF",
-            "name": "International Flavors & Fragrances",
-            "sector": "Basic Materials",
-            "weight": 0.0305,
-            "price": 79.88
-        },
-        {
-            "ticker": "NTAP",
-            "name": "NetApp",
-            "sector": "Technology",
-            "weight": 0.0303,
-            "price": 101.88
-        },
-        {
-            "ticker": "SMCI",
-            "name": "Supermicro",
-            "sector": "Technology",
-            "weight": 0.03,
-            "price": 33.6
-        },
-        {
-            "ticker": "MRNA",
-            "name": "Moderna",
-            "sector": "Healthcare",
-            "weight": 0.0299,
-            "price": 51.37
-        },
-        {
-            "ticker": "SNA",
-            "name": "Snap-on",
-            "sector": "Industrials",
-            "weight": 0.0299,
-            "price": 386.46
-        },
-        {
-            "ticker": "INCY",
-            "name": "Incyte",
-            "sector": "Healthcare",
-            "weight": 0.0296,
-            "price": 99.98
+            "ticker": "TROW",
+            "name": "T. Rowe Price",
+            "sector": "Financial Services",
+            "weight": 0.0315,
+            "price": 96.46
         },
         {
             "ticker": "VRSN",
             "name": "Verisign",
             "sector": "Technology",
-            "weight": 0.0296,
-            "price": 214.5
+            "weight": 0.0313,
+            "price": 225.29
+        },
+        {
+            "ticker": "PKG",
+            "name": "Packaging Corporation of America",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0312,
+            "price": 231.83
+        },
+        {
+            "ticker": "IFF",
+            "name": "International Flavors & Fragrances",
+            "sector": "Basic Materials",
+            "weight": 0.0311,
+            "price": 80.94
+        },
+        {
+            "ticker": "SBAC",
+            "name": "SBA Communications",
+            "sector": "Real Estate",
+            "weight": 0.0307,
+            "price": 192.17
+        },
+        {
+            "ticker": "MRNA",
+            "name": "Moderna",
+            "sector": "Healthcare",
+            "weight": 0.0303,
+            "price": 51.71
+        },
+        {
+            "ticker": "SNA",
+            "name": "Snap-on",
+            "sector": "Industrials",
+            "weight": 0.0301,
+            "price": 386.67
         },
         {
             "ticker": "ZBH",
             "name": "Zimmer Biomet",
             "sector": "Healthcare",
-            "weight": 0.0295,
-            "price": 99.85
+            "weight": 0.03,
+            "price": 100.99
+        },
+        {
+            "ticker": "INCY",
+            "name": "Incyte",
+            "sector": "Healthcare",
+            "weight": 0.0298,
+            "price": 100.09
+        },
+        {
+            "ticker": "NTAP",
+            "name": "NetApp",
+            "sector": "Technology",
+            "weight": 0.0296,
+            "price": 99.14
         },
         {
             "ticker": "EXPD",
             "name": "Expeditors International",
             "sector": "Industrials",
-            "weight": 0.0287,
-            "price": 141.87
+            "weight": 0.0294,
+            "price": 144.72
         },
         {
-            "ticker": "EVRG",
-            "name": "Evergy",
-            "sector": "Utilities",
-            "weight": 0.0284,
-            "price": 82.8
+            "ticker": "SMCI",
+            "name": "Supermicro",
+            "sector": "Technology",
+            "weight": 0.029,
+            "price": 32.28
         },
         {
             "ticker": "CSGP",
             "name": "CoStar Group",
             "sector": "Real Estate",
-            "weight": 0.0283,
-            "price": 44.78
+            "weight": 0.0286,
+            "price": 45.0
+        },
+        {
+            "ticker": "EVRG",
+            "name": "Evergy",
+            "sector": "Utilities",
+            "weight": 0.0286,
+            "price": 82.99
         },
         {
             "ticker": "LII",
             "name": "Lennox International",
             "sector": "Industrials",
-            "weight": 0.0282,
-            "price": 539.95
+            "weight": 0.0286,
+            "price": 544.41
         },
         {
             "ticker": "FTV",
             "name": "Fortive",
             "sector": "Technology",
-            "weight": 0.0276,
-            "price": 58.32
-        },
-        {
-            "ticker": "MKC",
-            "name": "McCormick & Company",
-            "sector": "Consumer Defensive",
-            "weight": 0.0276,
-            "price": 69.03
-        },
-        {
-            "ticker": "VTRS",
-            "name": "Viatris",
-            "sector": "Healthcare",
-            "weight": 0.0276,
-            "price": 16.08
-        },
-        {
-            "ticker": "LNT",
-            "name": "Alliant Energy",
-            "sector": "Utilities",
-            "weight": 0.0273,
-            "price": 71.26
+            "weight": 0.0285,
+            "price": 59.8
         },
         {
             "ticker": "PTC",
             "name": "PTC Inc.",
             "sector": "Technology",
-            "weight": 0.0273,
-            "price": 154.11
+            "weight": 0.028,
+            "price": 157.19
+        },
+        {
+            "ticker": "MKC",
+            "name": "McCormick & Company",
+            "sector": "Consumer Defensive",
+            "weight": 0.0279,
+            "price": 69.26
+        },
+        {
+            "ticker": "LNT",
+            "name": "Alliant Energy",
+            "sector": "Utilities",
+            "weight": 0.0275,
+            "price": 71.45
+        },
+        {
+            "ticker": "TKO",
+            "name": "TKO Group Holdings",
+            "sector": "Communication Services",
+            "weight": 0.0275,
+            "price": 223.81
+        },
+        {
+            "ticker": "BALL",
+            "name": "Ball Corporation",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0272,
+            "price": 66.63
+        },
+        {
+            "ticker": "ESS",
+            "name": "Essex Property Trust",
+            "sector": "Real Estate",
+            "weight": 0.0272,
+            "price": 262.74
         },
         {
             "ticker": "LYB",
             "name": "LyondellBasell",
             "sector": "Basic Materials",
             "weight": 0.0272,
-            "price": 56.75
-        },
-        {
-            "ticker": "BALL",
-            "name": "Ball Corporation",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0268,
-            "price": 66.03
-        },
-        {
-            "ticker": "ESS",
-            "name": "Essex Property Trust",
-            "sector": "Real Estate",
-            "weight": 0.0268,
-            "price": 259.93
+            "price": 56.3
         },
         {
             "ticker": "WST",
             "name": "West Pharmaceutical Services",
             "sector": "Healthcare",
-            "weight": 0.0266,
-            "price": 247.88
-        },
-        {
-            "ticker": "WY",
-            "name": "Weyerhaeuser",
-            "sector": "Real Estate",
-            "weight": 0.0262,
-            "price": 24.36
+            "weight": 0.0269,
+            "price": 249.02
         },
         {
             "ticker": "PODD",
             "name": "Insulet Corporation",
             "sector": "Healthcare",
-            "weight": 0.026,
-            "price": 248.12
+            "weight": 0.0265,
+            "price": 251.5
         },
         {
-            "ticker": "DECK",
-            "name": "Deckers Brands",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0259,
-            "price": 119.42
+            "ticker": "WY",
+            "name": "Weyerhaeuser",
+            "sector": "Real Estate",
+            "weight": 0.0265,
+            "price": 24.52
         },
         {
-            "ticker": "HII",
-            "name": "Huntington Ingalls Industries",
-            "sector": "Industrials",
-            "weight": 0.0255,
-            "price": 435.58
+            "ticker": "VTRS",
+            "name": "Viatris",
+            "sector": "Healthcare",
+            "weight": 0.0264,
+            "price": 15.25
         },
         {
             "ticker": "HPQ",
             "name": "HP Inc.",
             "sector": "Technology",
-            "weight": 0.0253,
-            "price": 18.21
+            "weight": 0.0263,
+            "price": 18.81
         },
         {
-            "ticker": "TKO",
-            "name": "TKO Group Holdings",
-            "sector": "Communication Services",
-            "weight": 0.0253,
-            "price": 207.21
+            "ticker": "DECK",
+            "name": "Deckers Brands",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0261,
+            "price": 119.41
+        },
+        {
+            "ticker": "HII",
+            "name": "Huntington Ingalls Industries",
+            "sector": "Industrials",
+            "weight": 0.026,
+            "price": 443.0
         },
         {
             "ticker": "TXT",
             "name": "Textron",
             "sector": "Industrials",
-            "weight": 0.0251,
-            "price": 96.64
+            "weight": 0.0257,
+            "price": 98.63
         },
         {
             "ticker": "HOLX",
             "name": "Hologic",
             "sector": "Healthcare",
-            "weight": 0.025,
-            "price": 75.34
+            "weight": 0.0252,
+            "price": 75.23
         },
         {
             "ticker": "COO",
             "name": "Cooper Companies (The)",
             "sector": "Healthcare",
-            "weight": 0.0247,
-            "price": 83.47
+            "weight": 0.025,
+            "price": 84.01
         },
         {
             "ticker": "APTV",
             "name": "Aptiv",
             "sector": "Consumer Cyclical",
-            "weight": 0.0246,
-            "price": 76.44
+            "weight": 0.0249,
+            "price": 77.04
+        },
+        {
+            "ticker": "J",
+            "name": "Jacobs Solutions",
+            "sector": "Industrials",
+            "weight": 0.0247,
+            "price": 139.76
         },
         {
             "ticker": "PNR",
             "name": "Pentair",
             "sector": "Industrials",
-            "weight": 0.0246,
-            "price": 100.82
-        },
-        {
-            "ticker": "GPC",
-            "name": "Genuine Parts Company",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0242,
-            "price": 116.92
+            "weight": 0.0247,
+            "price": 100.44
         },
         {
             "ticker": "NDSN",
             "name": "Nordson Corporation",
             "sector": "Industrials",
-            "weight": 0.0242,
-            "price": 290.83
+            "weight": 0.0245,
+            "price": 292.62
+        },
+        {
+            "ticker": "GPC",
+            "name": "Genuine Parts Company",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0244,
+            "price": 116.86
         },
         {
             "ticker": "MAA",
             "name": "Mid-America Apartment Communities",
             "sector": "Real Estate",
-            "weight": 0.024,
-            "price": 134.05
+            "weight": 0.0244,
+            "price": 135.87
         },
         {
             "ticker": "TRMB",
             "name": "Trimble Inc.",
             "sector": "Technology",
-            "weight": 0.0238,
-            "price": 67.14
+            "weight": 0.0243,
+            "price": 68.23
         },
         {
             "ticker": "CDW",
             "name": "CDW Corporation",
             "sector": "Technology",
-            "weight": 0.0237,
-            "price": 121.58
+            "weight": 0.0242,
+            "price": 123.39
+        },
+        {
+            "ticker": "INVH",
+            "name": "Invitation Homes",
+            "sector": "Real Estate",
+            "weight": 0.0242,
+            "price": 26.3
+        },
+        {
+            "ticker": "KIM",
+            "name": "Kimco Realty",
+            "sector": "Real Estate",
+            "weight": 0.024,
+            "price": 23.64
+        },
+        {
+            "ticker": "CF",
+            "name": "CF Industries",
+            "sector": "Basic Materials",
+            "weight": 0.0236,
+            "price": 97.16
         },
         {
             "ticker": "FFIV",
             "name": "F5, Inc.",
             "sector": "Technology",
             "weight": 0.0236,
-            "price": 278.55
-        },
-        {
-            "ticker": "J",
-            "name": "Jacobs Solutions",
-            "sector": "Industrials",
-            "weight": 0.0235,
-            "price": 133.45
-        },
-        {
-            "ticker": "KIM",
-            "name": "Kimco Realty",
-            "sector": "Real Estate",
-            "weight": 0.0235,
-            "price": 23.32
-        },
-        {
-            "ticker": "INVH",
-            "name": "Invitation Homes",
-            "sector": "Real Estate",
-            "weight": 0.0234,
-            "price": 25.62
-        },
-        {
-            "ticker": "CF",
-            "name": "CF Industries",
-            "sector": "Basic Materials",
-            "weight": 0.0232,
-            "price": 96.14
+            "price": 277.52
         },
         {
             "ticker": "IEX",
             "name": "IDEX Corporation",
             "sector": "Industrials",
-            "weight": 0.0231,
-            "price": 206.18
+            "weight": 0.0236,
+            "price": 209.59
         },
         {
             "ticker": "CLX",
             "name": "Clorox",
             "sector": "Consumer Defensive",
-            "weight": 0.0229,
-            "price": 126.24
-        },
-        {
-            "ticker": "AVY",
-            "name": "Avery Dennison",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0222,
-            "price": 192.79
-        },
-        {
-            "ticker": "UHS",
-            "name": "Universal Health Services",
-            "sector": "Healthcare",
-            "weight": 0.0219,
-            "price": 230.73
-        },
-        {
-            "ticker": "MAS",
-            "name": "Masco",
-            "sector": "Industrials",
-            "weight": 0.0218,
-            "price": 71.86
-        },
-        {
-            "ticker": "NWS",
-            "name": "News Corp (Class B)",
-            "sector": "Communication Services",
-            "weight": 0.0217,
-            "price": 26.26
-        },
-        {
-            "ticker": "REG",
-            "name": "Regency Centers",
-            "sector": "Real Estate",
-            "weight": 0.0217,
-            "price": 77.93
-        },
-        {
-            "ticker": "AKAM",
-            "name": "Akamai Technologies",
-            "sector": "Technology",
-            "weight": 0.0216,
-            "price": 100.04
+            "weight": 0.0232,
+            "price": 126.89
         },
         {
             "ticker": "TYL",
             "name": "Tyler Technologies",
             "sector": "Technology",
-            "weight": 0.0216,
-            "price": 335.11
+            "weight": 0.0229,
+            "price": 353.11
         },
         {
-            "ticker": "BEN",
-            "name": "Franklin Resources",
-            "sector": "Financial Services",
-            "weight": 0.0212,
-            "price": 27.26
+            "ticker": "NWS",
+            "name": "News Corp (Class B)",
+            "sector": "Communication Services",
+            "weight": 0.0224,
+            "price": 26.94
+        },
+        {
+            "ticker": "AVY",
+            "name": "Avery Dennison",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0223,
+            "price": 192.94
+        },
+        {
+            "ticker": "MAS",
+            "name": "Masco",
+            "sector": "Industrials",
+            "weight": 0.0221,
+            "price": 72.4
+        },
+        {
+            "ticker": "REG",
+            "name": "Regency Centers",
+            "sector": "Real Estate",
+            "weight": 0.0219,
+            "price": 78.42
+        },
+        {
+            "ticker": "AKAM",
+            "name": "Akamai Technologies",
+            "sector": "Technology",
+            "weight": 0.0217,
+            "price": 99.9
         },
         {
             "ticker": "UDR",
             "name": "UDR, Inc.",
             "sector": "Real Estate",
+            "weight": 0.0215,
+            "price": 38.09
+        },
+        {
+            "ticker": "BEN",
+            "name": "Franklin Resources",
+            "sector": "Financial Services",
+            "weight": 0.0214,
+            "price": 27.43
+        },
+        {
+            "ticker": "EG",
+            "name": "Everest Group",
+            "sector": "Financial Services",
+            "weight": 0.0212,
+            "price": 337.82
+        },
+        {
+            "ticker": "HST",
+            "name": "Host Hotels & Resorts",
+            "sector": "Real Estate",
+            "weight": 0.0212,
+            "price": 20.3
+        },
+        {
+            "ticker": "NWSA",
+            "name": "News Corp (Class A)",
+            "sector": "Communication Services",
+            "weight": 0.0212,
+            "price": 24.32
+        },
+        {
+            "ticker": "GEN",
+            "name": "Gen Digital",
+            "sector": "Technology",
             "weight": 0.0211,
-            "price": 37.67
+            "price": 22.8
+        },
+        {
+            "ticker": "HAS",
+            "name": "Hasbro",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0211,
+            "price": 100.36
         },
         {
             "ticker": "ERIE",
             "name": "Erie Indemnity",
             "sector": "Financial Services",
             "weight": 0.021,
-            "price": 269.82
-        },
-        {
-            "ticker": "EG",
-            "name": "Everest Group",
-            "sector": "Financial Services",
-            "weight": 0.021,
-            "price": 335.81
-        },
-        {
-            "ticker": "HAS",
-            "name": "Hasbro",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0208,
-            "price": 99.75
-        },
-        {
-            "ticker": "GNRC",
-            "name": "Generac",
-            "sector": "Industrials",
-            "weight": 0.0207,
-            "price": 236.58
-        },
-        {
-            "ticker": "HRL",
-            "name": "Hormel Foods",
-            "sector": "Consumer Defensive",
-            "weight": 0.0207,
-            "price": 25.31
-        },
-        {
-            "ticker": "GEN",
-            "name": "Gen Digital",
-            "sector": "Technology",
-            "weight": 0.0205,
-            "price": 22.29
-        },
-        {
-            "ticker": "DPZ",
-            "name": "Domino's",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0204,
-            "price": 403.94
-        },
-        {
-            "ticker": "HST",
-            "name": "Host Hotels & Resorts",
-            "sector": "Real Estate",
-            "weight": 0.0204,
-            "price": 19.71
-        },
-        {
-            "ticker": "NWSA",
-            "name": "News Corp (Class A)",
-            "sector": "Communication Services",
-            "weight": 0.0204,
-            "price": 23.58
-        },
-        {
-            "ticker": "ALGN",
-            "name": "Align Technology",
-            "sector": "Healthcare",
-            "weight": 0.0203,
-            "price": 188.05
+            "price": 268.7
         },
         {
             "ticker": "ALLE",
             "name": "Allegion",
             "sector": "Industrials",
-            "weight": 0.02,
-            "price": 155.63
+            "weight": 0.0207,
+            "price": 160.41
+        },
+        {
+            "ticker": "GNRC",
+            "name": "Generac",
+            "sector": "Industrials",
+            "weight": 0.0206,
+            "price": 234.35
+        },
+        {
+            "ticker": "ALGN",
+            "name": "Align Technology",
+            "sector": "Healthcare",
+            "weight": 0.0205,
+            "price": 189.2
+        },
+        {
+            "ticker": "HRL",
+            "name": "Hormel Foods",
+            "sector": "Consumer Defensive",
+            "weight": 0.0205,
+            "price": 24.82
+        },
+        {
+            "ticker": "DPZ",
+            "name": "Domino's",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0203,
+            "price": 399.29
         },
         {
             "ticker": "SWK",
             "name": "Stanley Black & Decker",
             "sector": "Industrials",
-            "weight": 0.0197,
-            "price": 85.26
-        },
-        {
-            "ticker": "BBY",
-            "name": "Best Buy",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0195,
-            "price": 62.33
-        },
-        {
-            "ticker": "BF-B",
-            "name": "BF-B",
-            "sector": "Consumer Defensive",
-            "weight": 0.0194,
-            "price": 28.1
+            "weight": 0.0203,
+            "price": 87.65
         },
         {
             "ticker": "SOLV",
             "name": "Solventum",
             "sector": "Healthcare",
-            "weight": 0.0194,
-            "price": 75.08
+            "weight": 0.02,
+            "price": 76.94
         },
         {
-            "ticker": "TTD",
-            "name": "Trade Desk (The)",
+            "ticker": "BBY",
+            "name": "Best Buy",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0198,
+            "price": 62.86
+        },
+        {
+            "ticker": "BF-B",
+            "name": "BF-B",
+            "sector": "Consumer Defensive",
+            "weight": 0.0198,
+            "price": 28.48
+        },
+        {
+            "ticker": "UHS",
+            "name": "Universal Health Services",
+            "sector": "Healthcare",
+            "weight": 0.0195,
+            "price": 204.33
+        },
+        {
+            "ticker": "PSKY",
+            "name": "Paramount Skydance Corporation",
             "sector": "Communication Services",
-            "weight": 0.0183,
-            "price": 25.16
+            "weight": 0.0185,
+            "price": 11.18
+        },
+        {
+            "ticker": "SJM",
+            "name": "J.M. Smucker Company (The)",
+            "sector": "Consumer Defensive",
+            "weight": 0.0185,
+            "price": 116.0
         },
         {
             "ticker": "DOC",
             "name": "Healthpeak Properties",
             "sector": "Real Estate",
-            "weight": 0.0181,
+            "weight": 0.0182,
             "price": 17.51
-        },
-        {
-            "ticker": "ZBRA",
-            "name": "Zebra Technologies",
-            "sector": "Technology",
-            "weight": 0.018,
-            "price": 239.01
         },
         {
             "ticker": "IVZ",
             "name": "Invesco",
             "sector": "Financial Services",
-            "weight": 0.0178,
-            "price": 26.78
+            "weight": 0.0181,
+            "price": 27.09
+        },
+        {
+            "ticker": "GDDY",
+            "name": "GoDaddy",
+            "sector": "Technology",
+            "weight": 0.0179,
+            "price": 86.2
         },
         {
             "ticker": "PNW",
             "name": "Pinnacle West Capital",
             "sector": "Utilities",
             "weight": 0.0178,
-            "price": 99.79
+            "price": 99.54
         },
         {
-            "ticker": "AES",
-            "name": "AES Corporation",
-            "sector": "Utilities",
-            "weight": 0.0174,
-            "price": 16.37
+            "ticker": "ZBRA",
+            "name": "Zebra Technologies",
+            "sector": "Technology",
+            "weight": 0.0178,
+            "price": 235.03
         },
         {
             "ticker": "GL",
             "name": "Globe Life",
             "sector": "Financial Services",
-            "weight": 0.0174,
-            "price": 144.15
+            "weight": 0.0177,
+            "price": 146.08
         },
         {
             "ticker": "CPT",
             "name": "Camden Property Trust",
             "sector": "Real Estate",
-            "weight": 0.0172,
-            "price": 108.84
-        },
-        {
-            "ticker": "BLDR",
-            "name": "Builders FirstSource",
-            "sector": "Industrials",
-            "weight": 0.0169,
-            "price": 102.63
+            "weight": 0.0176,
+            "price": 110.24
         },
         {
             "ticker": "JKHY",
             "name": "Jack Henry & Associates",
             "sector": "Technology",
-            "weight": 0.0169,
-            "price": 156.54
+            "weight": 0.0175,
+            "price": 161.08
         },
         {
-            "ticker": "RVTY",
-            "name": "Revvity",
-            "sector": "Healthcare",
-            "weight": 0.0169,
-            "price": 97.57
+            "ticker": "TTD",
+            "name": "Trade Desk (The)",
+            "sector": "Communication Services",
+            "weight": 0.0175,
+            "price": 23.95
         },
         {
-            "ticker": "SJM",
-            "name": "J.M. Smucker Company (The)",
-            "sector": "Consumer Defensive",
-            "weight": 0.0169,
-            "price": 106.6
+            "ticker": "AES",
+            "name": "AES Corporation",
+            "sector": "Utilities",
+            "weight": 0.0173,
+            "price": 16.25
         },
         {
             "ticker": "AIZ",
             "name": "Assurant",
             "sector": "Financial Services",
-            "weight": 0.0168,
-            "price": 224.13
+            "weight": 0.0173,
+            "price": 229.44
         },
         {
-            "ticker": "PSKY",
-            "name": "Paramount Skydance Corporation",
-            "sector": "Communication Services",
-            "weight": 0.0167,
-            "price": 10.16
+            "ticker": "BLDR",
+            "name": "Builders FirstSource",
+            "sector": "Industrials",
+            "weight": 0.0173,
+            "price": 104.56
+        },
+        {
+            "ticker": "RVTY",
+            "name": "Revvity",
+            "sector": "Healthcare",
+            "weight": 0.0172,
+            "price": 99.01
         },
         {
             "ticker": "WYNN",
             "name": "Wynn Resorts",
             "sector": "Consumer Cyclical",
-            "weight": 0.0166,
-            "price": 107.45
-        },
-        {
-            "ticker": "GDDY",
-            "name": "GoDaddy",
-            "sector": "Technology",
-            "weight": 0.0163,
-            "price": 79.12
+            "weight": 0.0172,
+            "price": 110.11
         },
         {
             "ticker": "NCLH",
             "name": "Norwegian Cruise Line Holdings",
             "sector": "Consumer Cyclical",
-            "weight": 0.0161,
-            "price": 23.81
+            "weight": 0.0171,
+            "price": 25.02
         },
         {
             "ticker": "IT",
             "name": "Gartner",
             "sector": "Technology",
-            "weight": 0.016,
-            "price": 149.34
-        },
-        {
-            "ticker": "BAX",
-            "name": "Baxter International",
-            "sector": "Healthcare",
-            "weight": 0.0159,
-            "price": 20.73
+            "weight": 0.0168,
+            "price": 155.8
         },
         {
             "ticker": "BXP",
             "name": "BXP, Inc.",
             "sector": "Real Estate",
-            "weight": 0.0159,
-            "price": 60.3
+            "weight": 0.0162,
+            "price": 61.17
         },
         {
             "ticker": "AOS",
             "name": "A. O. Smith",
             "sector": "Industrials",
-            "weight": 0.0157,
-            "price": 76.3
+            "weight": 0.016,
+            "price": 77.15
         },
         {
-            "ticker": "DVA",
-            "name": "DaVita",
+            "ticker": "BAX",
+            "name": "Baxter International",
             "sector": "Healthcare",
-            "weight": 0.0149,
-            "price": 149.51
+            "weight": 0.0157,
+            "price": 20.36
         },
         {
             "ticker": "APA",
             "name": "APA Corporation",
             "sector": "Energy",
-            "weight": 0.0148,
-            "price": 27.84
+            "weight": 0.0156,
+            "price": 29.1
+        },
+        {
+            "ticker": "MGM",
+            "name": "MGM Resorts",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0154,
+            "price": 37.62
+        },
+        {
+            "ticker": "DVA",
+            "name": "DaVita",
+            "sector": "Healthcare",
+            "weight": 0.0153,
+            "price": 152.54
         },
         {
             "ticker": "HSIC",
             "name": "Henry Schein",
             "sector": "Healthcare",
             "weight": 0.0148,
-            "price": 81.91
-        },
-        {
-            "ticker": "MGM",
-            "name": "MGM Resorts",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0145,
-            "price": 35.56
+            "price": 81.47
         },
         {
             "ticker": "ARE",
             "name": "Alexandria Real Estate Equities",
             "sector": "Real Estate",
-            "weight": 0.014,
-            "price": 54.06
-        },
-        {
-            "ticker": "FRT",
-            "name": "Federal Realty Investment Trust",
-            "sector": "Real Estate",
-            "weight": 0.014,
-            "price": 107.99
+            "weight": 0.0143,
+            "price": 55.12
         },
         {
             "ticker": "TAP",
             "name": "Molson Coors Beverage Company",
             "sector": "Consumer Defensive",
-            "weight": 0.014,
-            "price": 47.51
+            "weight": 0.0142,
+            "price": 48.04
+        },
+        {
+            "ticker": "FRT",
+            "name": "Federal Realty Investment Trust",
+            "sector": "Real Estate",
+            "weight": 0.0141,
+            "price": 108.44
         },
         {
             "ticker": "TECH",
             "name": "Bio-Techne",
             "sector": "Healthcare",
-            "weight": 0.0135,
-            "price": 57.87
+            "weight": 0.0136,
+            "price": 57.92
+        },
+        {
+            "ticker": "CAG",
+            "name": "Conagra Brands",
+            "sector": "Consumer Defensive",
+            "weight": 0.0134,
+            "price": 18.73
         },
         {
             "ticker": "SWKS",
             "name": "Skyworks Solutions",
             "sector": "Technology",
             "weight": 0.0134,
-            "price": 59.82
-        },
-        {
-            "ticker": "CAG",
-            "name": "Conagra Brands",
-            "sector": "Consumer Defensive",
-            "weight": 0.0133,
-            "price": 18.67
-        },
-        {
-            "ticker": "MOS",
-            "name": "Mosaic Company (The)",
-            "sector": "Basic Materials",
-            "weight": 0.0128,
-            "price": 26.98
+            "price": 59.61
         },
         {
             "ticker": "CRL",
             "name": "Charles River Laboratories",
             "sector": "Healthcare",
-            "weight": 0.0123,
-            "price": 167.56
+            "weight": 0.0129,
+            "price": 175.46
+        },
+        {
+            "ticker": "MOS",
+            "name": "Mosaic Company (The)",
+            "sector": "Basic Materials",
+            "weight": 0.0129,
+            "price": 27.16
         },
         {
             "ticker": "POOL",
             "name": "Pool Corporation",
             "sector": "Industrials",
-            "weight": 0.0119,
-            "price": 214.75
+            "weight": 0.0125,
+            "price": 223.31
         },
         {
             "ticker": "CPB",
             "name": "Campbell's Company (The)",
             "sector": "Consumer Defensive",
-            "weight": 0.0118,
-            "price": 26.49
+            "weight": 0.012,
+            "price": 26.86
         },
         {
             "ticker": "FDS",
             "name": "FactSet",
             "sector": "Financial Services",
-            "weight": 0.0115,
-            "price": 206.62
-        },
-        {
-            "ticker": "MTCH",
-            "name": "Match Group",
-            "sector": "Communication Services",
-            "weight": 0.0112,
-            "price": 31.38
-        },
-        {
-            "ticker": "MOH",
-            "name": "Molina Healthcare",
-            "sector": "Healthcare",
-            "weight": 0.0112,
-            "price": 145.55
+            "weight": 0.012,
+            "price": 214.27
         },
         {
             "ticker": "EPAM",
             "name": "EPAM Systems",
             "sector": "Technology",
-            "weight": 0.0109,
-            "price": 131.08
+            "weight": 0.0116,
+            "price": 138.62
+        },
+        {
+            "ticker": "MTCH",
+            "name": "Match Group",
+            "sector": "Communication Services",
+            "weight": 0.0116,
+            "price": 32.22
+        },
+        {
+            "ticker": "MOH",
+            "name": "Molina Healthcare",
+            "sector": "Healthcare",
+            "weight": 0.0113,
+            "price": 146.36
         },
         {
             "ticker": "PAYC",
             "name": "Paycom",
             "sector": "Technology",
-            "weight": 0.0101,
-            "price": 123.91
+            "weight": 0.0107,
+            "price": 129.79
         },
         {
             "ticker": "LW",
             "name": "Lamb Weston",
             "sector": "Consumer Defensive",
-            "weight": 0.0098,
-            "price": 47.08
+            "weight": 0.0099,
+            "price": 47.45
         }
     ],
     "sectors": {
-        "Technology": 30.58,
-        "Communication Services": 16.44,
-        "Consumer Cyclical": 10.03,
-        "Financial Services": 11.92,
-        "Consumer Defensive": 5.58,
-        "Healthcare": 8.87,
-        "Energy": 3.07,
-        "Industrials": 7.76,
-        "Basic Materials": 1.71,
-        "Utilities": 2.21,
-        "Real Estate": 1.78,
+        "Technology": 30.23,
+        "Communication Services": 16.37,
+        "Consumer Cyclical": 10.04,
+        "Financial Services": 12.14,
+        "Consumer Defensive": 5.59,
+        "Healthcare": 8.9,
+        "Energy": 3.1,
+        "Industrials": 7.84,
+        "Basic Materials": 1.72,
+        "Utilities": 2.22,
+        "Real Estate": 1.8,
         "Financials": 0.05
     }
 }
