@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2026-03-21 02:34:16",
+    "lastUpdated": "2026-03-22 02:50:41",
     "totalConstituents": 503,
     "constituents": [
         {
@@ -13,7 +13,7 @@
             "ticker": "AAPL",
             "name": "Apple Inc.",
             "sector": "Technology",
-            "weight": 5.7954,
+            "weight": 5.7955,
             "price": 247.99
         },
         {
@@ -34,14 +34,14 @@
             "ticker": "MSFT",
             "name": "Microsoft",
             "sector": "Technology",
-            "weight": 4.5127,
+            "weight": 4.5128,
             "price": 381.87
         },
         {
             "ticker": "AMZN",
             "name": "Amazon",
             "sector": "Consumer Cyclical",
-            "weight": 3.5053,
+            "weight": 3.5054,
             "price": 205.37
         },
         {
@@ -69,7 +69,7 @@
             "ticker": "BRK-B",
             "name": "BRK-B",
             "sector": "Financial Services",
-            "weight": 1.6493,
+            "weight": 1.6494,
             "price": 480.94
         },
         {
@@ -90,7 +90,7 @@
             "ticker": "JPM",
             "name": "JPMorgan Chase",
             "sector": "Financial Services",
-            "weight": 1.2288,
+            "weight": 1.2289,
             "price": 286.56
         },
         {
@@ -181,7 +181,7 @@
             "ticker": "PG",
             "name": "Procter & Gamble",
             "sector": "Consumer Defensive",
-            "weight": 0.5369,
+            "weight": 0.5361,
             "price": 144.28
         },
         {
@@ -293,14 +293,14 @@
             "ticker": "TMUS",
             "name": "T-Mobile US",
             "sector": "Communication Services",
-            "weight": 0.3707,
+            "weight": 0.3708,
             "price": 208.47
         },
         {
             "ticker": "GEV",
             "name": "GE Vernova",
             "sector": "Industrials",
-            "weight": 0.3671,
+            "weight": 0.3672,
             "price": 851.07
         },
         {
@@ -615,7 +615,7 @@
             "ticker": "LOW",
             "name": "Lowe's",
             "sector": "Consumer Cyclical",
-            "weight": 0.2003,
+            "weight": 0.2004,
             "price": 224.63
         },
         {
@@ -990,18 +990,18 @@
             "price": 52.37
         },
         {
+            "ticker": "MCO",
+            "name": "Moody's Corporation",
+            "sector": "Financial Services",
+            "weight": 0.1232,
+            "price": 435.12
+        },
+        {
             "ticker": "REGN",
             "name": "Regeneron Pharmaceuticals",
             "sector": "Healthcare",
             "weight": 0.1232,
             "price": 732.87
-        },
-        {
-            "ticker": "MCO",
-            "name": "Moody's Corporation",
-            "sector": "Financial Services",
-            "weight": 0.1231,
-            "price": 435.12
         },
         {
             "ticker": "ABNB",
@@ -1476,7 +1476,7 @@
             "ticker": "ZTS",
             "name": "Zoetis",
             "sector": "Healthcare",
-            "weight": 0.081,
+            "weight": 0.0811,
             "price": 115.67
         },
         {
@@ -1658,7 +1658,7 @@
             "ticker": "YUM",
             "name": "Yum! Brands",
             "sector": "Consumer Cyclical",
-            "weight": 0.069,
+            "weight": 0.0691,
             "price": 156.41
         },
         {
@@ -3525,7 +3525,7 @@
         }
     ],
     "sectors": {
-        "Technology": 30.47,
+        "Technology": 30.48,
         "Communication Services": 16.83,
         "Consumer Cyclical": 9.88,
         "Financial Services": 11.99,
