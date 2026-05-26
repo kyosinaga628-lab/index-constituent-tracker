@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2026-05-25 04:24:39",
+    "lastUpdated": "2026-05-26 04:09:56",
     "totalConstituents": 503,
     "constituents": [
         {
@@ -34,7 +34,7 @@
             "ticker": "MSFT",
             "name": "Microsoft",
             "sector": "Technology",
-            "weight": 4.2801,
+            "weight": 4.2802,
             "price": 418.57
         },
         {
@@ -48,14 +48,14 @@
             "ticker": "AVGO",
             "name": "Broadcom",
             "sector": "Technology",
-            "weight": 2.6991,
+            "weight": 2.6992,
             "price": 414.14
         },
         {
             "ticker": "TSLA",
             "name": "Tesla, Inc.",
             "sector": "Consumer Cyclical",
-            "weight": 2.2024,
+            "weight": 2.2025,
             "price": 426.01
         },
         {
@@ -139,7 +139,7 @@
             "ticker": "ORCL",
             "name": "Oracle Corporation",
             "sector": "Technology",
-            "weight": 0.7604,
+            "weight": 0.7605,
             "price": 192.08
         },
         {
@@ -174,7 +174,7 @@
             "ticker": "LRCX",
             "name": "Lam Research",
             "sector": "Technology",
-            "weight": 0.5256,
+            "weight": 0.5257,
             "price": 305.35
         },
         {
@@ -622,7 +622,7 @@
             "ticker": "PLD",
             "name": "Prologis",
             "sector": "Real Estate",
-            "weight": 0.1872,
+            "weight": 0.1873,
             "price": 145.9
         },
         {
@@ -720,7 +720,7 @@
             "ticker": "PGR",
             "name": "Progressive Corporation",
             "sector": "Financial Services",
-            "weight": 0.1602,
+            "weight": 0.1603,
             "price": 199.51
         },
         {
@@ -1410,18 +1410,18 @@
             "price": 276.75
         },
         {
+            "ticker": "OKE",
+            "name": "Oneok",
+            "sector": "Energy",
+            "weight": 0.0816,
+            "price": 94.03
+        },
+        {
             "ticker": "KEYS",
             "name": "Keysight Technologies",
             "sector": "Technology",
             "weight": 0.0815,
             "price": 346.56
-        },
-        {
-            "ticker": "OKE",
-            "name": "Oneok",
-            "sector": "Energy",
-            "weight": 0.0815,
-            "price": 94.03
         },
         {
             "ticker": "TEL",
@@ -1753,18 +1753,18 @@
             "price": 153.95
         },
         {
+            "ticker": "TTWO",
+            "name": "Take-Two Interactive",
+            "sector": "Communication Services",
+            "weight": 0.0582,
+            "price": 227.55
+        },
+        {
             "ticker": "CMG",
             "name": "Chipotle Mexican Grill",
             "sector": "Consumer Cyclical",
             "weight": 0.0581,
             "price": 32.89
-        },
-        {
-            "ticker": "TTWO",
-            "name": "Take-Two Interactive",
-            "sector": "Communication Services",
-            "weight": 0.0581,
-            "price": 227.55
         },
         {
             "ticker": "KR",
@@ -1987,7 +1987,7 @@
             "ticker": "STLD",
             "name": "Steel Dynamics",
             "sector": "Basic Materials",
-            "weight": 0.0476,
+            "weight": 0.0477,
             "price": 240.03
         },
         {
@@ -2099,7 +2099,7 @@
             "ticker": "WDAY",
             "name": "Workday, Inc.",
             "sector": "Technology",
-            "weight": 0.044,
+            "weight": 0.0436,
             "price": 128.14
         },
         {
@@ -2876,7 +2876,7 @@
             "ticker": "GIS",
             "name": "General Mills",
             "sector": "Consumer Defensive",
-            "weight": 0.0247,
+            "weight": 0.0248,
             "price": 33.69
         },
         {
@@ -3027,13 +3027,6 @@
             "price": 127.18
         },
         {
-            "ticker": "DECK",
-            "name": "Deckers Brands",
-            "sector": "Consumer Cyclical",
-            "weight": 0.0208,
-            "price": 106.67
-        },
-        {
             "ticker": "BALL",
             "name": "Ball Corporation",
             "sector": "Consumer Cyclical",
@@ -3044,8 +3037,15 @@
             "ticker": "GEN",
             "name": "Gen Digital",
             "sector": "Technology",
-            "weight": 0.0207,
+            "weight": 0.0206,
             "price": 24.82
+        },
+        {
+            "ticker": "DECK",
+            "name": "Deckers Brands",
+            "sector": "Consumer Cyclical",
+            "weight": 0.0204,
+            "price": 106.67
         },
         {
             "ticker": "REG",
