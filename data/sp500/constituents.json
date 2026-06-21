@@ -1,12 +1,12 @@
 {
-    "lastUpdated": "2026-06-20 04:15:41",
+    "lastUpdated": "2026-06-21 04:59:34",
     "totalConstituents": 503,
     "constituents": [
         {
             "ticker": "NVDA",
             "name": "Nvidia",
             "sector": "Technology",
-            "weight": 6.9805,
+            "weight": 6.9806,
             "price": 210.69
         },
         {
@@ -20,14 +20,14 @@
             "ticker": "GOOG",
             "name": "Alphabet Inc. (Class C)",
             "sector": "Communication Services",
-            "weight": 6.1335,
+            "weight": 6.1336,
             "price": 367.46
         },
         {
             "ticker": "AAPL",
             "name": "Apple Inc.",
             "sector": "Technology",
-            "weight": 5.9872,
+            "weight": 5.9873,
             "price": 298.01
         },
         {
@@ -314,14 +314,14 @@
             "ticker": "MRVL",
             "name": "Marvell Technology",
             "sector": "Technology",
-            "weight": 0.3716,
+            "weight": 0.3717,
             "price": 310.58
         },
         {
             "ticker": "DELL",
             "name": "Dell Technologies",
             "sector": "Technology",
-            "weight": 0.363,
+            "weight": 0.3619,
             "price": 409.5
         },
         {
@@ -524,7 +524,7 @@
             "ticker": "SCHW",
             "name": "Charles Schwab Corporation",
             "sector": "Financial Services",
-            "weight": 0.2181,
+            "weight": 0.2182,
             "price": 91.7
         },
         {
@@ -699,7 +699,7 @@
             "ticker": "PGR",
             "name": "Progressive Corporation",
             "sector": "Financial Services",
-            "weight": 0.1635,
+            "weight": 0.1632,
             "price": 204.87
         },
         {
@@ -811,7 +811,7 @@
             "ticker": "MDT",
             "name": "Medtronic",
             "sector": "Healthcare",
-            "weight": 0.1393,
+            "weight": 0.1389,
             "price": 79.34
         },
         {
@@ -1060,18 +1060,18 @@
             "price": 320.79
         },
         {
-            "ticker": "ACN",
-            "name": "Accenture",
-            "sector": "Technology",
-            "weight": 0.1077,
-            "price": 127.98
-        },
-        {
             "ticker": "MCO",
             "name": "Moody's Corporation",
             "sector": "Financial Services",
             "weight": 0.1077,
             "price": 450.67
+        },
+        {
+            "ticker": "ACN",
+            "name": "Accenture",
+            "sector": "Technology",
+            "weight": 0.1071,
+            "price": 127.98
         },
         {
             "ticker": "MRSH",
@@ -1644,7 +1644,7 @@
             "ticker": "AZO",
             "name": "AutoZone",
             "sector": "Consumer Cyclical",
-            "weight": 0.0686,
+            "weight": 0.0684,
             "price": 3064.48
         },
         {
@@ -2012,13 +2012,6 @@
             "price": 172.63
         },
         {
-            "ticker": "KR",
-            "name": "Kroger",
-            "sector": "Consumer Defensive",
-            "weight": 0.0477,
-            "price": 56.61
-        },
-        {
             "ticker": "WAT",
             "name": "Waters Corporation",
             "sector": "Healthcare",
@@ -2031,6 +2024,13 @@
             "sector": "Consumer Defensive",
             "weight": 0.0476,
             "price": 18.12
+        },
+        {
+            "ticker": "KR",
+            "name": "Kroger",
+            "sector": "Consumer Defensive",
+            "weight": 0.0475,
+            "price": 56.61
         },
         {
             "ticker": "HBAN",
@@ -2670,18 +2670,18 @@
             "price": 195.0
         },
         {
+            "ticker": "DLTR",
+            "name": "Dollar Tree",
+            "sector": "Consumer Defensive",
+            "weight": 0.0294,
+            "price": 111.65
+        },
+        {
             "ticker": "HPQ",
             "name": "HP Inc.",
             "sector": "Technology",
             "weight": 0.0294,
             "price": 23.5
-        },
-        {
-            "ticker": "DLTR",
-            "name": "Dollar Tree",
-            "sector": "Consumer Defensive",
-            "weight": 0.0293,
-            "price": 111.65
         },
         {
             "ticker": "EXPD",
@@ -2759,6 +2759,13 @@
             "sector": "Real Estate",
             "weight": 0.0271,
             "price": 186.87
+        },
+        {
+            "ticker": "SMCI",
+            "name": "Supermicro",
+            "sector": "Technology",
+            "weight": 0.0271,
+            "price": 30.66
         },
         {
             "ticker": "FIS",
@@ -2885,13 +2892,6 @@
             "sector": "Industrials",
             "weight": 0.0253,
             "price": 532.43
-        },
-        {
-            "ticker": "SMCI",
-            "name": "Supermicro",
-            "sector": "Technology",
-            "weight": 0.0252,
-            "price": 30.66
         },
         {
             "ticker": "GPN",
@@ -3526,7 +3526,7 @@
     ],
     "sectors": {
         "Technology": 35.14,
-        "Communication Services": 16.58,
+        "Communication Services": 16.59,
         "Consumer Cyclical": 9.42,
         "Financial Services": 11.23,
         "Healthcare": 7.6,
