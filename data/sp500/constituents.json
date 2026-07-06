@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2026-07-05 04:03:04",
+    "lastUpdated": "2026-07-06 04:09:20",
     "totalConstituents": 503,
     "constituents": [
         {
@@ -153,7 +153,7 @@
             "ticker": "ABBV",
             "name": "AbbVie",
             "sector": "Healthcare",
-            "weight": 0.6339,
+            "weight": 0.6338,
             "price": 261.07
         },
         {
@@ -370,14 +370,14 @@
             "ticker": "MRVL",
             "name": "Marvell Technology",
             "sector": "Technology",
-            "weight": 0.2951,
+            "weight": 0.2949,
             "price": 245.29
         },
         {
             "ticker": "APH",
             "name": "Amphenol",
             "sector": "Technology",
-            "weight": 0.2783,
+            "weight": 0.2782,
             "price": 164.59
         },
         {
@@ -444,18 +444,18 @@
             "price": 539.0
         },
         {
+            "ticker": "STX",
+            "name": "Seagate Technology",
+            "sector": "Technology",
+            "weight": 0.255,
+            "price": 820.16
+        },
+        {
             "ticker": "NEE",
             "name": "NextEra Energy",
             "sector": "Utilities",
             "weight": 0.2532,
             "price": 88.34
-        },
-        {
-            "ticker": "STX",
-            "name": "Seagate Technology",
-            "sector": "Technology",
-            "weight": 0.2527,
-            "price": 820.16
         },
         {
             "ticker": "ADI",
@@ -468,7 +468,7 @@
             "ticker": "BA",
             "name": "Boeing",
             "sector": "Industrials",
-            "weight": 0.2454,
+            "weight": 0.2453,
             "price": 226.49
         },
         {
@@ -517,7 +517,7 @@
             "ticker": "DE",
             "name": "Deere & Company",
             "sector": "Industrials",
-            "weight": 0.2306,
+            "weight": 0.2305,
             "price": 621.27
         },
         {
@@ -668,18 +668,18 @@
             "price": 439.89
         },
         {
-            "ticker": "LOW",
-            "name": "Lowe's",
-            "sector": "Consumer Cyclical",
-            "weight": 0.1754,
-            "price": 227.5
-        },
-        {
             "ticker": "COP",
             "name": "ConocoPhillips",
             "sector": "Energy",
             "weight": 0.1753,
             "price": 104.73
+        },
+        {
+            "ticker": "LOW",
+            "name": "Lowe's",
+            "sector": "Consumer Cyclical",
+            "weight": 0.1753,
+            "price": 227.5
         },
         {
             "ticker": "COF",
@@ -706,7 +706,7 @@
             "ticker": "MO",
             "name": "Altria",
             "sector": "Consumer Defensive",
-            "weight": 0.1669,
+            "weight": 0.1668,
             "price": 72.71
         },
         {
@@ -2267,7 +2267,7 @@
             "ticker": "CASY",
             "name": "Casey's",
             "sector": "Consumer Cyclical",
-            "weight": 0.0406,
+            "weight": 0.0405,
             "price": 797.42
         },
         {
@@ -2304,13 +2304,6 @@
             "sector": "Consumer Cyclical",
             "weight": 0.04,
             "price": 144.21
-        },
-        {
-            "ticker": "CPRT",
-            "name": "Copart",
-            "sector": "Industrials",
-            "weight": 0.0397,
-            "price": 30.01
         },
         {
             "ticker": "NRG",
@@ -2374,6 +2367,13 @@
             "sector": "Financials",
             "weight": 0.0383,
             "price": 52.33
+        },
+        {
+            "ticker": "CPRT",
+            "name": "Copart",
+            "sector": "Industrials",
+            "weight": 0.0382,
+            "price": 30.01
         },
         {
             "ticker": "PPL",
